@@ -86,7 +86,10 @@ ARTICLE_EXCLUDES = ['templates']
 TEMPLATE_PAGES = {
     'templates/homepage.html': 'index.html',
 }
-DIRECT_TEMPLATES = ['index']
+DIRECT_TEMPLATES = []
+DIRECT_TEMPLATES = ['blog-index']
+PAGINATED_DIRECT_TEMPLATES = ['blog-index']
+BLOG_INDEX_SAVE_AS = 'blog/index.html'
 
 # THEME_TEMPLATES_OVERRIDES = ['templates']
 
