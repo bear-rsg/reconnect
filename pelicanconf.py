@@ -1,12 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-import time
-
-# Base configuration
-AUTHOR = 'RE:Connect'
+AUTHOR = 'Advanced Research Computing'
 SITENAME = 'RE:Connect'
+SITEURL = ''
+
 PATH = 'content'
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
@@ -15,9 +10,14 @@ DEFAULT_LANG = 'en'
 CURRENT_YEAR = time.strftime("%Y")
 
 # Appearance
-THEME = './active-theme/brutalist'
-BOOTSTRAP_THEME = 'flatly'
-# BOOTSTRAP_FLUID = True
+THEME = './active-theme/pelican-bootstrap3'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 CUSTOM_CSS = 'css/custom.css'
 
@@ -110,7 +110,6 @@ DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
 
 SITEURL = 'https://bear-rsg.github.io/reconnect'
 
-# Static files
 STATIC_PATHS = [
     'images',
     'assets',
@@ -118,9 +117,9 @@ STATIC_PATHS = [
 ]
 
 EXTRA_PATH_METADATA = {
-     # 'extra/css/custom.css': {'path': 'custom.css'},
-     'extra/favicon.ico': {'path': 'favicon.ico'},
-     # 'extra/robots.txt': {'path': 'robots.txt'},
+    # 'extra/css/custom.css': {'path': 'custom.css'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    # 'extra/robots.txt': {'path': 'robots.txt'},
 }
 IGNORE_FILES = ['.#*', 'README.md']
 
@@ -161,8 +160,8 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
     ('Home', '/reconnect/index.html'),
     ('About', '/reconnect/about.html'),
+    ('Projects', '/reconnect/projects.html'),
     ('Reports', '/reconnect/reports.html'),
-    ('Projects Gallery', '/reconnect/projects.html'),
     ('Resources', '/reconnect/resources.html'),
     ('Blog', '/reconnect/blog/index.html'),
 )

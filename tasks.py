@@ -13,6 +13,7 @@ from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
 
+OPEN_BROWSER_ON_SERVE = True
 SETTINGS_FILE_BASE = 'pelicanconf.py'
 SETTINGS = {}
 SETTINGS.update(DEFAULT_CONFIG)
@@ -24,9 +25,6 @@ CONFIG = {
     'settings_publish': 'publishconf.py',
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
     'deploy_path': SETTINGS['OUTPUT_PATH'],
-    # Github Pages configuration
-    'github_pages_branch': 'gh-pages',
-    'commit_message': "'Publish site on {}'".format(datetime.date.today().isoformat()),
     # Host and port for `serve`
     'host': 'localhost',
     'port': 8000,
@@ -66,6 +64,11 @@ def serve(c):
         (CONFIG['host'], CONFIG['port']),
         ComplexHTTPRequestHandler)
 
+    if OPEN_BROWSER_ON_SERVE:
+        # Open site in default browser
+        import webbrowser
+        webbrowser.open("http://{host}:{port}".format(**CONFIG))
+
     sys.stderr.write('Serving at {host}:{port} ...\n'.format(**CONFIG))
     server.serve_forever()
 
@@ -86,7 +89,7 @@ def livereload(c):
     from livereload import Server
 
     def cached_build():
-        cmd = '-s {settings_base} -e CACHE_CONTENT=True LOAD_CONTENT_CACHE=True'
+        cmd = '-s {settings_base} -e CACHE_CONTENT=true LOAD_CONTENT_CACHE=true'
         pelican_run(cmd.format(**CONFIG))
 
     cached_build()
@@ -109,6 +112,12 @@ def livereload(c):
 
     for glob in watched_globs:
         server.watch(glob, cached_build)
+
+    if OPEN_BROWSER_ON_SERVE:
+        # Open site in default browser
+        import webbrowser
+        webbrowser.open("http://{host}:{port}".format(**CONFIG))
+
     server.serve(host=CONFIG['host'], port=CONFIG['port'], root=CONFIG['deploy_path'])
 
 
@@ -123,13 +132,6 @@ def publish(c):
             CONFIG['deploy_path'].rstrip('/') + '/',
             **CONFIG))
 
-@task
-def gh_pages(c):
-    """Publish to GitHub Pages"""
-    preview(c)
-    c.run('ghp-import -b {github_pages_branch} '
-          '-m {commit_message} '
-          '{deploy_path} -p'.format(**CONFIG))
 
 def pelican_run(cmd):
     cmd += ' ' + program.core.remainder  # allows to pass-through args to pelican
