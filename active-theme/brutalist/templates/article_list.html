@@ -1,6 +1,6 @@
 <div class="articles">
         <ol>
-            {% for article in articles_page.object_list %}
+            {% for article in articles_page.object_list if articles_page else articles %}
             <li>
                 <article>
                     <footer>

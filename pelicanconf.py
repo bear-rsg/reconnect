@@ -87,9 +87,7 @@ TEMPLATE_PAGES = {
     'templates/homepage.html': 'index.html',
 }
 DIRECT_TEMPLATES = []
-DIRECT_TEMPLATES = ['blog-index']
-PAGINATED_DIRECT_TEMPLATES = ['blog-index']
-BLOG_INDEX_SAVE_AS = 'blog/index.html'
+PAGINATED_DIRECT_TEMPLATES = []
 
 # THEME_TEMPLATES_OVERRIDES = ['templates']
 
