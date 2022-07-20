@@ -1,5 +1,5 @@
 title: Projects Gallery
-date: 2010-01-12
+date: 2022-07-20
 tags: projects
 slug: projects-gallery
 
