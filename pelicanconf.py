@@ -1,4 +1,11 @@
-AUTHOR = 'Advanced Research Computing'
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+import time
+
+# Base configuration
+AUTHOR = 'RE:Connect'
 SITENAME = 'RE:Connect'
 SITEURL = ''
 
