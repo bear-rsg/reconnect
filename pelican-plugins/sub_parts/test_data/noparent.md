@@ -1,0 +1,4 @@
+
+tags: atag
+
+Normal article.
