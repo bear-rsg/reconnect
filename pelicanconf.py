@@ -10,7 +10,7 @@ DEFAULT_LANG = 'en'
 CURRENT_YEAR = time.strftime("%Y")
 
 # Appearance
-THEME = './active-theme/pelican-bootstrap3'
+THEME = './active-theme/brutalist'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
