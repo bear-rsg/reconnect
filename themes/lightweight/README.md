@@ -1,3 +1,0 @@
-# lightweight #
-
-![screenshot](screenshot.png)

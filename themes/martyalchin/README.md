@@ -1,3 +1,0 @@
-# martyalchin #
-
-![screenshot](screenshot.png)

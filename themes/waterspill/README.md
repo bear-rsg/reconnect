@@ -1,3 +1,0 @@
-# waterspill #
-
-![screenshot](screenshot.png)

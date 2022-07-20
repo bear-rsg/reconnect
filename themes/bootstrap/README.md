@@ -1,3 +1,0 @@
-# bootstrap #
-
-![screenshot](screenshot.png)

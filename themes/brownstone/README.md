@@ -1,3 +1,0 @@
-# brownstone #
-
-![screenshot](screenshot.png)
