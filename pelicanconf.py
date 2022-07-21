@@ -167,10 +167,10 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
     ('Home', '/reconnect/home.html'),
     ('About', '/reconnect/about.html'),
-    ('Projects', '/reconnect/projects.html'),
+    ('Projects', '/reconnect/projects-gallery.html'),
     ('Reports', '/reconnect/reports.html'),
     ('Resources', '/reconnect/resources.html'),
-    ('Blog', '/reconnect/blog/index.html'),
+    ('Blog', '/reconnect/blog-index-page.html'),
 )
 
 LOCALE = ('en_GB', 'en')
