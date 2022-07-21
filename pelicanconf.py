@@ -90,7 +90,7 @@ DIRECT_TEMPLATES = ['blog-index']
 PAGINATED_DIRECT_TEMPLATES = ['blog-index']
 BLOG_INDEX_SAVE_AS = 'blog/index.html'
 
-THEME_TEMPLATES_OVERRIDES = ['content/templates']
+THEME_TEMPLATES_OVERRIDES = ['overrides']
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ['.git', '.gitignore']
