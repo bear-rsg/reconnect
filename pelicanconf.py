@@ -170,7 +170,7 @@ MENUITEMS = (
     ('Projects', '/reconnect/projects-gallery.html'),
     ('Reports', '/reconnect/reports.html'),
     ('Resources', '/reconnect/resources.html'),
-    ('Blog', '/reconnect/blog//blog-index.html'),
+    ('Blog', '/reconnect/blog-index.html'),
 )
 
 LOCALE = ('en_GB', 'en')
