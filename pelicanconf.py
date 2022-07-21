@@ -89,7 +89,7 @@ TEMPLATE_PAGES = {
     'templates/homepage.html': 'index.html',
 }
 DIRECT_TEMPLATES = ['index']
-PAGINATED_DIRECT_TEMPLATES = ['index']
+# PAGINATED_DIRECT_TEMPLATES = ['index']
 # BLOG_INDEX_SAVE_AS = 'blog/index.html'
 
 # THEME_TEMPLATES_OVERRIDES = ['overrides']
@@ -120,8 +120,7 @@ SITEURL = 'https://bear-rsg.github.io/reconnect'
 
 STATIC_PATHS = [
     'images',
-    'assets',
-    'files'
+    'assets'
 ]
 
 EXTRA_PATH_METADATA = {
@@ -166,7 +165,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 
 MENUITEMS = (
-    ('Home', '/reconnect/index.html'),
+    ('Home', '/reconnect/home.html'),
     ('About', '/reconnect/about.html'),
     ('Projects', '/reconnect/projects.html'),
     ('Reports', '/reconnect/reports.html'),
