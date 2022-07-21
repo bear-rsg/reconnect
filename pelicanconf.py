@@ -68,7 +68,7 @@ PAGE_ORDER_BY = 'reversed-date'
 # INDEX_SAVE_AS = 'index.html'
 
 ARTICLE_SAVE_AS = '{slug}.html'
-ARTICLE_URL = '{slug}.html'
+ARTICLE_URL = '{path}/{slug}.html'
 ARTICLE_ORDER_BY = 'reversed-date'
 ARTICLE_TRANSLATION_ID = None
 
@@ -170,7 +170,7 @@ MENUITEMS = (
     ('Projects', '/reconnect/projects-gallery.html'),
     ('Reports', '/reconnect/reports.html'),
     ('Resources', '/reconnect/resources.html'),
-    ('Blog', '/reconnect/blog/blog-index/blog-index.html'),
+    ('Blog', '/reconnect/blog//blog-index.html'),
 )
 
 LOCALE = ('en_GB', 'en')
