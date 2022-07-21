@@ -17,7 +17,9 @@ DEFAULT_LANG = 'en'
 CURRENT_YEAR = time.strftime("%Y")
 
 # Appearance
-THEME = './active-theme/brutalist'
+THEME = './active-theme/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+# BOOTSTRAP_FLUID = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -86,11 +88,11 @@ ARTICLE_EXCLUDES = ['templates']
 TEMPLATE_PAGES = {
     'templates/homepage.html': 'index.html',
 }
-DIRECT_TEMPLATES = ['blog_index']
-PAGINATED_DIRECT_TEMPLATES = ['blog_index']
-BLOG_INDEX_SAVE_AS = 'blog/index.html'
+# DIRECT_TEMPLATES = ['blog_index']
+# PAGINATED_DIRECT_TEMPLATES = ['blog_index']
+# BLOG_INDEX_SAVE_AS = 'blog/index.html'
 
-THEME_TEMPLATES_OVERRIDES = ['overrides']
+# THEME_TEMPLATES_OVERRIDES = ['overrides']
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ['.git', '.gitignore']
