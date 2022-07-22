@@ -17,7 +17,7 @@ DEFAULT_LANG = 'en'
 CURRENT_YEAR = time.strftime("%Y")
 
 # Appearance
-THEME = './active-theme/pelican-bootstrap3'
+THEME = './active-theme/pelican-striped-html5up'
 BOOTSTRAP_THEME = 'flatly'
 # BOOTSTRAP_FLUID = True
 
