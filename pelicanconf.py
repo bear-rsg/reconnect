@@ -1,25 +1,24 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import sys
+sys.path.append('.')
 
-import time
+from utils import filters
 
-# Base configuration
+JINJA_FILTERS = {'sidebar': filters.sidebar}
+
 AUTHOR = 'RE:Connect'
 SITENAME = 'RE:Connect'
-SITEURL = ''
+SITESUBTITLE = ''
+SITEURL = '127.0.0.1'
 
 PATH = 'content'
+
 TIMEZONE = 'Europe/London'
+
 DEFAULT_LANG = 'en'
-
-# Custom settings for copyright notice
-CURRENT_YEAR = time.strftime("%Y")
-
-# Appearance
-THEME = './active-theme/pelican-striped-html5up'
-BOOTSTRAP_THEME = 'flatly'
-# BOOTSTRAP_FLUID = True
+DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -28,30 +27,12 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-CUSTOM_CSS = 'css/custom.css'
+# PATH_METADATA = 'articles/(?P<path>.*)\..*'
+# PAGINATED_DIRECT_TEMPLATES = ['blog']
 
-PLUGINS = ['assets', 'sitemap', 'pelican-page-hierarchy', 'jinja2content', 'i18n_subsites']
-
-JINJA_ENVIRONMENT = {
-    'extensions': ['jinja2.ext.i18n'],
-}
-PLUGIN_PATHS = ['./pelican-plugins/']
-I18N_TEMPLATES_LANG = 'en'
-
-USE_FOLDER_AS_CATEGORY = True
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-NEWEST_FIRST_ARCHIVES = True
-
-DISPLAY_CATEGORIES_ON_MENU = False
-
-PATH_METADATA = 'articles/(?P<path>.*)\..*'
+# ARTICLE_SAVE_AS = '{slug}.html'
+# ARTICLE_URL = '{path}/{slug}.html'
+# ARTICLE_ORDER_BY = 'reversed-date'
 
 DEFAULT_METADATA = { }
 
@@ -61,116 +42,68 @@ AUTHOR_URL = ''
 # YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 YEAR_ARCHIVE_SAVE_AS = ''
 
-PAGE_URL = '{slug}.html'
-PAGE_SAVE_AS = '{slug}.html'
-SLUGIFY_SOURCE = 'basename'
-PAGE_ORDER_BY = 'reversed-date'
-# INDEX_SAVE_AS = 'index.html'
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
-ARTICLE_SAVE_AS = '{slug}.html'
-ARTICLE_URL = '{path}/{slug}.html'
-ARTICLE_ORDER_BY = 'reversed-date'
-ARTICLE_TRANSLATION_ID = None
-
-# The URL to refer to an article draft
-DRAFT_URL = '{path}/drafts/{slug}/'
-DRAFT_SAVE_AS = '{path}/drafts/{slug}/index.html'
-
-# Build only modified content instead of all content
-LOAD_CONTENT_CACHE = False
-CACHE_CONTENT = False
-
-# Allow Markdown in the summary and title
-FORMATTED_FIELDS = ['summary', 'title']
-
-USE_PAGER = True  # Prev / Next vs Page no block
-ARTICLE_EXCLUDES = ['templates']
-TEMPLATE_PAGES = {
-    'templates/homepage.html': 'index.html',
-}
-DIRECT_TEMPLATES = ['index']
-# PAGINATED_DIRECT_TEMPLATES = ['index']
-# BLOG_INDEX_SAVE_AS = 'blog/index.html'
-
-# THEME_TEMPLATES_OVERRIDES = ['overrides']
-
-DELETE_OUTPUT_DIRECTORY = True
-OUTPUT_RETENTION = ['.git', '.gitignore']
-#
-# SITEMAP PLUGIN
-#
-SITEMAP = {
-    'format': 'xml',
-    'priorities': {
-        'articles': 0.5,
-        'indexes': 0.5,
-        'pages': 0.5
-    },
-    'changefreqs': {
-        'articles': 'monthly',
-        'indexes': 'daily',
-        'pages': 'monthly'
-    }
-}
-
-DEFAULT_DATE = 'fs'
-DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
-
-SITEURL = 'https://bear-rsg.github.io/reconnect'
-
-STATIC_PATHS = [
-    'images',
-    'assets'
-]
-
-EXTRA_PATH_METADATA = {
-    # 'extra/css/custom.css': {'path': 'custom.css'},
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    # 'extra/robots.txt': {'path': 'robots.txt'},
-}
-IGNORE_FILES = ['.#*', 'README.md']
+# Social widget
+SOCIAL = (('twitter', 'https://twitter.com/Climate_and_RE'),
+          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-
 # Leave no orphans
 DEFAULT_ORPHANS = 0
 
-PAGINATED_TEMPLATES = {'index': 10 }
-
 USE_PAGER = True
+
+DELETE_OUTPUT_DIRECTORY = True
 
 # URL settings
 SLUGIFY_SOURCE = 'basename'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-# ARTICLE_SAVE_AS = '{date:%Y}/{date:%b}/{date:%d}/{slug}.html'
-# ARTICLE_URL = '{date:%Y}/{date:%b}/{date:%d}/{slug}.html'
-# Don't need the author pages
-# AUTHOR_SAVE_AS = ''
-# AUTHOR_URL = ''
-# YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+THEME_STATIC_DIR = 'theme'
 
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
-        'markdown.extensions.extra': {},
-        'markdown.extensions.meta': {},
+THEME = './active-theme/twenty-pelican-html5up'
+STATIC_PATHS = ['images']
+
+# PLUGINS
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['sitemap', 'pelican-page-hierarchy', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache',
+           'pelican_vimeo']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': .99,
+        'pages': .75,
+        'indexes': .5
     },
-    'output_format': 'html5',
+    'changefreqs': {
+        'articles': 'daily',
+        'pages': 'daily',
+        'indexes': 'daily'
+    },
 }
 
-DISPLAY_CATEGORIES_ON_MENU = False
+FAVICON = 'favicon.png'
+LOGO = 'st_peters.png'
+
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+SLUGIFY_SOURCE = 'basename'
+
 DISPLAY_PAGES_ON_MENU = False
 
+USE_FOLDER_AS_CATEGORY = True
+ARCHIVES_URL = 'blog-index.html'
 
 MENUITEMS = (
-    ('Home', '/reconnect/home.html'),
-    ('About', '/reconnect/about.html'),
-    ('Projects', '/reconnect/projects-gallery.html'),
-    ('Reports', '/reconnect/reports.html'),
-    ('Resources', '/reconnect/resources.html'),
-    ('Blog', '/reconnect/blog-index.html'),
+    ('About', 'about.html'),
+    ('Projects Gallery', 'projects.html'),
+    ('Reports', 'reports.html'),
+    ('Resources for Teachers', 'resources.html'),
 )
-
-LOCALE = ('en_GB', 'en')
