@@ -34,6 +34,9 @@ jobs:
       - name: Clone pelican-plugins
         run: |
           git clone --recursive https://github.com/getpelican/pelican-plugins
+      - name: Clone theme into activetheme
+          run: |
+            git clone --recursive https://github.com/frankV/twenty-pelican-html5up.git active-theme
       - name: Build site
         run: |
           pelican -v content -o output -s pelicanconf.py
