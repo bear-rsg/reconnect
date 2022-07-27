@@ -49,8 +49,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/Climate_and_RE'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('twitter', 'https://twitter.com/Climate_and_RE'),
+          )
 
 DEFAULT_PAGINATION = 10
 # Leave no orphans
@@ -68,7 +69,7 @@ RELATIVE_URLS = True
 THEME_STATIC_DIR = 'theme'
 
 THEME = './active-theme/twenty-pelican-html5up'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'css']
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins']

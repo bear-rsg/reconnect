@@ -1,0 +1,30 @@
+/* custom changes to template layout */
+h1.logo {
+    background: url("/images/st_peters_trans.png") 0 0 no-repeat;
+}
+
+ul li {
+    position: relative;
+    left: 2em;
+    text-align: left;
+    list-style: circle;
+}
+
+ul.buttons li, ul.feature-icons li, ul.submenu li {
+    position: relative;
+    left: 0;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+ul.feature-icons {
+    margin: -0.75em -1.5em 0 0
+}
+
+.icon.circle.fa-envelope-o {
+        background: #da83ae;
+        color: white;
+}
