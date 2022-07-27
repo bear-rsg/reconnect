@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 import sys
 sys.path.append('.')
 
-from utils import filters
+from utils.filters import sidebar
 
-JINJA_FILTERS = {'sidebar': filters.sidebar}
+JINJA_FILTERS = {'sidebar': sidebar}
 
 AUTHOR = 'RE:Connect'
 SITENAME = 'RE:Connect'
