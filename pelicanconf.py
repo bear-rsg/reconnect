@@ -101,7 +101,7 @@ DISPLAY_PAGES_ON_MENU = False
 USE_FOLDER_AS_CATEGORY = True
 ARCHIVES_URL = 'blog-index.html'
 
-THEME_TEMPLATES_OVERRIDES = ['templates']
+THEME_TEMPLATES_OVERRIDES = ['modified-templates']
 
 MENUITEMS = (
     ('About', 'about.html'),
