@@ -1,6 +1,20 @@
 /* custom changes to template layout */
 h1.logo {
-    background: url("/images/st_peters_trans.png") 0 0 no-repeat;
+    font-size: 1em;
+    position: relative;
+    top: -2px;
+}
+h1.logo a div.img {
+    background: url("/images/climate_and_re_logo.png") 0 0 no-repeat;
+    float: left;
+    width: 28px;
+    height: 26px;
+}
+h1.logo a div.txt {
+    position: relative;
+    left: 10px;
+    top: 2px;
+
 }
 
 ul li {
@@ -28,3 +42,17 @@ ul.feature-icons {
         background: #da83ae;
         color: white;
 }
+
+.image:before {
+    background: url("/theme/css/images/overlay2.png");
+}
+
+#cta {
+    background-image: url("/theme/css/images/light-tl.svg"), url("/theme/css/images/light-tr.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner.jpg");
+}
+
+#banner {
+    background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner.jpg");
+}
+
+.vimeo {}
