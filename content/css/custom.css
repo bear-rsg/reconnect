@@ -60,3 +60,37 @@ ul.feature-icons {
 #banner {
     background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner.jpg");
 }
+
+.wrapper.style2 {
+    background-color: #7c7f3f;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatleft {
+    float: left;
+}
+
+h2 {
+    color: #7a893c;
+    font-weight: bold;
+}
+
+#cta h2, #banner h2, .style2 h2 {
+    color: white;
+}
+
+h3 {
+    color: #64738a;
+    font-weight: bold;
+}
+
+header.special .icon {
+    color: #7a893c;
+}
+
+a {
+	color: #98b13f;
+}
