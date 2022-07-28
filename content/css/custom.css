@@ -4,12 +4,18 @@ h1.logo {
     position: relative;
     top: -2px;
 }
-h1.logo a div.img {
-    background: url("/images/climate_and_re_logo.png") 0 0 no-repeat;
+
+#header h1.logo a div.img {
+    background: url("/images/climate_and_re_logo_grey.png") 0 0 no-repeat;
     float: left;
     width: 28px;
     height: 26px;
 }
+
+#header.alt h1.logo a div.img {
+    background: url("/images/climate_and_re_logo.png") 0 0 no-repeat;
+}
+
 h1.logo a div.txt {
     position: relative;
     left: 10px;
@@ -54,5 +60,3 @@ ul.feature-icons {
 #banner {
     background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner.jpg");
 }
-
-.vimeo {}
