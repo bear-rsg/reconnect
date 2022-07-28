@@ -94,3 +94,7 @@ header.special .icon {
 a {
 	color: #98b13f;
 }
+
+body, #skel-layers-wrapper {
+    background: #ecf4eb;
+}
