@@ -108,5 +108,5 @@ MENUITEMS = (
     ('About', 'about.html'),
     ('Projects Gallery', 'projects.html'),
     ('Reports', 'reports.html'),
-    ('Resources for Teachers', 'resources.html'),
+    ('Resources', 'resources.html'),
 )

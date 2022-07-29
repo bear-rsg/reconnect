@@ -25,14 +25,18 @@ h1.logo a div.txt {
 
 ul li {
     position: relative;
-    left: 2em;
+    left: 5%;
     text-align: left;
     list-style: circle;
 }
 
-ul.buttons li, ul.feature-icons li, ul.submenu li {
+ul.buttons li, ul.feature-icons li, ul.submenu li, ul.dropotron.level-0 li  {
     position: relative;
     left: 0;
+}
+
+a.button.special {
+    display: block;
 }
 
 .responsive {
@@ -54,23 +58,15 @@ ul.feature-icons {
 }
 
 #cta {
-    background-image: url("/theme/css/images/light-tl.svg"), url("/theme/css/images/light-tr.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner.jpg");
+    background-image: url("/theme/css/images/light-tl.svg"), url("/theme/css/images/light-tr.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner3.jpg");
 }
 
 #banner {
-    background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner.jpg");
+    background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay.png"), url("/theme/images/banner3.jpg");
 }
 
 .wrapper.style2 {
-    background-color: #7c7f3f;
-}
-
-.floatright {
-    float: right;
-}
-
-.floatleft {
-    float: left;
+    background-color: #698647;
 }
 
 h2 {
@@ -83,7 +79,7 @@ h2 {
 }
 
 h3 {
-    color: #64738a;
+    color: #7f9787;
     font-weight: bold;
 }
 
@@ -91,10 +87,47 @@ header.special .icon {
     color: #7a893c;
 }
 
+#stpeters {
+    position: relative;
+    left: 10%;
+}
+
 a {
 	color: #98b13f;
 }
 
 body, #skel-layers-wrapper {
-    background: #ecf4eb;
+    background: #d6dfdc;
 }
+
+#banner .inner {
+    background: rgba(98, 140, 153, 0.5);
+}
+
+.button.special, .button.special:hover {
+    background: #7f9787;
+    border-color: #7f9787;
+}
+
+.image.feature:before {
+    background: none;
+}
+
+.image.feature img.centred {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.button.special {
+    background: #86a690;
+    border-color: #86a690;
+}
+
+.button.special:hover {
+    background: #a4cab0  !important;
+    border-color: #a4cab0 !important;
+}
+
+margin: auto;
+  width: 50%;
