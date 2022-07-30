@@ -171,3 +171,7 @@ body.contact #main {
 .icon.circle {
     left: -0.25em;
 }
+
+.smlmenu {
+    display: inline-block;
+}

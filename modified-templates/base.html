@@ -49,6 +49,9 @@
                         <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
                     {% endfor %}
                 {% endif %}
+                {% if page_name != 'index' %}
+                    <li class="smlmenu"><a href="/">Home</a></li>
+                {% endif %}
                 {% for title, link in MENUITEMS %}
                     <li><a href="/{{ link }}">{{ title }}</a></li>
                 {% endfor %}
