@@ -71,7 +71,7 @@ SLUGIFY_SOURCE = 'basename'
 RELATIVE_URLS = True
 THEME_STATIC_DIR = 'theme'
 
-THEME = 'active-theme/twenty-pelican-html5up'
+THEME = './active-theme/twenty-pelican-html5up'
 STATIC_PATHS = ['images', 'css']
 
 # PLUGINS
