@@ -31,9 +31,11 @@ jobs:
           # python -m pip install --upgrade jinja2
           python -m pip install ghp-import==0.2.2 
           python -m pip install git+https://github.com/StevenMaude/pelican-i18n_subsites
-#      - name: Clone theme into activetheme
-#        run: |
-#          git clone --recursive https://github.com/frankV/twenty-pelican-html5up.git active-theme
+      - name: Clone theme into activetheme
+        run: |
+          cd active-theme
+          git clone --recursive https://github.com/frankV/twenty-pelican-html5up.git
+          cd ..
       - name: Clone pelican-plugins
         run: |
           git clone --recursive https://github.com/getpelican/pelican-plugins
