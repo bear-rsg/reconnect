@@ -245,7 +245,7 @@
 	}
 
 		.image:before {
-			background: url("/reconnect/theme/css/images/overlay.png");
+			background: url(/reconnect/images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -752,7 +752,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("/reconnect/theme/css/images/light-bl.svg"), url("/reconnect/theme/css/images/light-br.svg"), url("/reconnect/theme/css/images/overlay2.png"), url("/reconnect/theme/images/banner2.jpg");
+		background-image: url(/reconnect/images/light-bl.svg"), url(/reconnect/images/light-br.svg"), url(/reconnect/images/overlay2.png"), url("/reconnect/theme/images/banner2.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -822,7 +822,7 @@
 /* Main */
 
 	#main {
-		background-image: url("/reconnect/theme/css/images/dark-tl.svg"), url("/reconnect/theme/css/images/dark-tr.svg"), url("/reconnect/theme/css/images/dark-bl.svg"), url("/reconnect/theme/css/images/dark-br.svg");
+		background-image: url(/reconnect/images/dark-tl.svg"), url(/reconnect/images/dark-tr.svg"), url(/reconnect/images/dark-bl.svg"), url(/reconnect/images/dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -854,7 +854,7 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("/reconnect/theme/css/images/light-tl.svg"), url("/reconnect/theme/css/images/light-tr.svg"), url("/reconnect/theme/css/images/overlay.png"), url("/reconnect/theme/images/banner.jpg");
+		background-image: url(/reconnect/images/light-tl.svg"), url(/reconnect/images/light-tr.svg"), url(/reconnect/images/overlay.png"), url("/reconnect/theme/images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
