@@ -12,7 +12,7 @@ AUTHOR = 'RE:Connect'
 SITENAME = 'RE:Connect'
 SITESUBTITLE = ''
 # SITEURL = '127.0.0.1'
-SITEURL = 'https://bear-rsg.github.io/reconnect/'
+SITEURL = 'https://bear-rsg.github.io'
 
 PATH = 'content'
 

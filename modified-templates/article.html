@@ -21,11 +21,11 @@
         <div class="content">
           <section>
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            <div class="blogsubheader">Posted in <a href="/{{ article.category.url }}">{{ article.category }}</a></div>
+            <div class="blogsubheader">Posted in <a href="/reconnect/{{ article.category.url }}">{{ article.category }}</a></div>
             <p class="tags">
             {% if article.tags %}
               {% for tag in article.tags %}
-                <a href="/{{ tag.url }}">{{ tag }}</a>
+                <a href="/reconnect/{{ tag.url }}">{{ tag }}</a>
               {% endfor %}
             {% endif %}</p>
             <p>{{ article.content }}</p>

@@ -82,6 +82,12 @@
 		letter-spacing: 0.025em;
 	}
 
+	h4 {
+        font-size: 1em;
+        font-weight: bold;
+        letter-spacing: 0.025em;
+    }
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -447,7 +453,7 @@
 			}
 
 		ul.buttons.vertical li {
-			display: block;
+			display: inline-block;
 			padding: 1.5em 0 0 0;
 		}
 
@@ -606,7 +612,7 @@
 		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;
-			right: 1.5em;
+			right: 3.5em;
 			text-transform: uppercase;
 			top: 0.75em;
 		}
