@@ -11,7 +11,8 @@ JINJA_FILTERS = {'sidebar': sidebar}
 AUTHOR = 'RE:Connect'
 SITENAME = 'RE:Connect'
 SITESUBTITLE = ''
-SITEURL = '127.0.0.1'
+# SITEURL = '127.0.0.1'
+SITEURL = 'https://bear-rsg.github.io/reconnect/'
 
 PATH = 'content'
 
