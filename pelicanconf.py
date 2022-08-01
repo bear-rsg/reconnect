@@ -76,7 +76,7 @@ STATIC_PATHS = ['images', 'css']
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap', 'pelican-page-hierarchy', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache',
+PLUGINS = ['sitemap', 'pelican-page-hierarchy', 'category_order', 'optimize_images', 'gzip_cache',
            'pelican_vimeo']
 
 SITEMAP = {
