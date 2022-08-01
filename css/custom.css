@@ -1,0 +1,133 @@
+/* custom changes to template layout */
+h1.logo {
+    font-size: 1em;
+    position: relative;
+    top: -2px;
+}
+
+#header h1.logo a div.img {
+    background: url("/images/climate_and_re_logo_grey.png") 0 0 no-repeat;
+    float: left;
+    width: 28px;
+    height: 26px;
+}
+
+#header.alt h1.logo a div.img {
+    background: url("/images/climate_and_re_logo.png") 0 0 no-repeat;
+}
+
+h1.logo a div.txt {
+    position: relative;
+    left: 10px;
+    top: 2px;
+
+}
+
+ul li {
+    position: relative;
+    left: 5%;
+    text-align: left;
+    list-style: circle;
+}
+
+ul.buttons li, ul.feature-icons li, ul.submenu li, ul.dropotron.level-0 li  {
+    position: relative;
+    left: 0;
+}
+
+a.button.special {
+    display: block;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+ul.feature-icons {
+    margin: -0.75em -1.5em 0 0
+}
+
+.icon.circle.fa-envelope-o {
+        background: #da83ae;
+        color: white;
+}
+
+.image:before {
+    background: url("/theme/css/images/overlay2.png");
+}
+
+#cta {
+    background-image: url("/theme/css/images/light-tl.svg"), url("/theme/css/images/light-tr.svg"), url("/theme/css/images/overlay2.png"), url("/theme/images/banner3.jpg");
+}
+
+#banner {
+    background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay.png"), url("/theme/images/banner3.jpg");
+}
+
+.wrapper.style2 {
+    background-color: #698647;
+}
+
+h2 {
+    color: #7a893c;
+    font-weight: bold;
+}
+
+#cta h2, #banner h2, .style2 h2 {
+    color: white;
+}
+
+h3 {
+    color: #7f9787;
+    font-weight: bold;
+}
+
+header.special .icon {
+    color: #7a893c;
+}
+
+#stpeters {
+    position: relative;
+    left: 10%;
+}
+
+a {
+	color: #98b13f;
+}
+
+body, #skel-layers-wrapper {
+    background: #d6dfdc;
+}
+
+#banner .inner {
+    background: rgba(98, 140, 153, 0.5);
+}
+
+.button.special, .button.special:hover {
+    background: #7f9787;
+    border-color: #7f9787;
+}
+
+.image.feature:before {
+    background: none;
+}
+
+.image.feature img.centred {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.button.special {
+    background: #86a690;
+    border-color: #86a690;
+}
+
+.button.special:hover {
+    background: #a4cab0  !important;
+    border-color: #a4cab0 !important;
+}
+
+margin: auto;
+  width: 50%;
