@@ -1,7 +1,7 @@
 title: Blog post 3
 date: 2022-07-21
-tags: blog
-slug: blog-post-3
+tag: blog
+category: blog-category-2
 
 ### Blog post 3 
 

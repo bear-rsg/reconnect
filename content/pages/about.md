@@ -24,4 +24,4 @@ To apply for our Teacher Fellowship programme, <a href="https://www.saltleytrust
 
 ### Social Media
 
-You can follow the project on Twitter: @Climate_and_RE and sign up to a mailing list (hosted JISCmail) <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=RE-CONNECT&A=1">here</a>.
+You can follow the project on Twitter: [@Climate_and_RE](https://twitter.com/Climate_and_RE) and sign up to a mailing list (hosted JISCmail) <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=RE-CONNECT&A=1">here</a>.

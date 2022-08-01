@@ -21,7 +21,7 @@
         <div class="content">
           <section>
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            <h3>Posted in <a href="/{{ article.category.url }}">{{ article.category }}</a></h3>
+            <div class="blogsubheader">Posted in <a href="/{{ article.category.url }}">{{ article.category }}</a></div>
             <p class="tags">
             {% if article.tags %}
               {% for tag in article.tags %}

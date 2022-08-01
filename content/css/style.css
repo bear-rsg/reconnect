@@ -606,9 +606,9 @@
 		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;
-			right: 1.5em;
+			right: 3.5em !important;
 			text-transform: uppercase;
-			top: 0.75em;
+			top: 0.75em !important;
 		}
 
 			#header nav ul li {
@@ -822,7 +822,7 @@
 /* Main */
 
 	#main {
-		background-image: url("/theme/css/images/dark-tl.svg"), url("/theme/css/images/images/dark-tr.svg"), url("/theme/css/images/images/dark-bl.svg"), url("/theme/css/images/images/dark-br.svg");
+		background-image: url("/theme/css/images/dark-tl.svg"), url("/theme/css/images/dark-tr.svg"), url("/theme/css/images/dark-bl.svg"), url("/theme/css/images/dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -1066,5 +1066,17 @@
 
 
 .smlmenu {
-    display: none;
+    display: none !important;
+}
+
+.blogheader {
+    font-size: 150%;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.blogsubheader {
+    font-size: 80%;
+    ine-height: 80%;
+    font-weight: bold;
 }

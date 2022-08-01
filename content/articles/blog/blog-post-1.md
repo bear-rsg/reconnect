@@ -1,7 +1,7 @@
 title: Blog post 1
 date: 2022-07-20
-tags: blog
-slug: blog-post-1
+tag: blog
+category: blog-category-2
 
 ### Blog post 1 
 

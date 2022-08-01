@@ -28,8 +28,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-# PAGINATED_DIRECT_TEMPLATES = ['blog']
+DIRECT_TEMPLATES = ['index', 'blog']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'blog']
 
+ARTICLE_URL = 'blog/{slug}'
+ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
 # ARTICLE_SAVE_AS = '{slug}.html'
 # ARTICLE_URL = '{path}/{slug}.html'
 # ARTICLE_ORDER_BY = 'reversed-date'
@@ -100,7 +103,7 @@ SLUGIFY_SOURCE = 'basename'
 DISPLAY_PAGES_ON_MENU = False
 
 USE_FOLDER_AS_CATEGORY = True
-ARCHIVES_URL = 'blog-index.html'
+ARCHIVES_URL = 'blog.html'
 
 THEME_TEMPLATES_OVERRIDES = ['modified-templates']
 
@@ -109,4 +112,5 @@ MENUITEMS = (
     ('Projects Gallery', 'projects.html'),
     ('Reports', 'reports.html'),
     ('Resources', 'resources.html'),
+    ('Blog', 'blog.html'),
 )
