@@ -29,7 +29,7 @@ AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
 DIRECT_TEMPLATES = ['index', 'blog']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'blog']
+PAGINATED_TEMPLATES = ['index', 'blog']
 
 ARTICLE_URL = 'blog/{slug}'
 ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
@@ -71,7 +71,7 @@ SLUGIFY_SOURCE = 'basename'
 RELATIVE_URLS = True
 THEME_STATIC_DIR = 'theme'
 
-THEME = './active-theme/twenty-pelican-html5up'
+THEME = 'active-theme/twenty-pelican-html5up'
 STATIC_PATHS = ['images', 'css']
 
 # PLUGINS
