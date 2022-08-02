@@ -65,11 +65,11 @@ ul.feature-icons {
 }
 
 #banner {
-    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay.png"), url("/reconnect/images/banner3.jpg");
+    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner3.jpg");
 }
 
 .wrapper.style2 {
-    background-color: #698647;
+    background-color: #486060;
 }
 
 h2 {
