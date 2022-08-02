@@ -2,7 +2,7 @@
 h1.logo {
     font-size: 1em;
     position: relative;
-    top: -15px;
+    top: -2px;
 }
 
 #header h1.logo a div.img {
@@ -16,11 +16,14 @@ h1.logo {
     background: url("/reconnect/images/climate_and_re_logo.png") 0 0 no-repeat;
 }
 
+#header.alt h1.logo {
+    top: -15px;
+}
+
 h1.logo a div.txt {
     position: relative;
     left: 10px;
     top: 2px;
-
 }
 
 ul li {
