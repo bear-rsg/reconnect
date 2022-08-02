@@ -138,3 +138,7 @@ body, #skel-layers-wrapper {
    position: relative;
    top: -12px;
 }
+
+.blogheader {
+    color: #486060;
+}
