@@ -539,7 +539,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #486060;
 			background-image: url("../images/light-bl.svg"), url("../images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -774,7 +774,8 @@
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
 			# background: rgba(52, 27, 43, 0.5);
-			background: rgba(58, 101, 108, 0.5);
+			# background: rgba(58, 101, 108, 0.5);
+			background: rgba(73, 92, 138, 0.4);
 			width: 75%;
 			color: white;
 			display: inline-block;
