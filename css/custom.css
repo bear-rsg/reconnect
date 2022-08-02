@@ -19,11 +19,11 @@ h1.logo {
 #header.alt h1.logo {
     top: -15px;
 }
-
 h1.logo a div.txt {
     position: relative;
     left: 10px;
     top: 2px;
+
 }
 
 ul li {
@@ -132,5 +132,10 @@ body, #skel-layers-wrapper {
     border-color: #a4cab0 !important;
 }
 
-margin: auto;
-  width: 50%;
+#header nav {
+      letter-spacing: 0.075em;
+      position: absolute;
+      right: 3.5em !important;
+      text-transform: uppercase;
+      top: 0.75em !important;
+}
