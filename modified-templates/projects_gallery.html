@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Projects | Gallery{% endblock title %}
+
+{% block content %}
+<!-- Main -->
+<article id="main">
+
+
+    <header class="special container">
+        <span class="icon fa-leaf"></span>
+        <h2>Projects Gallery</h2>
+    </header>
+
+    <!-- One -->
+    <section class="wrapper style4 container">
+
+        <!-- Content -->
+        <div class="content">
+            <div class="row">
+                <div class="6u">
+
+                    <section>
+                        <a href="/reconnect/projects.html#peopleandtheplanet" class="image feature"><img src="images/project_pic01.jpg" alt="People and the Planet" /></a>
+                        <header>
+                            <h3>People and the Planet</h3>
+                            <strong>KS3 Curriculum Project</strong>
+                        </header>
+                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+                    </section>
+
+                </div>
+                <div class="6u">
+
+                    <section>
+                        <a href="/reconnect/projects.html#introtoclimatechange" class="image feature"><img src="images/project_pic02.jpg" alt="Introduction to climate change and different responses" /></a>
+                        <header>
+                            <h3>Introduction to climate change and different responses</h3>
+                            <strong>KS3 Curriculum Project</strong>
+                        </header>
+                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Two -->
+    {% include 'most_recent.html' %}
+
+</article>
+{% endblock content %}

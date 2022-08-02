@@ -29,8 +29,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-DIRECT_TEMPLATES = ['index', 'blog']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'blog']
+DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery']
 
 ARTICLE_URL = 'blog/{slug}'
 ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
@@ -110,7 +110,7 @@ THEME_TEMPLATES_OVERRIDES = ['modified-templates']
 
 MENUITEMS = (
     ('About', 'about.html'),
-    ('Projects Gallery', 'projects.html'),
+    ('Projects Gallery', 'projects_gallery.html'),
     ('Reports', 'reports.html'),
     ('Resources', 'resources.html'),
     ('Blog', 'blog.html'),
