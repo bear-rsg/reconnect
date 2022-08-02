@@ -82,12 +82,13 @@ h2 {
 }
 
 h3 {
-    color: #7f9787;
+    color: #486060;
     font-weight: bold;
 }
 
 header.special .icon {
-    color: #7a893c;
+    # color: #7a893c;
+    color: #486060;
 }
 
 #stpeters {
