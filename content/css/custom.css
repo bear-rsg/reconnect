@@ -54,15 +54,15 @@ ul.feature-icons {
 }
 
 .image:before {
-    background: url(/reconnect/images/overlay2.png");
+    background: url("/reconnect/images/overlay2.png");
 }
 
 #cta {
-    background-image: url(/reconnect/images/light-tl.svg"), url(/reconnect/images/light-tr.svg"), url(/reconnect/images/overlay2.png"), url("/reconnect/theme/images/banner3.jpg");
+    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner3.jpg");
 }
 
 #banner {
-    background-image: url(/reconnect/images/light-bl.svg"), url(/reconnect/images/light-br.svg"), url(/reconnect/images/overlay.png"), url("/reconnect/theme/images/banner3.jpg");
+    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay.png"), url("/reconnect/images/banner3.jpg");
 }
 
 .wrapper.style2 {
