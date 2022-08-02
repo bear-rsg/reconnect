@@ -266,8 +266,11 @@
 		.image.feature {
 			display: block;
 			margin: 0 0 2em 0;
-			border: 1px #486060 solid;
 		}
+
+            .image.feature.project {
+                border: 1px #486060 solid;
+            }
 
 			.image.feature img {
 				display: block;
