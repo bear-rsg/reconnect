@@ -132,10 +132,8 @@ body, #skel-layers-wrapper {
     border-color: #a4cab0 !important;
 }
 
-#header nav {
-      letter-spacing: 0.075em;
-      position: absolute;
-      right: 3.5em !important;
-      text-transform: uppercase;
-      top: 0.75em !important;
+#header.alt h1.logo {
+   font-size: 1em;
+   position: relative;
+   top: -12px;
 }
