@@ -73,7 +73,7 @@ RELATIVE_URLS = True
 THEME_STATIC_DIR = 'theme'
 
 THEME = './active-theme/twenty-pelican-html5up'
-STATIC_PATHS = ['images', 'css']
+STATIC_PATHS = ['images', 'css', 'js']
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins']
