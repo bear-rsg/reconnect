@@ -11,6 +11,8 @@
 
 	body, #skel-layers-wrapper {
 		background: #f3f6fa;
+		-webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 	}
 
 	body.loading * {
@@ -801,7 +803,7 @@
 					border-bottom: solid 2px;
 					border-top: solid 2px;
 					font-size: 2.5em;
-					font-weight: 900;
+					font-weight: 600;
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
