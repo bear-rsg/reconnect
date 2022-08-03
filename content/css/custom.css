@@ -52,7 +52,7 @@ ul.feature-icons {
 }
 
 .icon.circle.fa-envelope-o {
-        background: #da83ae;
+        background: #628265;
         color: white;
 }
 
@@ -61,7 +61,7 @@ ul.feature-icons {
 }
 
 #cta {
-    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner3a.jpg");
+    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner5.jpg");
 }
 
 #banner {
@@ -69,7 +69,8 @@ ul.feature-icons {
 }
 
 .wrapper.style2 {
-    background-color: #486060;
+    # background-color: #486060;
+    background-color: #c68744;
 }
 
 h2 {
@@ -88,7 +89,7 @@ h3 {
 
 header.special .icon {
     # color: #7a893c;
-    color: #486060;
+    color: #c68744;
 }
 
 #stpeters {
@@ -109,8 +110,8 @@ body, #skel-layers-wrapper {
 }
 
 .button.special, .button.special:hover {
-    background: #7f9787;
-    border-color: #7f9787;
+    background: #f6a957;
+    border-color: #f6a957;
 }
 
 .image.feature:before {
