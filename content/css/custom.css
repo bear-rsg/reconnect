@@ -152,3 +152,17 @@ body, #skel-layers-wrapper {
     top: -20px;
     color: #8aa2a2;
 }
+
+.image-billboard.small {
+    height: 270px;
+}
+
+.image-billboard {
+    height: 520px;
+}
+
+.image-billboard {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
