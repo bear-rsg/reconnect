@@ -125,13 +125,13 @@ body, #skel-layers-wrapper {
 }
 
 .button.special {
-    background: #86a690;
-    border-color: #86a690;
+    background: #e19d55;
+    border-color: #e19d55;
 }
 
 .button.special:hover {
-    background: #a4cab0  !important;
-    border-color: #a4cab0 !important;
+    background: #f6a957  !important;
+    border-color: #f6a957 !important;
 }
 
 #header.alt h1.logo {
