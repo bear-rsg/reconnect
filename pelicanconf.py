@@ -29,8 +29,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery']
+DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags']
 
 ARTICLE_URL = 'blog/{slug}'
 ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
@@ -73,7 +73,7 @@ RELATIVE_URLS = True
 THEME_STATIC_DIR = 'theme'
 
 THEME = './active-theme/twenty-pelican-html5up'
-STATIC_PATHS = ['images', 'css', 'js']
+STATIC_PATHS = ['images', 'css', 'js', 'files']
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins']
