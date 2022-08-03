@@ -161,6 +161,10 @@ body, #skel-layers-wrapper {
     height: 520px;
 }
 
+#topPanel, #sidePanel {
+    background: #2b3f44;
+}
+
 .image-billboard {
     position: relative;
     height: 250px;
