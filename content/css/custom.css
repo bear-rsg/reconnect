@@ -142,3 +142,10 @@ body, #skel-layers-wrapper {
 .blogheader {
     color: #486060;
 }
+
+.gallerysubmenu {
+   text-transform: uppercase;
+   font-size: 0.6em;
+   font-weight: bold;
+
+}
