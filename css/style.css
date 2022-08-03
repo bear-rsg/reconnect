@@ -511,14 +511,14 @@
 		}
 
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #f6a957;
+			border-color: #f6a957
 			color: white !important;
 		}
 
 			.button.special:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #a4cab0 !important;
+				border-color: #a4cab0 !important;
 			}
 
 		.button.fit {
