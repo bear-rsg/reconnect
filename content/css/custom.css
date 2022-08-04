@@ -172,14 +172,16 @@ body, #skel-layers-wrapper {
 }
 
 #banner_img {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #fff;
-		background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png"), "/reconnect/images/page_bgd.jpg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
-		color: white;
-		cursor: default;
-		padding: 6em 0;
-		text-align: center;
-	}
+    background-attachment: scroll, scroll, scroll, fixed;
+    background-color: #307083;
+    background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay29.png"), url("/reconnect/images/page_bgd.jpg");
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 25em, 25em, auto, cover;
+    color: white;
+    cursor: default;
+    padding: 6em 0;
+    text-align: center;
+    position: relative;
+    top: 3.2em;
+}
