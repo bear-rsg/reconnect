@@ -35,3 +35,17 @@ body, #skel-layers-wrapper {
 .container {
     width: 90%;
 }
+
+#header {
+    # background: #939393;
+    background: rgb(78, 120, 132);
+    box-shadow: 0 1px 2px 0 rgba(54, 48, 48, 0.28);
+}
+
+#header h1.logo a div.img {
+    background: url("/reconnect/images/climate_and_re_logo.png") 0 0 no-repeat;
+}
+
+#header nav {
+    top: 0.7em !important;
+}
