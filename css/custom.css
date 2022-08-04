@@ -5,6 +5,10 @@ h1.logo {
     top: -2px;
 }
 
+#header {
+    color: #737373;
+}
+
 #header h1.logo a div.img {
     background: url("/reconnect/images/climate_and_re_logo_grey.png") 0 0 no-repeat;
     float: left;
@@ -174,7 +178,7 @@ body, #skel-layers-wrapper {
 #banner_img {
     background-attachment: scroll, scroll, scroll, fixed;
     background-color: #307083;
-    background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay29.png"), url("/reconnect/images/page_bgd.jpg");
+    background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay29.png"), url("/reconnect/images/page_bgd2.jpg");
     background-position: bottom left, bottom right, top left, top center;
     background-repeat: no-repeat, no-repeat, repeat, no-repeat;
     background-size: 25em, 25em, auto, cover;
@@ -185,9 +189,17 @@ body, #skel-layers-wrapper {
     position: relative;
     top: 3.2em;
 }
+
+body, #skel-layers-wrapper {
+    background: #C0D8F0;
+}
+
+
 #main {
     position: relative;
-    top: -3em;
-    width: 80%;
-    left: 10%;
+    top: -0.5em;
+    width: 86%;
+    left: 7%;
     background: #fff;
+    padding-top: 3em;
+}
