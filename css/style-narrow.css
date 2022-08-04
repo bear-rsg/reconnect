@@ -74,3 +74,13 @@
 .smlmenu {
     display: inline-block;
 }
+
+#banner_img {
+    display: none;
+}
+
+#main {
+    top: 0;
+    width: 100%;
+    left: 0;
+}
