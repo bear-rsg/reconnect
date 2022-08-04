@@ -9,5 +9,5 @@ slug: resources
 
 [Resource Link Title](http://path/to/url.html)<br />Info about the resource available for teachers
 
-[Resource Link Title](http://path/to/url.html)Info about the resource available for teachers
+[Resource Link Title](http://path/to/url.html)<br />Info about the resource available for teachers
 
