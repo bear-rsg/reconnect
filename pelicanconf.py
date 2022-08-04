@@ -29,7 +29,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags']
+DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
 PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags']
 
 ARTICLE_URL = 'blog/{slug}'
