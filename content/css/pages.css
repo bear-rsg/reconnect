@@ -49,3 +49,7 @@ body, #skel-layers-wrapper {
 #header nav {
     top: 0.7em !important;
 }
+
+.icon {
+    color: #4e7884;
+}
