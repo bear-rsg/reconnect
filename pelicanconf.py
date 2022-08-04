@@ -30,7 +30,7 @@ AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
 DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
 
 ARTICLE_URL = 'blog/{slug}'
 ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
