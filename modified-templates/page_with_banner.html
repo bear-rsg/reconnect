@@ -1,6 +1,6 @@
 {% extends "./base.html" %}
 
-{% block title %}Test | Design{% endblock title %}
+{% block title %}{{ page.title|striptags }} | {{ super() }}{% endblock title %}
 
 {% block content %}
 <!-- Banner -->
@@ -23,7 +23,7 @@
       <div class="content">
         <section>
           <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-          <p>Test</p>
+            <p>{{ page.content }}</p>
         </section>
       </div>
 

@@ -3,15 +3,12 @@
 {% block title %}{{ page.title|striptags }} | {{ super() }}{% endblock title %}
 
 {% block content %}
-<!-- Banner -->
-<section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
-
 <!-- Main -->
 <article id="main">
 
     <header class="special container">
     <span class="icon fa-leaf"></span>
-    <h2>Test</h2>
+    <h2>{{ page.title }}</h2>
   </header>
 
   <!-- One -->
@@ -23,7 +20,7 @@
       <div class="content">
         <section>
           <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            <p>{{ page.content }}</p>
+          <p>{{ page.content }}</p>
         </section>
       </div>
 
