@@ -174,7 +174,7 @@ body, #skel-layers-wrapper {
 #banner_img {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #fff;
-		background-image: url("/reconnect/images/page_bgd.jpg");
+		background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png"), "/reconnect/images/page_bgd.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
