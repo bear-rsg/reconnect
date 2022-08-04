@@ -2,6 +2,7 @@ title: Resources for teachers
 date: 2022-07-20
 tags: resources
 slug: resources
+icon: cog
 
 ### Resource Links
 

@@ -2,6 +2,7 @@ title: Projects Gallery
 date: 2022-07-20
 tags: projects
 slug: projects
+icon: pagelines
 
 ## Curriculum Projects
 
