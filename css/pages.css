@@ -38,7 +38,7 @@ body, #skel-layers-wrapper {
 
 #header {
     # background: #939393;
-    rgb(29, 104, 135)
+    background: rgb(78, 120, 132);
     box-shadow: 0 1px 2px 0 rgba(54, 48, 48, 0.28);
 }
 
