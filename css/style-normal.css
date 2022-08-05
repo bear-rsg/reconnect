@@ -87,3 +87,7 @@
     background: #fff;
     padding-top: 4em;
 }
+
+#main.home {
+    padding-top: 0;
+}
