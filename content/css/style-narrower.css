@@ -134,6 +134,15 @@ ul.feature-icons {
     left: 0;
 }
 
+#main {
+    top: 1.5em;
+    position: relative;
+}
+
+#cta {
+    top: 4em;
+    position: relative;
+}
 
 #footer {
     padding-bottom: 7em;
