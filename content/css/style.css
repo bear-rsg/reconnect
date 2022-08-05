@@ -1090,6 +1090,10 @@
     font-weight: bold;
 }
 
+#main {
+    top: -9em;
+}
+
 #main.home {
     top: 1.5em;
 }
