@@ -1089,3 +1089,7 @@
     ine-height: 80%;
     font-weight: bold;
 }
+
+#main.home {
+    top: 1.5em;
+}
