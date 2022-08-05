@@ -14,8 +14,8 @@
     top: 3em;
 }
 
-body, #skel-layers-wrapper {
-    background: #C0D8F0;
+body, #skel-layers-wrapper, #footer {
+    background: #e8eef4;
 }
 
 
@@ -26,10 +26,6 @@ body, #skel-layers-wrapper {
     left: 7%;
     background: #fff;
     padding-top: 4em;
-}
-
-#footer {
-    background: #C0D8F0;
 }
 
 .container {
