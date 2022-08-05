@@ -202,6 +202,8 @@ ul.feature-icons {
     top: 0;
     width: 100%;
     left: 0;
+    background: none;
+    padding-top: 4em;
 }
 
 ul.feature-icons {
