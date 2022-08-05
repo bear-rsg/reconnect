@@ -2,7 +2,7 @@ title: Reports
 date: 2022-07-20
 tags: reports
 slug: reports
-icon: camera-retro
+icon: bar-chart
 
 ### Curriculum Projects
 
