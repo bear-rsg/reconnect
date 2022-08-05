@@ -90,4 +90,7 @@
 
 #main.home {
     padding-top: 0;
+    width: 0;
+    left: 0;
+    background: #f3f6fa;
 }
