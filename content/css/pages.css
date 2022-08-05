@@ -3,16 +3,6 @@ body, #skel-layers-wrapper, #footer {
     background: #e8eef4;
 }
 
-
-#main {
-    position: relative;
-    /* top: -9em; */
-    width: 86%;
-    left: 7%;
-    background: #fff;
-    padding-top: 4em;
-}
-
 .container {
     width: 90%;
 }
