@@ -21,7 +21,7 @@ body, #skel-layers-wrapper, #footer {
 
 #main {
     position: relative;
-    top: -9em;
+    /* top: -9em; */
     width: 86%;
     left: 7%;
     background: #fff;
