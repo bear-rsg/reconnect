@@ -52,7 +52,8 @@ a.button.special {
 }
 
 ul.feature-icons {
-    margin: -0.75em -1.5em 0 0
+    margin: -0.75em -0.75em 0 0;
+    left: 2em;
 }
 
 .icon.circle.fa-envelope-o {
