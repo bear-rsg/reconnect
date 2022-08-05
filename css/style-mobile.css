@@ -175,3 +175,7 @@ body.contact #main {
 .smlmenu {
     display: inline-block;
 }
+
+ul.feature-icons {
+    left: 0;
+}
