@@ -193,3 +193,17 @@ ul.feature-icons {
 #footer {
     padding-bottom: 7em;
 }
+
+#banner_img {
+    display: none;
+}
+
+#main {
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+ul.feature-icons {
+    left: 0;
+}
