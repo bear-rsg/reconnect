@@ -64,21 +64,6 @@
     display: none !important;
 }
 
-#banner_img {
-    background-attachment: scroll, scroll, scroll, fixed;
-    background-color: #307083;
-    background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/page_bgd2.jpg");
-    background-position: bottom left, bottom right, top left, top center;
-    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-    background-size: 25em, 25em, auto, cover;
-    color: white;
-    cursor: default;
-    padding: 8em 0;
-    text-align: center;
-    position: relative;
-    top: 3em;
-}
-
 #main {
     position: relative;
     top: -9em;
