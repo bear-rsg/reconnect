@@ -20,8 +20,12 @@
 }
 
 #main {
-    top: -9em;
     position: relative;
+    top: -9em;
+    width: 86%;
+    left: 7%;
+    background: #fff;
+    padding-top: 4em;
 }
 
 #main.home {
