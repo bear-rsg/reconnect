@@ -31,4 +31,5 @@ h2 {
 .button.special:hover {
     background: #f7e7de;
     border-color: #c16c11;
+    color: #c16c11;
 }
