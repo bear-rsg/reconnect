@@ -2,6 +2,10 @@ body, input, select, textarea {
     color: #525656;
 }
 
+a {
+    color: #EA5C14;
+}
+
 h2 {
     color: #425757;
 }
@@ -16,4 +20,15 @@ h2 {
 
 #banner, #cta {
     background-color: #0f3344;
+}
+
+.button.special {
+    background: #c16c11;
+    border-color: #fff;
+    color: #fff;
+}
+
+.button.special:hover {
+    background: #f7e7de;
+    border-color: #c16c11;
 }
