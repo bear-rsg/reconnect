@@ -39,8 +39,7 @@ h2 {
 }
 
 #header {
-    background: #255A5F !important;
-    color: #fff;
+    background: #255A5F;
 }
 
 #header.reveal {
