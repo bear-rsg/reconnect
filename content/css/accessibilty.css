@@ -1,0 +1,19 @@
+body, input, select, textarea {
+    color: #525656;
+}
+
+h2 {
+    color: #425757;
+}
+
+.gallerysubmenu {
+    color: #4D5B5B;
+}
+
+.style2 h2 {
+    color: #4D2600;
+}
+
+#banner {
+    background-color: #0f3344;
+}

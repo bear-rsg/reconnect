@@ -6,4 +6,4 @@ icon: tasks
 
 ### Curriculum Projects
 
-Text for RE:Connect reports and charts from R exports goes here
+Text for RE:Connect reports and charts from R exports go here
