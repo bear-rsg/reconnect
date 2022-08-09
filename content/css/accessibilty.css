@@ -43,6 +43,11 @@ h2 {
     color: #fff;
 }
 
+#header.reveal {
+    background: #fff;
+    color: #707171;
+}
+
 #header.alt {
     background: transparent !important;
 }
