@@ -29,7 +29,7 @@ h2 {
 }
 
 .button.special:hover {
-    background: #f7e7de;
-    border-color: #c16c11;
-    color: #c16c11;
+    background: #f7e7de !important;
+    border-color: #c16c11 !important;
+    color: #c16c11 !important;
 }
