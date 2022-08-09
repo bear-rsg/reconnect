@@ -43,10 +43,10 @@ h2 {
 }
 
 #header.reveal {
-    background: #fff;
-    color: #707171;
+    background: #fff !important;
+    color: #707171 !important;
 }
 
-#header.alt {
+#header.alt.reveal {
     background: transparent !important;
 }
