@@ -42,3 +42,7 @@ h2 {
     background: #255A5F !important;
     color: #fff;
 }
+
+#header.alt {
+    background: transparent !important;
+}
