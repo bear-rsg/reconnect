@@ -10,10 +10,10 @@ h2 {
     color: #4D5B5B;
 }
 
-.style2 h2 {
+.wrapper.style2, .style2 h2 {
     color: #4D2600;
 }
 
-#banner {
+#banner, #cta {
     background-color: #0f3344;
 }
