@@ -84,3 +84,8 @@
     padding-top: 4em;
 }
 
+
+.logo a .txt {
+    position: relative;
+    top: 5px;
+}
