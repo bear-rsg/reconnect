@@ -1127,3 +1127,8 @@
     position: relative;
     top: 3em;
 }
+
+.logo a .txt {
+    position: relative;
+    top: 5px;
+}
