@@ -23,6 +23,7 @@ h1.logo {
 #header.alt h1.logo {
     top: -15px;
 }
+
 h1.logo a div.txt {
     position: relative;
     left: 10px;
@@ -168,4 +169,14 @@ body, #skel-layers-wrapper {
 
 #topPanel, #sidePanel {
     background: #2b3f44;
+}
+
+#header.reveal nav ul {
+    position: relative;
+    top: -5px;
+}
+
+#header.alt.reveal nav ul {
+    position: relative;
+    top: 0px;
 }
