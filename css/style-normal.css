@@ -72,3 +72,9 @@
     background: #fff;
     padding-top: 4em;
 }
+
+
+.logo a .txt {
+    position: relative;
+    top: 0px;
+}
