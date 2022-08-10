@@ -1,9 +1,9 @@
-title: Reports
+title: Report
 date: 2022-07-20
-tags: reports
-slug: reports
+tags: report
+slug: report
 icon: tasks
 
-### Curriculum Projects
+### Report
 
-Text for RE:Connect reports and charts from R exports go here
+Text for RE:Connect report and any charts from R exports go here

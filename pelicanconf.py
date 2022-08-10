@@ -111,7 +111,7 @@ THEME_TEMPLATES_OVERRIDES = ['modified-templates']
 MENUITEMS = (
     ('About', 'about.html'),
     ('Projects Gallery', 'projects_gallery.html'),
-    ('Reports', 'reports.html'),
+    ('Report', 'report.html'),
     ('Resources', 'resources.html'),
     ('Blog', 'blog.html'),
 )
