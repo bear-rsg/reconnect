@@ -27,3 +27,8 @@
     background: #fff;
     padding-top: 4em;
 }
+
+#header nav {
+   top: -5px;
+   position: relative;
+}
