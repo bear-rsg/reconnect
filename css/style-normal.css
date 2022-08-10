@@ -76,5 +76,5 @@
 
 .logo a .txt {
     position: relative;
-    top: 0px;
+    top: 5px !important;
 }
