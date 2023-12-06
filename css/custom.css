@@ -69,6 +69,8 @@ ul.feature-icons {
 #cta {
     background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png");
     text-align: center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: left, right, center;
 }
 
 #banner {
