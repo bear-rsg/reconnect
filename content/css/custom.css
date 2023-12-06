@@ -76,8 +76,7 @@ ul.feature-icons {
 }
 
 .wrapper.style2 {
-    background-color: #c68744;
-
+    background-color: #d95e52;
     background-image: url("../images/light-bl2.svg"), url("../images/light-br.svg");
     background-position: bottom left, bottom right;
     background-repeat: no-repeat, no-repeat;
