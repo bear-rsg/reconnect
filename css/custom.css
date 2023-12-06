@@ -119,12 +119,6 @@ body, #skel-layers-wrapper {
 #banner .inner {
     background: #d9ce3d;
     color: #425757;
-    width: 75%;
-    color: white;
-    display: inline-block;
-    opacity: 0;
-    padding: 3em;
-    text-align: center;
 }
 
 .button.special, .button.special:hover {
