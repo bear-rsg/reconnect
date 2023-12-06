@@ -93,6 +93,10 @@ h2 {
     color: white;
 }
 
+#banner h2 {
+    color: #425757;
+}
+
 h3 {
     color: #486060;
     font-weight: bold;
