@@ -19,7 +19,7 @@ h2 {
 }
 
 #banner, #cta {
-    background-color: #0f3344;
+    background-color: #fff;
 }
 
 .button.special {
@@ -36,6 +36,7 @@ h2 {
 
 #footer {
     color: #525656;
+    text-align: center;
 }
 
 #header {
