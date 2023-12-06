@@ -75,8 +75,13 @@ ul.feature-icons {
 }
 
 .wrapper.style2 {
-    # background-color: #486060;
     background-color: #c68744;
+
+    background-image: url("../images/light-bl2.svg"), url("../images/light-br.svg");
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25em, 25em;
+    color: white;
 }
 
 h2 {
@@ -112,7 +117,14 @@ body, #skel-layers-wrapper {
 }
 
 #banner .inner {
-    background: rgba(98, 140, 153, 0.5);
+    background: #d9ce3d;
+    color: #425757;
+    width: 75%;
+    color: white;
+    display: inline-block;
+    opacity: 0;
+    padding: 3em;
+    text-align: center;
 }
 
 .button.special, .button.special:hover {
