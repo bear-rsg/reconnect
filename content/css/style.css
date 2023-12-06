@@ -552,6 +552,8 @@
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
 			color: white;
+			position: relative;
+			top: 2em;
 		}
 
 			.wrapper.style2 .button:hover {
