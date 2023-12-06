@@ -1,12 +1,12 @@
 /* custom changes to template layout */
 h1.logo {
-    font-size: 1em;
+    font-size: 1.3em;
     position: relative;
     top: -2px;
 }
 
 #header {
-    color: #737373;
+    color: #ffffff;
 }
 
 #header h1.logo a div.img {
