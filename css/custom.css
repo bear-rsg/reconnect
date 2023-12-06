@@ -67,11 +67,11 @@ ul.feature-icons {
 }
 
 #cta {
-    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner5.jpg");
+    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png");
 }
 
 #banner {
-    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner5.jpg");
+    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png");
 }
 
 .wrapper.style2 {
