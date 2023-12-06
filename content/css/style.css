@@ -10,7 +10,7 @@
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		# background: #f3f6fa;
+		# background: #d7cab9;
 		-webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
 	}
@@ -546,7 +546,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #486060;
+			background-color: #d95e52;
 			background-image: url("../images/light-bl2.svg"), url("../images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -759,8 +759,8 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner2.jpg");
+		background-color: #1d6373;
+        background-image: url("/theme/css/images/light-bl.svg"), url("/theme/css/images/light-br.svg"), url("/theme/css/images/overlay2.png");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -783,9 +783,9 @@
 			animation-fill-mode: forwards;
 			# background: rgba(52, 27, 43, 0.5);
 			# background: rgba(58, 101, 108, 0.5);
-			background: rgba(73, 92, 138, 0.4);
+			background: #d9ce3d;
 			width: 75%;
-			color: white;
+			color: #425757;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
@@ -827,6 +827,11 @@
 			#banner .inner footer {
 				margin: 2em 0 0 0;
 			}
+
+			#banner .inner footer .button {
+			    background-color: #d9ce3d;
+                color: #2a5e5d;
+                border: #2b605f 1px solid;
 
 /* Main */
 
