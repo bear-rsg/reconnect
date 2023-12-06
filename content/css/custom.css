@@ -117,7 +117,8 @@ body, #skel-layers-wrapper {
 }
 
 #banner .inner {
-    background: rgba(73, 92, 138, 0.4);
+    background: #d9ce3d;
+    color: #425757;
     width: 75%;
     color: white;
     display: inline-block;
