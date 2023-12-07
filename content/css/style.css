@@ -289,8 +289,12 @@
 			.image.feature.project span.icon {
                 color: #fff;
                 font-size: 10em;
-                top: 84;
+                top: 84px;
                 position: relative;
+            }
+
+            .image.feature.project span.icon.fa-comment {
+                top: 74px;
             }
 /* Icon */
 
