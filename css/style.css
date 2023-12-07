@@ -841,6 +841,14 @@
 			    background-color: #d9ce3d;
                 color: #2a5e5d;
                 border: #2b605f 1px solid;
+            }
+
+            #banner .inner footer .button:hover {
+                background: #eae7b6 !important;
+                border-color: #1d6373 !important;
+                color: #1d6373 !important;
+            }
+
 
 /* Main */
 
