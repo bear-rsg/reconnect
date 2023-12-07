@@ -605,6 +605,10 @@
 		    padding-top: 3em;
         }
 
+        .wrapper.style4 .content.gallery {
+          padding-top: 5em;
+        }
+
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 	@-webkit-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
