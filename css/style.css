@@ -520,10 +520,10 @@
 		}
 
 		.button.special {
-			background: #f6a957;
-			border-color: #f6a957
-			color: white !important;
-		}
+		    background: #d9ce3d;
+            border-color: #fff;
+            color: #425757;
+        }
 
 			.button.special:hover {
 				background: #a4cab0 !important;

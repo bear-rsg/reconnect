@@ -24,9 +24,9 @@ h2 {
 }
 
 .button.special {
-  background: #d9ce3d;
-  border-color: #fff;
-  color: #425757;
+    background: #d9ce3d;
+    border-color: #fff;
+    color: #425757;
 }
 
 .button.special:hover {
