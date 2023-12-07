@@ -592,20 +592,20 @@
 			top: 2em;
 		}
 
-			.wrapper.style2 .button:hover {
-				background: rgba(255, 255, 255, 0.15) !important;
-			}
+        .wrapper.style2 .button:hover {
+            background: rgba(255, 255, 255, 0.15) !important;
+        }
 
-			.wrapper.style2 .button.special {
-				background: white;
-				border-color: white;
-				color: #83d3c9 !important;
-			}
+        .wrapper.style2 .button.special {
+            background: white;
+            border-color: white;
+            color: #83d3c9 !important;
+        }
 
-				.wrapper.style2 .button.special:hover {
-					border-color: inherit !important;
-					color: white !important;
-				}
+        .wrapper.style2 .button.special:hover {
+            border-color: inherit !important;
+            color: white !important;
+        }
 
 		.wrapper.style3 {
 			background: white;
@@ -617,6 +617,12 @@
 			color: inherit;
 			padding: 4em;
 		}
+
+        #main.blog .wrapper.style4 {
+            padding-top: 7em;
+            top: -5em;
+            position: relative;
+        }
 
 		.wrapper.style4 .content {
 		    padding-top: 3em;
