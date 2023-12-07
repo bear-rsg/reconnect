@@ -525,7 +525,7 @@
 	}
 
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
+			background: #f6d6cb;
 			border-color: inherit;
 		}
 
