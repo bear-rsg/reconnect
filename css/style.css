@@ -535,11 +535,11 @@
             color: #d9ce3d;
         }
 
-			.button.special:hover {
-				background: #eae7b6 !important;
-                border-color: #1d6373 !important;
-                color: #1d6373 !important;
-			}
+        .button.special:hover {
+            background: #eae7b6 !important;
+            border-color: #1d6373 !important;
+            color: #1d6373 !important;
+        }
 
 		.button.fit {
 			width: 100%;
@@ -870,6 +870,14 @@
 		padding: 7em 0;
 	}
 
+	#main.page {
+      position: relative;
+      top: -35em;
+      width: 86%;
+      left: 7%;
+      padding-top: 10em;
+    }
+
 		#main > :last-child {
 			margin-bottom: 0;
 		}
@@ -1145,18 +1153,22 @@
 }
 
 #banner_img {
-    background-attachment: scroll, scroll, scroll, fixed;
-    background-color: #307083;
-    background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/page_bgd2.jpg");
-    background-position: bottom left, bottom right, top left, top center;
-    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-    background-size: 25em, 25em, auto, cover;
-    color: white;
-    cursor: default;
-    padding: 8em 0;
-    text-align: center;
-    position: relative;
-    top: 3em;
+  background-attachment: scroll, scroll, scroll, fixed;
+  background-color: #1d6373;
+  background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay2.png");
+  background-position: bottom left, bottom right, top left, top center;
+  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+  background-size: 25em, 25em, auto, cover;
+  color: white;
+  cursor: default;
+  padding: 8em 0;
+  text-align: center;
+  position: relative;
+  top: 3em;
+  background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png");
+  text-align: center;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left, right, center;
 }
 
 .logo a .txt {
