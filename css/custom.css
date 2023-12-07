@@ -107,8 +107,11 @@ h3 {
 }
 
 header.special .icon {
-    # color: #7a893c;
-    color: #486060;
+  # color: #7a893c;
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  top: 2.2em;
 }
 
 #stpeters {
