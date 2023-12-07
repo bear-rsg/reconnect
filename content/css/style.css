@@ -273,8 +273,12 @@
 
             .image.feature.project {
                 border: 1px #cccdcb solid;
-                height: 50px;
+                height: 200px;
                 background: #1d6373;
+            }
+
+            .image.feature.project.alternate {
+                background: #d9ce3d;
             }
 
 			.image.feature img {
