@@ -132,6 +132,10 @@ body, #skel-layers-wrapper {
     color: #425757;
 }
 
+#banner .inner header {
+    color: #fff;
+}
+
 .button.special, .button.special:hover {
     background: #d9ce3d;
     border-color: #fff;
