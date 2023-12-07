@@ -130,8 +130,9 @@ body, #skel-layers-wrapper {
 }
 
 .button.special, .button.special:hover {
-    background: #f6a957;
-    border-color: #f6a957;
+    background: #eae7b6 !important;
+    border-color: #1d6373 !important;
+    color: #1d6373 !important;
 }
 
 .image.feature:before {
