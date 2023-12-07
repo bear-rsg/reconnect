@@ -286,6 +286,12 @@
 				width: 100%;
 			}
 
+			.image.feature.project span.icon {
+                color: #fff;
+                font-size: 10em;
+                top: 84;
+                position: relative;
+            }
 /* Icon */
 
 	.icon {
