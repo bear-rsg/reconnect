@@ -530,9 +530,9 @@
 		}
 
 		.button.special {
-		    background: #d9ce3d;
-            border-color: #fff;
-            color: #425757;
+		    background: #295f5f;
+            border-color: #d9ce3d;
+            color: #d9ce3d;
         }
 
 			.button.special:hover {
