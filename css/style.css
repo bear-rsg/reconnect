@@ -644,6 +644,10 @@
           padding-top: 5em;
         }
 
+        .wrapper.style4 .content.blog {
+          padding-top: 0;
+        }
+
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 	@-webkit-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
