@@ -150,7 +150,7 @@
 		}
 
 		#main.blog header.special h2 {
-          top: 5em;
+          top: 5.5em;
           position: relative;
           color: #1d6373;
           z-index: 10000;
@@ -645,8 +645,7 @@
         }
 
         .wrapper.style4 .content.blog {
-            top: 0;
-            padding-top: 0;
+          padding-top: 0;
         }
 
 /* Header */
