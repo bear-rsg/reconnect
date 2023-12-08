@@ -641,11 +641,12 @@
         }
 
         .wrapper.style4 .content.gallery {
-          padding-top: 5em;
+            padding-top: 5em;
         }
 
         .wrapper.style4 .content.blog {
-          padding-top: 0;
+            top: 0;
+            padding-top: 0;
         }
 
 /* Header */
