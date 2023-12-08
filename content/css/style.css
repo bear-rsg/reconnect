@@ -316,7 +316,12 @@
             }
 
             .gallery .image.feature.project span.icon {
-                left: 33%;
+                left: 36%;
+            }
+
+            .gallery .image.feature.project span.icon.fa-globe ,
+            .gallery .image.feature.project span.icon.fa-comment {
+                left: 32%;
             }
 
             .image.feature.project span.icon.fa-comment {
