@@ -156,6 +156,13 @@
           z-index: 10000;
         }
 
+        #main.blogupdate header.special h2 {
+          top: 5.5em;
+          position: relative;
+          color: #1d6373;
+          z-index: 10000;
+        }
+
 		header.special h2 + p {
 			margin-bottom: 0;
 			padding-top: 1.5em;
@@ -167,6 +174,13 @@
           z-index: 10000;
         }
 
+        #main.blogupdate header.special h2 + p {
+          margin-bottom: 0;
+          padding-top: 1.5em;
+          z-index: 10000;
+          position: relative;
+          top: 5.5em;
+        }
 		header.special .icon {
 			cursor: default;
 			height: 7em;
@@ -1175,9 +1189,11 @@
 }
 
 .blogsubheader {
-    font-size: 80%;
-    ine-height: 80%;
-    font-weight: bold;
+  font-size: 80%;
+  ine-height: 80%;
+  font-weight: bold;
+  top: 1em;
+  position: relative;
 }
 
 #main {
