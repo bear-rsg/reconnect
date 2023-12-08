@@ -114,6 +114,10 @@ header.special .icon {
   top: 2.1em;
 }
 
+#main.blogupdate header.special .icon {
+  top: 5em;
+}
+
 #stpeters {
     position: relative;
     left: 10%;

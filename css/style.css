@@ -157,7 +157,7 @@
         }
 
         #main.blogupdate header.special h2 {
-          top: 5.5em;
+          top: 8.5em;
           position: relative;
           color: #1d6373;
           z-index: 10000;
@@ -179,8 +179,9 @@
           padding-top: 1.5em;
           z-index: 10000;
           position: relative;
-          top: 5.5em;
+          top: 9.5em;
         }
+
 		header.special .icon {
 			cursor: default;
 			height: 7em;
