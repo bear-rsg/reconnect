@@ -191,7 +191,16 @@
 			width: 100%;
 		}
 
-		#main.blog header.special .icon {
+		#main.blogupdates header.special .icon {
+            top: 5em;
+        }
+
+        #main.blogupdates h3 {
+            top: 0.5em;
+            position: relative;
+        }
+
+        #main.blog header.special .icon {
           top: color: #fff;
           font-size: 1.5em;
           position: relative;
@@ -934,6 +943,14 @@
 		padding: 7em 0;
 	}
 
+    #main.blogupdate {
+      position: relative;
+      top: -33em;
+      width: 86%;
+      left: 7%;
+      padding-top: 10em;
+    }
+
 	#main.page {
       position: relative;
       top: -28em;
@@ -1192,7 +1209,7 @@
   font-size: 80%;
   ine-height: 80%;
   font-weight: bold;
-  top: 1em;
+  top: 2em;
   position: relative;
 }
 
