@@ -315,6 +315,10 @@
                 position: relative;
             }
 
+            .gallery .image.feature.project span.icon {
+                left: 33%;
+            }
+
             .image.feature.project span.icon.fa-comment {
                 top: 74px;
             }
