@@ -676,6 +676,10 @@
 		    padding-top: 0;
         }
 
+        #main.blogcategory .wrapper.style4 .content {
+          padding-top: 6em;
+        }
+
         .wrapper.style4 .content.gallery {
             padding-top: 5em;
         }
@@ -981,6 +985,11 @@
 			margin: 3em 0 0 0;
 			padding: 3em 0 0 0;
 		}
+
+		#main.blogcategory .sidebar {
+          position: relative;
+          top: 6em;
+        }
 
 			#main .sidebar section:first-child {
 				border-top: 0;
