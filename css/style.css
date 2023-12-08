@@ -1022,11 +1022,11 @@
 /* Footer */
 
 	#footer {
-		background: #e8eef4;
-		color: #7c8081;
-		padding: 5em 5em 10em 5em;
-		text-align: center;
-	}
+        background: #d7cab9;
+        color: #7c8081;
+        padding: 5em 5em 10em 5em;
+        text-align: center;
+    }
 
 		#footer .copyright {
 			font-size: 0.8em;
