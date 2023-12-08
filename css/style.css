@@ -631,9 +631,9 @@
 		}
 
         #main.blog .wrapper.style4 {
-            padding-top: 7em;
-            top: -5em;
-            position: relative;
+          padding-top: 7em;
+          top: 0;
+          position: relative;
         }
 
 		.wrapper.style4 .content {
@@ -644,7 +644,7 @@
             padding-top: 5em;
         }
 
-        .wrapper.style4 .content.blog {
+        .wrapper.style4.blog .content {
           padding-top: 0;
         }
 
