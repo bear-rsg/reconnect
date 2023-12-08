@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://bear-rsg.github.io/</loc>
-<lastmod>2023-12-08T10:53:44-00:00</lastmod>
+<lastmod>2023-12-08T11:25:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/blog.html</loc>
-<lastmod>2023-12-08T10:53:44-00:00</lastmod>
+<loc>https://bear-rsg.github.io/updates.html</loc>
+<lastmod>2023-12-08T11:25:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/projects_gallery.html</loc>
-<lastmod>2023-12-08T10:53:44-00:00</lastmod>
+<lastmod>2023-12-08T11:25:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/categories.html</loc>
-<lastmod>2023-12-08T10:53:44-00:00</lastmod>
+<lastmod>2023-12-08T11:25:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/tags.html</loc>
-<lastmod>2023-12-08T10:53:44-00:00</lastmod>
+<lastmod>2023-12-08T11:25:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/page_with_banner.html</loc>
-<lastmod>2023-12-08T10:53:44-00:00</lastmod>
+<lastmod>2023-12-08T11:25:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -88,21 +88,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/blog/blog-post-3</loc>
+<loc>https://bear-rsg.github.io/updates/blog-post-3</loc>
 <lastmod>2022-07-21T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/blog/blog-post-1</loc>
+<loc>https://bear-rsg.github.io/updates/blog-post-1</loc>
 <lastmod>2022-07-20T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/blog/blog-post-2</loc>
+<loc>https://bear-rsg.github.io/updates/blog-post-2</loc>
 <lastmod>2022-07-20T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
