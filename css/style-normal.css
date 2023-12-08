@@ -73,8 +73,8 @@
 }
 
 .logo a .txt {
-    position: relative;
-    top: 5px !important;
+  position: relative;
+  top: 4px !important;
 }
 
 #header nav ul {
