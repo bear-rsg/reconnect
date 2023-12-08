@@ -150,7 +150,7 @@
 		}
 
 		#main.blog header.special h2 {
-          top: 10em;
+          top: 5em;
           position: relative;
           color: #1d6373;
           z-index: 10000;
@@ -178,7 +178,10 @@
 		}
 
 		#main.blog header.special .icon {
-          top: 6.5em;
+          top: color: #fff;
+          font-size: 1.5em;
+          position: relative;
+          top: 2.1em;
         }
 
         header.special .icon:before {
