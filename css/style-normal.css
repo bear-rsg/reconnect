@@ -72,11 +72,6 @@
     padding-top: 10em;
 }
 
-#main.blog {
-    position: relative;
-    top: -35em;
-}
-
 .logo a .txt {
     position: relative;
     top: 5px !important;
