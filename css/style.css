@@ -319,6 +319,10 @@
       height: 120px;
     }
 
+    .style3 .image.feature {
+        background: #fff;
+    }
+
     .image.feature.project {
         border: 1px #cccdcb solid;
         height: 200px;
