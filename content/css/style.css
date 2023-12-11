@@ -312,7 +312,7 @@
         width: 100%;
     }
 
-    .gallery .image.feature {
+    #main.gallery .image.feature {
       display: block;
       margin: 0 0 2em 0;
       background: #1d6373;
@@ -341,7 +341,7 @@
         position: relative;
     }
 
-     #main.gallery .image.feature.project span.icon {
+    .gallery .image.feature.project span.icon {
         left: 36%;
     }
 
@@ -353,7 +353,6 @@
     .image.feature.project span.icon.fa-comment {
         top: 74px;
     }
-
 /* Icon */
 
 	.icon {
