@@ -321,6 +321,8 @@
 
     .style3 .image.feature {
         background: #fff;
+        height: unset;
+        margin: 0
     }
 
     .image.feature.project {
