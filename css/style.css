@@ -293,66 +293,67 @@
 		position: relative;
 	}
 
-		.image:before {
-			background: url("/reconnect/images/overlay.png");
-			content: '';
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
+    .image:before {
+        background: url("/reconnect/images/overlay.png");
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
 
-		.image.fit {
-			display: block;
-		}
+    .image.fit {
+        display: block;
+    }
 
-			.image.fit img {
-				display: block;
-				width: 100%;
-			}
+    .image.fit img {
+        display: block;
+        width: 100%;
+    }
 
-		.image.feature {
-          display: block;
-          margin: 0 0 2em 0;
-          background: #1d6373;
-          height: 120px;
-        }
+    .gallery .image.feature {
+      display: block;
+      margin: 0 0 2em 0;
+      background: #1d6373;
+      height: 120px;
+    }
 
-            .image.feature.project {
-                border: 1px #cccdcb solid;
-                height: 200px;
-                background: #1d6373;
-            }
+    .image.feature.project {
+        border: 1px #cccdcb solid;
+        height: 200px;
+        background: #1d6373;
+    }
 
-            .image.feature.project.alternate {
-                background: #d9ce3d;
-            }
+    .image.feature.project.alternate {
+        background: #d9ce3d;
+    }
 
-			.image.feature img {
-				display: block;
-				width: 100%;
-			}
+    .image.feature img {
+        display: block;
+        width: 100%;
+    }
 
-			.image.feature.project span.icon {
-                color: #fff;
-                font-size: 10em;
-                top: 84px;
-                position: relative;
-            }
+    .image.feature.project span.icon {
+        color: #fff;
+        font-size: 10em;
+        top: 84px;
+        position: relative;
+    }
 
-            .gallery .image.feature.project span.icon {
-                left: 36%;
-            }
+    .gallery .image.feature.project span.icon {
+        left: 36%;
+    }
 
-            .gallery .image.feature.project span.icon.fa-globe ,
-            .gallery .image.feature.project span.icon.fa-comment {
-                left: 32%;
-            }
+    .gallery .image.feature.project span.icon.fa-globe ,
+    .gallery .image.feature.project span.icon.fa-comment {
+        left: 32%;
+    }
 
-            .image.feature.project span.icon.fa-comment {
-                top: 74px;
-            }
+    .image.feature.project span.icon.fa-comment {
+        top: 74px;
+    }
+
 /* Icon */
 
 	.icon {
