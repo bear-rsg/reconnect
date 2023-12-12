@@ -637,7 +637,7 @@
 		}
 
         .wrapper.style2 .button:hover {
-            background: rgba(255, 255, 255, 0.15) !important;
+            background: rgb(159, 82, 75) !important;
         }
 
         .wrapper.style2 .button.special {
