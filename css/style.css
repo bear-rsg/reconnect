@@ -56,6 +56,7 @@
         font-weight: 800;
     }
 
+    .focus_highlight strong,
     #banner strong {
         font-weight: 600;
     }
