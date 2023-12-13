@@ -180,7 +180,7 @@ body, #skel-layers-wrapper {
     color: #486060;
 }
 
-.gallery section header h3 {
+.wrapper.style4 .content.gallery div div section header h3 {
   height: 3em;
   vertical-align: bottom;
   display: inline-block;
