@@ -53,12 +53,11 @@
 		}
 
 	strong, b {
-        font-weight: 800;
+        font-weight: 600;
     }
 
-    .focus_highlight strong,
-    #banner strong {
-        font-weight: 600;
+    #focus ul li strong {
+        font-weight: 800;
     }
 
 	p, ul, ol, dl, table, blockquote {
