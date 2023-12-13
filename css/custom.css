@@ -214,6 +214,19 @@ body, #skel-layers-wrapper {
     margin-right: 1em;
 }
 
+.style3 .authorinfo {
+  top: 0.5em;
+  position: relative;
+  text-align: center;
+  width: 400px;
+  padding-left: 20%;
+}
+
+.style3 .gallery_metadata {
+  position: relative;
+  top: -12px;
+}
+
 .project_author_detail {
     width: 20em;
     display: block;
