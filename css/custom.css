@@ -106,6 +106,10 @@ h3 {
     font-weight: bold;
 }
 
+#focus h3 {
+    color: #486060;
+}
+
 header.special .icon {
   # color: #7a893c;
   color: #fff;
