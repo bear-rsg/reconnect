@@ -24,7 +24,7 @@ h2 {
 }
 
 .button.special {
-  background: #295e5d;
+  background: inherit;
   border-color: #fff;
   color: #fff;
 }
