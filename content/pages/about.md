@@ -11,8 +11,8 @@ RE:Connect is a new project designed to help deepen teachers’ understanding an
 
 The project comes in three parts:
 
-*  ## **A survey of teachers of RE**, hearing their views on what part environmental concerns currently play in RE/Religions and Worldviews, and how this might be expanded in future.
-*  An innovative **Teacher Fellowship programme**, to run in autumn 2021/spring 2022, in which four primary and four secondary teachers from the WM region work together with experts in the field to deepen their subject knowledge and work together to create new resources for RE.<br><br>
+*  ## An innovative Teacher Fellowship programme, to run in autumn 2021/spring 2022, in which four primary and four secondary teachers from the WM region work together with experts in the field to deepen their subject knowledge and work together to create new resources for RE.
+*  **A survey of teachers of RE**, hearing their views on what part environmental concerns currently play in RE/Religions and Worldviews, and how this might be expanded in future.<br><br>
 *  A dissemination phase in which new resources are pilot-tested and fellowship programme participants are supported to become ambassadors for further work in this field.
 
 ### The People
