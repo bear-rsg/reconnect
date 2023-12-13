@@ -189,6 +189,32 @@ body, #skel-layers-wrapper {
     color: #8aa2a2;
 }
 
+.project_title {
+    font-size: medium;
+    color: #d95e52;
+}
+
+.authorinfo {
+    top: 0.5em;
+    position: relative;
+}
+
+project_author_img {
+    display: block;
+    color: white;
+    background: #1d6373;
+    height: 7em;
+    width: 5.5em;
+    margin: 0 1em 0 0;
+    float: left;
+}
+
+.project_author_detail {
+    width: 20em;
+    display: block;
+    height: 8em;
+}
+
 .image-billboard.small {
     height: 270px;
 }
