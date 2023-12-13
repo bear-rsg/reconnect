@@ -185,7 +185,11 @@ body, #skel-layers-wrapper {
     font-weight: bold;
     position: relative;
     top: -20px;
-    color: #8aa2a2;
+    color: #4d5a5a;
+}
+
+.gallery_metadata strong {
+    color: #1d6373;
 }
 
 .project_title {
