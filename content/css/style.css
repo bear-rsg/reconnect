@@ -1297,11 +1297,13 @@
 }
 
 .resource_highlight {
-    border: #adac3a 1px solid;
-    background: #fffede;
-    padding: 2em;
-    height: 400px;
+  border: #1d6373 1px solid;
+  background: #1d6373;
+  padding: 2em;
+  height: 400px;
+  color: white;
 }
+
 .resource_highlight h3 {
     color: #adac3a;
 }
