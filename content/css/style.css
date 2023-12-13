@@ -1287,7 +1287,7 @@
 
 .logo a .txt {
   position: relative;
-  top: 4px !important;
+  top: 0 !important;
 }
 
 .focus_highlight p {
