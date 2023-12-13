@@ -1307,3 +1307,7 @@
 .resource_highlight h3 {
     color: #fff;
 }
+
+#main.page .style4 div.content section ul {
+    width: 90%;
+}
