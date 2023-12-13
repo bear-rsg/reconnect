@@ -6,7 +6,7 @@ icon: cogs
 
 ### Featured content
 
-<div class="resource_highlight"><h3>Survey</h3><p>Details about the survey to go here.</p></div><br>
+<div class="resource_highlight"><h3>Survey</h3><p>Details about the survey to go here.</p></div>
 
 
 ### Resource Links
