@@ -194,6 +194,9 @@ body, #skel-layers-wrapper {
     color: #d95e52;
     margin-bottom: 0.5em;
 }
+.style3 h3 {
+    padding-top: 1em;
+}
 
 .gallerysubmenu {
     font-size: medium;
