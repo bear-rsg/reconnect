@@ -1293,6 +1293,8 @@
     padding: 2em;
 }
 
-.focus_highlight h2 {
+.focus_highlight p {
     margin-bottom: 0;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
 }
