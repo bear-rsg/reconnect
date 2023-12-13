@@ -215,6 +215,15 @@ project_author_img {
     height: 8em;
 }
 
+.project_author_img {
+    display: block;
+    width: 5.5em;
+    height: 7em;
+    float: left;
+    background: #1d6373;
+    margin-right: 1em;
+}
+
 .image-billboard.small {
     height: 270px;
 }
