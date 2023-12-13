@@ -1269,7 +1269,7 @@
 #banner_img {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #d9ce3d;
-  background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg"), url("/reconnect/images/overlay2.png");
+  background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg");
   background-position: bottom left, bottom right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
