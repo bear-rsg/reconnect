@@ -63,18 +63,17 @@ ul.feature-icons {
 }
 
 .image:before {
-    background: url("/reconnect/images/overlay2.png");
 }
 
 #cta {
-    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png");
+    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg");
     text-align: center;
     background-repeat: no-repeat, no-repeat, repeat;
     background-position: left, right, center;
 }
 
 #banner {
-    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png");
+    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg");
 }
 
 .wrapper.style2 {
