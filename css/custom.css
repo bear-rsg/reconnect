@@ -180,6 +180,12 @@ body, #skel-layers-wrapper {
     color: #486060;
 }
 
+.gallery section header h3 {
+  height: 3em;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
 .gallery_metadata {
     text-transform: uppercase;
     font-size: 0.7em;
