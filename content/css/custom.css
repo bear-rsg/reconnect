@@ -180,12 +180,6 @@ body, #skel-layers-wrapper {
     color: #486060;
 }
 
-#main.gallery section.style4 div.content.gallery div div section h3 {
-  height: 3em;
-  vertical-align: bottom;
-  display: inline-block;
-}
-
 .gallery_metadata {
     text-transform: uppercase;
     font-size: 0.7em;
@@ -214,7 +208,7 @@ body, #skel-layers-wrapper {
 project_author_img {
     display: block;
     color: white;
-    background: #1d6373;
+    background: url("/reconnect/images/person.png") #1e3050;
     height: 7em;
     width: 5.5em;
     margin: 0 1em 0 0;
