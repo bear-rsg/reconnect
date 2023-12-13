@@ -7,7 +7,7 @@ icon: globe
 
 RE:Connect is a new project designed to help deepen teachers’ understanding and confidence for exploring the environmental crisis through the lens of religions and worldviews in RE.
 
-<div class="focus_highlight"><h2>A primary focus for this project has been an innovative Teacher Fellowship programme, which ran in autumn 2021/spring 2022, in which four primary and four secondary teachers from the WM region worked together with experts in the field to deepen their subject knowledge and work together to create new resources for RE.</h2></div><br><br>
+<div class="focus_highlight"><h2>A primary focus for this project has been an innovative Teacher Fellowship programme, which ran in autumn 2021/spring 2022, in which four primary and four secondary teachers from the WM region worked together with experts in the field to deepen their subject knowledge and work together to create new resources for RE.</h2></div><br>
 
 ### Other Focus Areas
 
