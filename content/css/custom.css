@@ -192,6 +192,7 @@ body, #skel-layers-wrapper {
 .project_title {
     font-size: medium;
     color: #d95e52;
+    margin-bottom: 0.5em;
 }
 
 .authorinfo {
