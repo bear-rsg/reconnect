@@ -318,7 +318,7 @@
     .image.feature {
       display: block;
       margin: 0 0 2em 0;
-      background: #1d6373;
+      background: url("/reconnect/images/photo_lrg.png");
       height: 120px;
     }
 
