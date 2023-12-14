@@ -157,7 +157,8 @@ ul.feature-icons {
     padding-top: 4em;
 }
 #main.page,
-#main.gallery {
+#main.gallery,
+#main.blog {
     position: relative;
     top: -28em;
     width: 86%;
