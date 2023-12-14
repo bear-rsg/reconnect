@@ -9,7 +9,7 @@
 
 /* Basic */
 
-	body, #skel-layers-wrapper {
+	body {
 		# background: #d7cab9;
 		-webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
