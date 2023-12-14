@@ -156,3 +156,52 @@ ul.feature-icons {
     left: 7%;
     padding-top: 4em;
 }
+#main.page,
+#main.gallery {
+    position: relative;
+    top: -28em;
+    width: 86%;
+    left: 7%;
+    padding-top: 8em;
+}
+
+header.special .icon {
+    top: 2.6em;
+}
+
+header.special h2 {
+  top: 6em;
+}
+
+h1.logo {
+    top: 0;
+}
+
+#header nav {
+  top: 0.7em !important;
+}
+
+#header,
+#header h1 {
+  display: block;
+}
+
+#header nav {
+  display: none;
+}
+
+#header {
+    font-size: large;
+    z-index: 1;
+    text-align: right;
+    padding-top: 20px;
+}
+
+#sideButton {
+  top: 5px;
+  right: 0px;
+}
+
+#sidePanel {
+    z-index: 100000;
+}
