@@ -100,7 +100,15 @@
   padding-top: 8em;
 }
 
-#header h1 {
+h1.logo.responsive {
     display: none;
+}
+
+#main.page, #main.gallery, #main.blog {
+  position: relative;
+  top: -16em;
+  width: 100%;
+  left: 0;
+  padding-top: 8em;
 }
 
