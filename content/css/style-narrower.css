@@ -202,10 +202,6 @@ h1.logo {
   right: 0px;
 }
 
-#sidePanel {
-    z-index: 100000;
-}
-
 header.special .icon {
   font-size: 1.2em;
   top: 2.8em;
