@@ -19,7 +19,8 @@
     display: none !important;
 }
 
-#main {
+#main.page,
+#main.gallery {
     position: relative;
     top: -28em;
     width: 86%;
