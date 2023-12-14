@@ -154,12 +154,12 @@ ul.feature-icons {
     padding-top: 4em;
 }
 
-#main.page, #main.gallery, #main.blog {
-  position: relative;
-  top: -16em;
-  width: 100%;
-  left: 0;
-  padding-top: 8em;
+#main {
+    position: relative;
+    top: -28em;
+    width: 100%;
+    left: 0;
+    padding-top: 8em;
 }
 
 h1.logo.responsive {
