@@ -19,13 +19,11 @@
     display: none !important;
 }
 
-#main.page,
-#main.gallery {
-    position: relative;
-    top: -28em;
-    width: 86%;
-    left: 7%;
-    padding-top: 8em;
+#main {
+  position: relative;
+  top: -24em;
+  left: 7%;
+  padding-top: 5em;
 }
 
 header.special h2 {
