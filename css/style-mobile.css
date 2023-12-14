@@ -209,3 +209,15 @@ ul.feature-icons {
 ul.feature-icons {
     left: 0;
 }
+
+#main.page, #main.gallery, #main.blog {
+  position: relative;
+  top: -16em;
+  width: 100%;
+  left: 0;
+  padding-top: 8em;
+}
+
+h1.logo.responsive {
+    display: none;
+}
