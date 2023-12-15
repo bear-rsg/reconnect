@@ -305,3 +305,10 @@ header.special::before, header.special::after {
 #main.blog header.special .icon {
   top: 1.7em !important;
 }
+
+#main.blog  .image.feature {
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: 240px;
+}
