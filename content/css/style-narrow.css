@@ -121,6 +121,8 @@ h1.logo {
 #header,
 #header h1 {
   display: block;
+  font-size: 1em;
+  right: -0.6em;
 }
 
 #header nav {
