@@ -243,10 +243,6 @@ header.special h2 {
   position: relative;
 }
 
-#main.page {
-    top: -30em;
-}
-
 #main.home {
     background-image: none;
 }
