@@ -48,8 +48,9 @@
 			}
 
 		header p {
-			text-align: center;
-		}
+		  text-align: center;
+          top: 1.6em !important;
+        }
 
 	footer.major {
 		padding-top: 0;
@@ -126,6 +127,7 @@
 
 #banner .inner header h2 {
     font-size: 1.5em;
+    top:
 }
 
 #banner .inner p {
@@ -232,7 +234,7 @@ header.special {
 
 header.special h2 {
   z-index: 1;
-  top: 3em;
+  top: 3em !important;
 }
 
 #header {
