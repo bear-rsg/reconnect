@@ -312,3 +312,15 @@ header.special::before, header.special::after {
   height: 120px;
   width: 240px;
 }
+
+#main.about {
+  top: -14em !important;
+}
+
+#main.about header.special .icon {
+  top: 0.4em !important;
+}
+
+#main.about .wrapper.style4 .content {
+  padding-top: 0;
+}
