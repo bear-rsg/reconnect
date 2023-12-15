@@ -30,6 +30,7 @@ header.special h2 {
   top: 5.5em;
 }
 
+#main.blogcategory .image.feature,
 #main.blog .image.feature {
   margin-left: 0;
   margin-right: auto;
