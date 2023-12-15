@@ -29,3 +29,10 @@
 header.special h2 {
   top: 5.5em;
 }
+
+#main.blog .image.feature {
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: 263px;
+}
