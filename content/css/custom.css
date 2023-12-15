@@ -168,9 +168,9 @@ body {
 }
 
 #header.alt h1.logo {
-   font-size: 1.3em;
-   position: relative;
-   top: -15px;
+  font-size: 1em;
+  position: relative;
+  top: -15px;
 }
 
 .blogheader {
