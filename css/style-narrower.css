@@ -170,3 +170,8 @@ ul.feature-icons {
 h1.logo.responsive {
     display: none;
 }
+
+#main.blog .image.feature {
+  margin-left: auto;
+  margin-right: auto;
+}
