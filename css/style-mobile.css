@@ -251,9 +251,18 @@ header.special h2 {
   top: -14em !important;
 }
 
-#main.page header.special .icon,
-#main.blog header.special .icon {
+#main.page header.special .icon {
   top: 0.6em !important;
+}
+
+#main.blog header.special .icon {
+    top: 0 !important;
+}
+
+#main.blog .wrapper.style4 {
+  padding-top: 7em;
+  top: -2em;
+  position: relative;
 }
 
 #main.page header.special h2,
