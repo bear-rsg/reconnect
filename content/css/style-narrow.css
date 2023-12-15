@@ -172,6 +172,7 @@ h1.logo.responsive {
     top: -6px;
 }
 
+#main.blogcategory .image.feature,
 #main.blog .image.feature {
   margin-left: auto;
   margin-right: auto;
