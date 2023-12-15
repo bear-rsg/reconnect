@@ -251,3 +251,7 @@ header.special .icon {
   position: relative;
   top: 0.6em;
 }
+
+#header.alt h1.logo {
+    font-size: 1em;
+}
