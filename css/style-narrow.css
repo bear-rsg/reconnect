@@ -94,7 +94,8 @@
 
 #main.page,
 #main.gallery,
-#main.blog {
+#main.blog,
+#main.blogcategory {
     position: relative;
     top: -28em;
     width: 86%;
