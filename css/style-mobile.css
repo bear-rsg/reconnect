@@ -259,7 +259,7 @@ header.special h2 {
 }
 
 #main.blog header.special .icon {
-  top: 1.5em !important;
+  top: 0 !important;
 }
 
 #main.page .wrapper.style4,
