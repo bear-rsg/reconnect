@@ -1311,3 +1311,9 @@
 #main.page .style4 div.content section ul {
     width: 90%;
 }
+
+#main.blog .image.feature {
+  margin-left: 0;
+  height: 120px;
+  width: 263px;
+}
