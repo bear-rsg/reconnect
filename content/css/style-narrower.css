@@ -175,3 +175,16 @@ h1.logo.responsive {
   margin-left: auto;
   margin-right: auto;
 }
+
+#main.blogcategory .wrapper.style4, #main.blog .wrapper.style4 {
+  padding: 7em 3em 10em 3em;
+}
+
+#main.blogupdate {
+  top: -34em !important;
+  position: relative;
+}
+
+#main.blogupdate header.special .icon {
+  top: 5em !important;
+}
