@@ -253,10 +253,6 @@ header.special h2 {
     top: -12em !important;
 }
 
-#main.blog {
-  top: -16em !important;
-}
-
 #main.page header.special .icon {
   top: -0.8em !important;
 }
@@ -298,5 +294,5 @@ header.special::before, header.special::after {
 
 #main.blog header.special h2 + p {
   position: relative;
-  top: 5.5em !important;
+  top: 1.5em !important;
 }
