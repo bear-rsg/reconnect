@@ -48,8 +48,8 @@
 			}
 
 		header p {
-		  text-align: center;
-          top: 1.6em !important;
+          text-align: center;
+          top: 2.8em !important;
         }
 
 	footer.major {
@@ -259,6 +259,7 @@ header.special h2 {
     top: 0 !important;
 }
 
+#main.page .wrapper.style4,
 #main.blog .wrapper.style4 {
   padding-top: 7em;
   top: -2em;
