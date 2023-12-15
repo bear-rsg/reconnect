@@ -230,7 +230,6 @@ header.special {
 }
 
 header.special h2 {
-  top: 4em;
   z-index: 1;
 }
 
@@ -238,4 +237,17 @@ header.special h2 {
   background: #1d6373;
   color: #fff;
   position: relative;
+}
+
+#main.page {
+    top: -30em;
+}
+
+#banner_img {
+    background-image: none;
+}
+
+header.special .icon {
+  position: relative;
+  top: 2.4em;
 }
