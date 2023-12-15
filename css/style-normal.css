@@ -77,6 +77,10 @@
   top: 0 !important;
 }
 
+#header nav {
+  top: 0.8em !important;
+}
+
 #header nav ul {
     top: 0.2em;
     position: relative;
