@@ -164,3 +164,7 @@ h1.logo {
 #sidePanel {
     z-index: 100000;
 }
+
+h1.logo.responsive {
+    top: -6px;
+}
