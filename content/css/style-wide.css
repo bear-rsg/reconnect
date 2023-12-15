@@ -34,4 +34,6 @@ header.special h2 {
 #main.blog .image.feature {
   margin-left: 0;
   margin-right: auto;
+  height: 120px;
+  width: 246px;
 }
