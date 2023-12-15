@@ -162,6 +162,11 @@ ul.feature-icons {
     padding-top: 8em;
 }
 
+#sideButton {
+  top: 5px;
+  right: 0px;
+}
+
 h1.logo.responsive {
     display: none;
 }
