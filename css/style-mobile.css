@@ -306,11 +306,6 @@ header.special::before, header.special::after {
   top: -16em !important;
 }
 
-#main.blogcategory {
-  position: relative;
-  top: -12em !important;
-}
-
 #main.blogcategory header.special .icon,
 #main.blog header.special .icon {
   top: 1.7em !important;
@@ -351,4 +346,13 @@ header.special::before, header.special::after {
 .wrapper.style3 {
   top: 12em !important;
   position: relative;
+}
+
+#main.blogcategory {
+  position: relative;
+  top: -12em !important;
+}
+
+#main.blogcategory header.special .icon {
+    top: -0.6em !important;
 }
