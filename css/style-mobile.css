@@ -108,9 +108,12 @@
 		}
 
 		.wrapper.style4 {
-			background-size: 10em;
-			padding: 1.5em 1.5em 3em 1.5em;
-		}
+          background-size: 10em;
+          padding: 1.5em 1.5em 3em 1.5em;
+          padding-top: 1.5em;
+          top: 0 !important;
+          position: relative;
+        }
 
 /* Banner */
 
