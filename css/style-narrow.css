@@ -103,6 +103,10 @@
     padding-top: 8em;
 }
 
+#main.blogcategory {
+  top: -26em;
+}
+
 header.special .icon {
     top: 2.6em;
 }
