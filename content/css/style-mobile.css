@@ -247,6 +247,10 @@ header.special h2 {
     top: -30em;
 }
 
+#main.home {
+    background-image: none;
+}
+
 #banner_img {
     background-image: none;
 }
