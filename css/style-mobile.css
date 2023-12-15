@@ -264,9 +264,7 @@ header.special h2 {
 
 #main.page .wrapper.style4,
 #main.blog .wrapper.style4 {
-    padding-top: 3em
-  top: 0 !important;
-  position: relative;
+    padding-top: 3em;
 }
 
 #main.page .wrapper.style4 {
