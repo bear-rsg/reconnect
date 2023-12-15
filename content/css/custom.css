@@ -248,7 +248,8 @@ body {
 }
 
 #topPanel, #sidePanel {
-    background: #2b3f44;
+  background: #2b3f44;
+  z-index: 1000000 !important;
 }
 
 #header.reveal nav ul {
