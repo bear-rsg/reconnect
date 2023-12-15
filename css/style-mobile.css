@@ -296,3 +296,8 @@ header.special::before, header.special::after {
   position: relative;
   top: 1.5em !important;
 }
+
+#main.blog {
+  position: relative;
+  top: -16em !important;
+}
