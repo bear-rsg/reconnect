@@ -301,10 +301,14 @@ header.special::before, header.special::after {
   top: 5em !important;
 }
 
-#main.blogcategory,
 #main.blog {
   position: relative;
   top: -16em !important;
+}
+
+#main.blogcategory {
+  position: relative;
+  top: -12em !important;
 }
 
 #main.blogcategory header.special .icon,
