@@ -226,6 +226,16 @@ header.special {
   margin-bottom: 3em;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  top: 3em;
   background: #d9ce3d;
+}
+
+header.special h2 {
+  top: 4em;
+  z-index: 1;
+}
+
+#header {
+  background: #1d6373;
+  color: #fff;
+  position: relative;
 }
