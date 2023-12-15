@@ -17,10 +17,6 @@ body, #skel-layers-wrapper, #footer {
     background: url("/reconnect/images/climate_and_re_logo.png") 0 0 no-repeat;
 }
 
-#header nav {
-    top: 1.3em !important;
-}
-
 .icon {
     color: #4e7884;
 }
