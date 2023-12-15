@@ -175,3 +175,7 @@ h1.logo.responsive {
   margin-left: auto;
   margin-right: auto;
 }
+
+.wrapper.style2 {
+  top: -1em !important;
+}
