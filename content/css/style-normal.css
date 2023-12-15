@@ -85,3 +85,7 @@
     top: 0.2em;
     position: relative;
 }
+
+#main.blog .wrapper.style4 {
+  padding: 8em 3em 10em 3em;
+}
