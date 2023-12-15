@@ -180,6 +180,19 @@ h1.logo.responsive {
   margin-right: auto;
 }
 
+#main.blogupdate {
+    top: -18em !important;
+    position: relative;
+}
+
+#main.blogupdate header.special .icon {
+    top: 2em !important;
+}
+
+#main.blogupdate header.special h2 {
+  top: 8.5em !important;
+}
+
 .wrapper.style2 {
   top: -1em !important;
 }
