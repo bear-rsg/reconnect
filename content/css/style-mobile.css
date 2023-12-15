@@ -277,7 +277,7 @@ header.special h2 {
 
 #main.page header.special h2,
 #main.blog header.special h2 {
-  top: 6em !important;
+  top: 3em !important;
 }
 
 #banner_img {
