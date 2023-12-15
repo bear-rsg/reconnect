@@ -200,3 +200,7 @@ h1.logo.responsive {
 .wrapper.style2 {
   top: -1em !important;
 }
+
+#main.report header.special .icon {
+  top: 3em !important;
+}
