@@ -257,12 +257,14 @@ header.special h2 {
   top: -0.8em !important;
 }
 
+#main.blogcategory header.special .icon,
 #main.blog header.special .icon {
   top: 0 !important;
 }
 
 #main.page .wrapper.style4,
-#main.blog .wrapper.style4 {
+#main.blog .wrapper.style4,
+#main.blogcategory .wrapper.style4 {
     padding-top: 3em;
 }
 
@@ -271,6 +273,7 @@ header.special h2 {
   position: relative;
 }
 
+#main.blogcategory header.special h2,
 #main.blog header.special h2 {
   top: 6em !important;
 }
@@ -292,20 +295,24 @@ header.special::before, header.special::after {
   display: none;
 }
 
+#main.blogcategory header.special h2 + p,
 #main.blog header.special h2 + p {
   position: relative;
   top: 5em !important;
 }
 
+#main.blogcategory,
 #main.blog {
   position: relative;
   top: -16em !important;
 }
 
+#main.blogcategory header.special .icon,
 #main.blog header.special .icon {
   top: 1.7em !important;
 }
 
+#main.blogcategory .image.feature,
 #main.blog .image.feature {
   margin-left: auto;
   margin-right: auto;
