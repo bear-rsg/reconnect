@@ -269,7 +269,7 @@ header.special h2 {
 
 #main.page .wrapper.style4 {
   padding-top: 2em;
-  top: -2em;
+  top: -2em !important;
   position: relative;
 }
 
