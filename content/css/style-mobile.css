@@ -210,7 +210,7 @@ ul.feature-icons {
     left: 0;
 }
 
-#main.page, #main.gallery, #main.blog {
+#main {
   position: relative;
   top: -12em;
   width: 100%;
@@ -255,7 +255,7 @@ header.special .icon {
 }
 
 #header.alt h1.logo {
-    font-size: 1em;
+    font-size: 1em !important;
 }
 
 header.special::before, header.special::after {
