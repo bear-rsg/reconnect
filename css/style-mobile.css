@@ -336,3 +336,8 @@ header.special::before, header.special::after {
 .wrapper.style2 {
     top: 12em !important;
 }
+
+.wrapper.style3 {
+  top: 12em !important;
+  position: relative;
+}
