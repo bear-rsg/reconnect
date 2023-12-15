@@ -247,7 +247,8 @@ body {
     height: 520px;
 }
 
-#topPanel, #sidePanel {
+#topPanel,
+#sidePanel {
   background: #2b3f44;
   z-index: 1000000 !important;
 }
