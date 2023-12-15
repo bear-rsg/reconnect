@@ -306,7 +306,7 @@ header.special::before, header.special::after {
   top: 1.7em !important;
 }
 
-#main.blog  .image.feature {
+#main.blog .image.feature {
   margin-left: auto;
   margin-right: auto;
   height: 120px;
@@ -323,4 +323,14 @@ header.special::before, header.special::after {
 
 #main.about .wrapper.style4 .content {
   padding-top: 0;
+}
+
+#main.report header.special h2 {
+  z-index: 1;
+  top: 3em !important;
+}
+
+#main.report .wrapper.style4 {
+    padding-top: 1em !important;
+    position: relative;
 }
