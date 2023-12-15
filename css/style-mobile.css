@@ -127,7 +127,6 @@
 
 #banner .inner header h2 {
     font-size: 1.5em;
-    top:
 }
 
 #banner .inner p {
@@ -234,7 +233,7 @@ header.special {
 
 header.special h2 {
   z-index: 1;
-  top: 3em !important;
+  top: 4.4em !important;
 }
 
 #header {
