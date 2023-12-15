@@ -110,7 +110,7 @@
 		.wrapper.style4 {
           background-size: 10em;
           padding: 1.5em 1.5em 3em 1.5em;
-          padding-top: 1.5em;
+          padding-top: 5.5em !important;
           top: 0 !important;
           position: relative;
         }
@@ -272,7 +272,7 @@ header.special h2 {
 }
 
 #main.blog header.special h2 {
-  top: 3em !important;
+  top: 6em !important;
 }
 
 #banner_img {
@@ -294,10 +294,14 @@ header.special::before, header.special::after {
 
 #main.blog header.special h2 + p {
   position: relative;
-  top: 1.5em !important;
+  top: 5em !important;
 }
 
 #main.blog {
   position: relative;
   top: -16em !important;
+}
+
+#main.blog header.special .icon {
+  top: 1.7em !important;
 }
