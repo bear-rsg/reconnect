@@ -246,6 +246,18 @@ header.special h2 {
     background-image: none;
 }
 
+#main.page {
+  top: -14em !important;
+}
+
+#main.page header.special .icon {
+  top: 0.6em !important;
+}
+
+#main.page header.special h2 {
+  top: 4em !important;
+}
+
 #banner_img {
     background-image: none;
 }
