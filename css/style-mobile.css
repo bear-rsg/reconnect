@@ -292,7 +292,8 @@ header.special .icon {
 }
 
 #header.alt h1.logo {
-    font-size: 1em !important;
+  font-size: 0.8em !important;
+  right: -2em;
 }
 
 header.special::before, header.special::after {
