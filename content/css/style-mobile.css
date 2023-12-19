@@ -108,7 +108,7 @@
 		}
 
 		.wrapper.style4 .content.gallery {
-          padding-top: 2em;
+          padding-top: 0em;
         }
 
 		.wrapper.style4 {
@@ -340,6 +340,7 @@ header.special::before, header.special::after {
   padding-top: 0;
 }
 
+#main.gallery header.special h2,
 #main.report header.special h2 {
   z-index: 1;
   top: 3em !important;
