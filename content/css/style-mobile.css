@@ -353,7 +353,7 @@ header.special::before, header.special::after {
 
 #main.about header.special h2 {
   z-index: 1;
-  top: 4em !important;
+  top: 4.5em !important;
 }
 
 #main.report .wrapper.style4 {
