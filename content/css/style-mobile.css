@@ -272,10 +272,13 @@ header.special h2 {
   top: 0 !important;
 }
 
-#main.page .wrapper.style4,
 #main.blog .wrapper.style4,
 #main.blogcategory .wrapper.style4 {
     padding-top: 3em;
+}
+
+#main.page .wrapper.style4 {
+  padding-top: 1em !important;
 }
 
 #main.page .wrapper.style4 {
