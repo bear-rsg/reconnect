@@ -341,7 +341,7 @@ header.special::before, header.special::after {
 }
 
 #main.about .wrapper.style4 .content {
-  padding-top: 0;
+  padding-top: 4em !important;
 }
 
 #main.page header.special h2,
@@ -349,6 +349,11 @@ header.special::before, header.special::after {
 #main.report header.special h2 {
   z-index: 1;
   top: 3em !important;
+}
+
+#main.about header.special h2 {
+  z-index: 1;
+  top: 4em !important;
 }
 
 #main.report .wrapper.style4 {
