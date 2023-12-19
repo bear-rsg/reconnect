@@ -107,6 +107,7 @@
 			padding: 2.25em 1.5em;
 		}
 
+        .wrapper.style4 .content.page,
 		.wrapper.style4 .content.gallery {
           padding-top: 0em;
         }
@@ -340,6 +341,7 @@ header.special::before, header.special::after {
   padding-top: 0;
 }
 
+#main.page header.special h2,
 #main.gallery header.special h2,
 #main.report header.special h2 {
   z-index: 1;
