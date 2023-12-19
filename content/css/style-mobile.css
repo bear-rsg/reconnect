@@ -226,7 +226,8 @@ ul.feature-icons {
 }
 
 h1.logo.responsive {
-    display: none;
+  font-size: 1em !important;
+  right: -1em !important;
 }
 
 header.special {
@@ -294,6 +295,7 @@ header.special .icon {
 #header.alt h1.logo {
   font-size: 0.8em !important;
   right: -2em;
+  top: 0.04em;
 }
 
 header.special::before, header.special::after {
