@@ -226,8 +226,12 @@ ul.feature-icons {
 }
 
 h1.logo.responsive {
-  font-size: 1em !important;
+  font-size: 0.8em !important;
   right: -1em !important;
+}
+
+h1.logo a {
+  top: 0.2em !important;
 }
 
 header.special {
