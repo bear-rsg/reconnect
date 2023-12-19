@@ -170,6 +170,18 @@ h1.logo.responsive {
     display: none;
 }
 
+#header, #header h1 {
+  display: block;
+  font-size: 1.2em;
+  right: -0.6em;
+}
+
+#header.alt h1.logo {
+  font-size: 1.2em;
+  position: relative;
+  top: -18px;
+}
+
 #main.blog .image.feature,
 #main.blogcategory .image.feature {
   margin-left: auto;
