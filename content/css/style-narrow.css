@@ -164,8 +164,10 @@ header.special .icon {
     z-index: 1;
 }
 
-h1.logo {
-    font-size: large;
+#header.alt h1.logo {
+  font-size: 1.2em;
+  position: relative;
+  top: -27px;
 }
 
 #sidePanel {
