@@ -96,11 +96,11 @@
 #main.gallery,
 #main.blog,
 #main.blogcategory {
-    position: relative;
-    top: -28em;
-    width: 86%;
-    left: 7%;
-    padding-top: 8em;
+  position: relative;
+  top: -26em;
+  width: 86%;
+  left: 7%;
+  padding-top: 8em;
 }
 
 #main.blogcategory {
