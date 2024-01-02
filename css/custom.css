@@ -203,6 +203,7 @@ body {
 .authorinfo {
     top: 0.5em;
     position: relative;
+    text-align: left;
 }
 
 .project_author_img {
