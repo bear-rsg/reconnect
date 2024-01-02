@@ -52,6 +52,9 @@
           top: 2.8em !important;
         }
 
+        .style4.container > div.gallery section header {
+            text-align: left;
+        }
 	footer.major {
 		padding-top: 0;
 	}
