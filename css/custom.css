@@ -21,7 +21,7 @@ h1.logo {
 
 h1.logo a div.txt {
     position: relative;
-    top: 2px;
+    top: 2px !important;
 
 }
 
