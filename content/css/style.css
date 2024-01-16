@@ -1316,3 +1316,7 @@
   height: 120px;
   width: 246px;
 }
+
+ul {
+  margin: 0 0 2em 0;
+}
