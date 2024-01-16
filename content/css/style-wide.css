@@ -26,6 +26,10 @@
   padding-top: 5em;
 }
 
+ul {
+  margin: 0.1em 0 2em 0;
+}
+
 header.special h2 {
   top: 6em !important;
 }
