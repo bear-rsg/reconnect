@@ -27,7 +27,12 @@
 }
 
 header.special h2 {
-  top: 5.5em;
+  top: 6em !important;
+}
+
+#main.blog header.special h2 + p {
+  position: relative;
+  top: 5.6em;
 }
 
 #main.blogcategory .image.feature,
@@ -41,4 +46,12 @@ header.special h2 {
 #main.blogcategory .wrapper.style4,
 #main.blog .wrapper.style4 {
     padding: 7em 3em 10em 3em;
+}
+
+#main.blog header.special .icon {
+  top: 2.8em;
+}
+
+#main.blogupdate header.special .icon {
+  top: 5.5em;
 }
