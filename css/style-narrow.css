@@ -85,7 +85,7 @@
 
 .logo a .txt {
   position: relative;
-  top: 0;
+  top: -0.4em !important;
 }
 
 #header nav {
