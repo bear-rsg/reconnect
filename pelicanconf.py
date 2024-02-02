@@ -38,6 +38,9 @@ ARTICLE_SAVE_AS = 'updates/{slug}/index.html'
 # ARTICLE_URL = '{path}/{slug}.html'
 # ARTICLE_ORDER_BY = 'reversed-date'
 
+UPDATES_TAG = 'update'
+UPDATES_COUNT = 3
+
 DEFAULT_METADATA = { }
 
 # Don't need the author pages
