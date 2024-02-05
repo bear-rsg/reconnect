@@ -7,7 +7,9 @@ icon: user
 
 ### Current Team
 
-<strong>Jeremy Kidwell</strong>
+Insert current team profiles here with images
 
 
 ### Past Involvement
+
+Past profile info here
