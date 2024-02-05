@@ -30,8 +30,8 @@
 
                 <div class="content">
                     {% for article in articles %}
-                        {% if UPDATES_TAG in article.tags %}
-                            {% if loop.index <= UPDATES_COUNT %}
+                        {% if 'update' in article.tags %}
+                            {% if loop.index <= 3 %}
                                 <section>
                                     <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
                                     <header>
