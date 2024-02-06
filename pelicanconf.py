@@ -29,8 +29,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-DIRECT_TEMPLATES = ['index', 'updates', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'updates', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
+DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
 
 ARTICLE_URL = 'updates/{slug}'
 ARTICLE_SAVE_AS = 'updates/{slug}/index.html'
