@@ -1,9 +1,9 @@
 body, input, select, textarea {
-    color: #525656;
+    color: #2d3c3c;
 }
 
 a {
-    color: #CA4E10;
+    color: #c15449;
 }
 
 h2 {
@@ -15,36 +15,39 @@ h2 {
 }
 
 .wrapper.style2, .style2 h2 {
-    color: #4D2600;
+    color: #fffff;
 }
 
 #banner, #cta {
-    background-color: #0f3344;
-}
-
-.button.special {
-    background: #c16c11;
-    border-color: #fff;
+    background-color: #1d6373;
     color: #fff;
 }
 
+.button.special {
+  background: inherit;
+  border-color: #fff;
+  color: #fff;
+}
+
 .button.special:hover {
-    background: #f7e7de !important;
-    border-color: #c16c11 !important;
-    color: #c16c11 !important;
+    background: #eae7b6 !important;
+    border-color: #1d6373 !important;
+    color: #1d6373 !important;
 }
 
 #footer {
     color: #525656;
+    text-align: center;
 }
 
 #header {
-    background: #255A5F;
+  background: #1d6373;
+  color: #fff;
 }
 
 #header.reveal {
-    background: #fff !important;
-    color: #707171 !important;
+    background: #1d6373 !important;
+    color: #fefefe !important;
 }
 
 #header.alt.reveal {
