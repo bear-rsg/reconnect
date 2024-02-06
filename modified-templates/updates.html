@@ -7,36 +7,36 @@
 <section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
 
 <!-- Main -->
-<article id="main">
+<article id="main" class="blog">
 
     <header class="special container">
         <span class="icon fa-pencil"></span>
-        <h2>Blog</h2>
+        <h2>Updates</h2>
         <!-- add page sub title here -->
         <p>Archives</p>
     </header>
 
 
-    <section class="wrapper style4 container">
+    <section class="wrapper style4 container blog">
 
         <div class="row oneandhalf">
 
             <div class="8u">
 
                 <div class="welcometext">
-                    <div class="blogheader">Welcome to the RE:Connect Blog</div>
-                    <p>Here is where you will find exciting blog posts about RE:Connect</p>
+                    <div class="blogheader">Welcome to the RE:Connect Updates</div>
+                    <p>Here is where you will find exciting posts about RE:Connect</p>
                 </div>
 
                 <div class="content">
-                    {% for article in articles %}
-                    <section>
-                        <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
-                        <header>
-                            <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
-                        </header>
-                        <p>{{ article.summary|striptags }}</p>
-                    </section>
+                    {% for article in articles if 'update' in article.tag %}
+                            <section>
+                                <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
+                                <header>
+                                    <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
+                                </header>
+                                <p>{{ article.summary|striptags }}</p>
+                            </section>
                     {% endfor %}
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     </section>
 
                     <section>
-                        <a href="#" class="image feature"><img src="theme/images/pic04.jpg" alt="" /></a>
+                        <a href="#" class="image feature"></a>
                         <header>
                             <h3>Amet Lorem Tempus</h3>
                         </header>

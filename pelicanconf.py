@@ -29,14 +29,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'blog', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
+DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
 
-ARTICLE_URL = 'blog/{slug}'
-ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
+ARTICLE_URL = 'updates/{slug}'
+ARTICLE_SAVE_AS = 'updates/{slug}/index.html'
 # ARTICLE_SAVE_AS = '{slug}.html'
 # ARTICLE_URL = '{path}/{slug}.html'
 # ARTICLE_ORDER_BY = 'reversed-date'
+
+UPDATES_TAG = 'update'
+UPDATES_COUNT = 3
 
 DEFAULT_METADATA = { }
 
@@ -104,14 +107,15 @@ SLUGIFY_SOURCE = 'basename'
 DISPLAY_PAGES_ON_MENU = False
 
 USE_FOLDER_AS_CATEGORY = True
-ARCHIVES_URL = 'blog.html'
+ARCHIVES_URL = 'updates.html'
 
 THEME_TEMPLATES_OVERRIDES = ['modified-templates']
 
 MENUITEMS = (
     ('About', 'about.html'),
+    ('Alumni', 'alumni.html'),
     ('Projects Gallery', 'projects_gallery.html'),
     ('Report', 'report.html'),
     ('Resources', 'resources.html'),
-    ('Blog', 'blog.html'),
+    ('Updates', 'updates.html'),
 )

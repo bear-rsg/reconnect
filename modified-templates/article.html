@@ -7,10 +7,10 @@
 <section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
 
 <!-- Main -->
-<article id="main">
+<article id="main" class="blogupdate">
 
   <header class="special container">
-    <span class="icon fa-{{ article.icon }}"></span>
+    <span class="icon fa-pencil"></span>
     <h2>{{ article.title }}</h2>
     <!-- add page sub title here -->
     <p>Posted on {{ article.locale_date }} by {{ article.author }}</p>
@@ -22,7 +22,7 @@
 
       <!-- Content -->
         <div class="content">
-          <section>
+          <section class="blogupdate">
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
             <div class="blogsubheader">Posted in <a href="/reconnect/{{ article.category.url }}">{{ article.category }}</a></div>
             <p class="tags">
