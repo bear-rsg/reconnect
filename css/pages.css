@@ -1,6 +1,6 @@
 /* change of page display (not homepage) */
 body, #skel-layers-wrapper, #footer {
-    background: #d7cab9;
+    background: #e8eef4;
 }
 
 .container {
@@ -8,13 +8,18 @@ body, #skel-layers-wrapper, #footer {
 }
 
 #header {
-    background: #d9ce3d;
-    color: #1d6373;
+    # background: #939393;
+    background: rgb(78, 120, 132);
+    color: #fff;
     box-shadow: 0 1px 2px 0 rgba(54, 48, 48, 0.28);
 }
 
 #header h1.logo a div.img {
     background: url("/reconnect/images/climate_and_re_logo.png") 0 0 no-repeat;
+}
+
+#header nav {
+    top: 0.7em !important;
 }
 
 .icon {

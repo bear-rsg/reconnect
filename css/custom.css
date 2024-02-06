@@ -1,11 +1,12 @@
 /* custom changes to template layout */
 h1.logo {
-    font-size: 1.3em;
+    font-size: 1em;
     position: relative;
+    top: -2px;
 }
 
 #header {
-    color: #ffffff;
+    color: #737373;
 }
 
 #header h1.logo a div.img {
@@ -19,9 +20,14 @@ h1.logo {
     background: url("/reconnect/images/climate_and_re_logo.png") 0 0 no-repeat;
 }
 
+#header.alt h1.logo {
+    top: -15px;
+}
+
 h1.logo a div.txt {
     position: relative;
-    top: 2px !important;
+    left: 10px;
+    top: 2px;
 
 }
 
@@ -57,32 +63,24 @@ ul.feature-icons {
 }
 
 .image:before {
+    background: url("/reconnect/images/overlay2.png");
 }
 
 #cta {
-    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg");
-    text-align: center;
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-position: left, right, center;
+    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner5.jpg");
 }
 
 #banner {
-    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg");
+    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg"), url("/reconnect/images/overlay2.png"), url("/reconnect/images/banner5.jpg");
 }
 
 .wrapper.style2 {
-    background-color: #d95e52;
-    /* background-image: url("../images/light-bl2.svg"), url("../images/light-br.svg"); */
-    background-position: bottom left, bottom right;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 25em, 25em;
-    color: white;
-    position: relative;
-    top: 2em;
+    # background-color: #486060;
+    background-color: #c68744;
 }
 
 h2 {
-    color: #fff;
+    color: #486060;
     font-weight: bold;
 }
 
@@ -90,29 +88,14 @@ h2 {
     color: white;
 }
 
-#banner h2 {
-    color: #fff;
-}
-
 h3 {
-    color: #2d3c3c;
+    color: #486060;
     font-weight: bold;
 }
 
-#focus h3 {
-    color: #fff;
-}
-
 header.special .icon {
-  # color: #7a893c;
-  color: #fff;
-  font-size: 1.5em;
-  position: relative;
-  top: 2.1em;
-}
-
-#main.blogupdate header.special .icon {
-  top: 5em;
+    # color: #7a893c;
+    color: #486060;
 }
 
 #stpeters {
@@ -124,23 +107,17 @@ a {
 	color: #E87942;;
 }
 
-body {
-    background: #d7cab9;
+body, #skel-layers-wrapper {
+    background: #e8eef4;
 }
 
 #banner .inner {
-    background: #d9ce3d;
-    color: #425757;
-}
-
-#banner .inner header {
-    color: #fff;
+    background: rgba(98, 140, 153, 0.5);
 }
 
 .button.special, .button.special:hover {
-    background: #d9ce3d;
-    border-color: #fff;
-    color: #425757;
+    background: #f6a957;
+    border-color: #f6a957;
 }
 
 .image.feature:before {
@@ -164,74 +141,22 @@ body {
 }
 
 #header.alt h1.logo {
-  font-size: 1.2em;
-  position: relative;
-  top: -15px;
+   font-size: 1em;
+   position: relative;
+   top: -15px;
 }
 
 .blogheader {
     color: #486060;
 }
 
-.gallery_metadata {
+.gallerysubmenu {
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: bold;
     position: relative;
     top: -20px;
-    color: #4d5a5a;
-}
-
-.gallery_metadata strong {
-    color: #1d6373;
-}
-
-.project_title {
-    font-size: medium;
-    color: #d95e52;
-    margin-bottom: 0.5em;
-}
-.style3 h3 {
-    padding-top: 1em;
-}
-
-.gallerysubmenu {
-    font-size: medium;
-    color: #d95e52;
-}
-
-.authorinfo {
-    top: 0.5em;
-    position: relative;
-    text-align: left;
-}
-
-.project_author_img {
-    display: block;
-    width: 5.5em;
-    height: 7em;
-    float: left;
-    background: url("/reconnect/images/photo.png");
-    margin-right: 1em;
-}
-
-.style3 .authorinfo {
-  top: 0.5em;
-  position: relative;
-  text-align: left;
-  width: 400px;
-  padding-left: 20%;
-}
-
-.style3 .gallery_metadata {
-  position: relative;
-  top: -12px;
-}
-
-.project_author_detail {
-    width: 20em;
-    display: block;
-    height: 8em;
+    color: #8aa2a2;
 }
 
 .image-billboard.small {
@@ -242,10 +167,8 @@ body {
     height: 520px;
 }
 
-#topPanel,
-#sidePanel {
-  background: #2b3f44;
-  z-index: 1000000 !important;
+#topPanel, #sidePanel {
+    background: #2b3f44;
 }
 
 #header.reveal nav ul {
@@ -256,12 +179,4 @@ body {
 #header.alt.reveal nav ul {
     position: relative;
     top: 0px;
-}
-
-#header nav {
-  top: 0.3em !important;
-}
-
-#header.reveal #nav {
-    top: 0.8em !important;
 }

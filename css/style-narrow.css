@@ -77,136 +77,19 @@
 
 #main {
     position: relative;
-    top: 0;
+    top: -9em;
     width: 86%;
     left: 7%;
+    background: #fff;
     padding-top: 4em;
 }
 
+
 .logo a .txt {
-  position: relative;
-  top: -0.4em !important;
-}
-
-#header nav {
-    top: 1.3em !important;
-}
-
-#main.page,
-#main.gallery,
-#main.blog,
-#main.blogcategory {
-  position: relative;
-  top: -26em;
-  width: 86%;
-  left: 7%;
-  padding-top: 8em;
-}
-
-#main.blogcategory {
-  top: -26em;
-}
-
-header.special .icon {
-    top: 2.6em;
-}
-
-header.special h2 {
-  top: 6em;
-}
-
-h1.logo {
-    top: 0;
-}
-
-#header nav {
-  top: 0.7em !important;
-}
-
-#header,
-#header h1 {
-  display: block;
-  font-size: 1em;
-  right: -0.6em;
-}
-
-#header nav {
-  display: none;
-}
-
-#header {
-    font-size: large;
-    z-index: 1;
-    text-align: right;
-    padding-top: 20px;
-}
-
-#sideButton {
-  top: 5px;
-  right: 0px;
-}
-
-header.special .icon {
-  font-size: 1.2em;
-  top: 2.8em;
-}
-
-#banner_img {
-    top: 2.4em;
-}
-
-#main {
-    padding-top: 10em;
-}
-
-#header {
-    height: 60px;
-    z-index: 1;
-}
-
-#header.alt h1.logo {
-  font-size: 1.2em;
-  position: relative;
-  top: -27px;
-}
-
-#sidePanel {
-    z-index: 100000;
-}
-
-h1.logo.responsive {
-  top: -0.4em;
-}
-
-#main.blogcategory .sidebar,
-#main.blog .sidebar,
-#main.blogcategory .image.feature,
-#main.blog .image.feature {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#main.blogupdate {
-    top: -18em !important;
     position: relative;
+    top: 5px !important
 }
 
-#main.blogupdate header.special .icon {
-    top: 2em !important;
-}
-
-#main.blogupdate header.special h2 {
-  top: 8.5em !important;
-}
-
-.wrapper.style2 {
-  top: -1em !important;
-}
-
-#main.report {
-    top: -26em;
-}
-
-#main.report header.special .icon {
-    top: 2.3em !important;
+#header nav {
+    top: 1em !important;
 }
