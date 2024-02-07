@@ -22,7 +22,12 @@ h1.logo {
 h1.logo a div.txt {
     position: relative;
     top: 2px !important;
+}
 
+header.reveal h1.logo a div.txt {
+    position: relative;
+    top: 8px !important;
+    font-size: 1.1em;
 }
 
 ul li {
