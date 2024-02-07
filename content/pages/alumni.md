@@ -7,12 +7,10 @@ icon: user
 
 ### Current Team
 
-<a href="#jeremykidwell"></a>
-#### Dr Jeremy Kidwell
+<h4 id="jeremykidwell">Dr Jeremy Kidwell</h4>
 Senior Lecturer in Theological Ethics at the University of Birmingham
 
-<a href="#ianjones"></a>
-#### Dr Ian Jones
+<h4 id="ianjones">Dr Ian Jones</h4>
 St Peter's Saltley Trust
 
 TODO:
