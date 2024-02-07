@@ -18,7 +18,7 @@ The project also covers several important areas:
 
 ### The People
 
-The initiative is run by Dr Jeremy Kidwell, Senior Lecturer in Theological Ethics at the University of Birmingham and Dr Ian Jones of St Peter’s Saltley Trust, supported by a steering group of experienced primary and secondary specialists, environmental scientists and practitioners.
+The initiative is run by [Dr Jeremy Kidwell](/reconnect/alumni.html#jeremykidwell), Senior Lecturer in Theological Ethics at the University of Birmingham and [Dr Ian Jones](/reconnect/alumni.html#ianjones) of St Peter’s Saltley Trust, supported by a steering group of experienced primary and secondary specialists, environmental scientists and practitioners.
 
 ### Get involved
 
