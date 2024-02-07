@@ -31,9 +31,9 @@
 		padding: 4em 3em;
 	}
 
-		.wrapper.style4 {
-			padding: 3em;
-		}
+    .wrapper.style4 {
+        padding: 1em 3em;
+    }
 
 /* Header */
 
@@ -66,20 +66,31 @@
 
 #main {
     position: relative;
-    top: -9em;
+    top: -28em;
     width: 86%;
     left: 7%;
-    background: #fff;
-    padding-top: 4em;
+    padding-top: 10em;
 }
 
-
 .logo a .txt {
-    position: relative;
-    top: 5px !important;
+  position: relative;
+  top: 0 !important;
+}
+
+#header nav {
+  top: 0.3em !important;
 }
 
 #header nav ul {
-    top: 0.2em;
-    position: relative;
+  top: -0.1em;
+  position: relative;
+}
+
+#main.blog .wrapper.style4 {
+  padding: 8em 3em 10em 3em;
+}
+
+
+#main.blog header.special .icon {
+  top: 2em;
 }

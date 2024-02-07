@@ -20,10 +20,50 @@
 }
 
 #main {
-    position: relative;
-    top: -9em;
-    width: 86%;
-    left: 7%;
-    background: #fff;
-    padding-top: 4em;
+  position: relative;
+  top: -24em;
+  left: 7%;
+  padding-top: 5em;
+}
+
+ul {
+  margin: 0.2em 0 2em 0 !important;
+}
+
+header.special h2 {
+  top: 6em !important;
+}
+
+#main.blogupdate header.special h2 {
+  top: 8.5em !important;
+}
+
+
+#main.blog header.special h2 + p {
+  position: relative;
+  top: 5.6em;
+}
+
+#main.blogcategory .image.feature,
+#main.blog .image.feature {
+  margin-left: 0;
+  margin-right: auto;
+  height: 120px;
+  width: 246px;
+}
+
+#main.blogcategory .wrapper.style4 {
+    padding: 3em 3em 10em 3em;
+}
+
+#main.blog .wrapper.style4 {
+    padding: 7em 3em 10em 3em;
+}
+
+#main.blog header.special .icon {
+  top: 2.8em;
+}
+
+#main.blogupdate header.special .icon {
+  top: 5.5em;
 }
