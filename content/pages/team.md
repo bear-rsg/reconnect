@@ -5,7 +5,7 @@ slug: alumni
 icon: user
 
 
-### Current Team
+### Current RE:Connect Team
 
 <h4 id="jeremykidwell">Dr Jeremy Kidwell</h4>
 Senior Lecturer in Theological Ethics at the University of Birmingham
@@ -17,6 +17,6 @@ TODO:
 Insert additional current team profiles here and add images
 
 
-### Past Involvement
+### Fellowship Alumni
 
 Past profile info here

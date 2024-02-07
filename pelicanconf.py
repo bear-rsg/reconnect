@@ -113,7 +113,7 @@ THEME_TEMPLATES_OVERRIDES = ['modified-templates']
 
 MENUITEMS = (
     ('About', 'about.html'),
-    ('Alumni', 'alumni.html'),
+    ('Team/Alumni', 'team.html'),
     ('Projects Gallery', 'projects_gallery.html'),
     ('Report', 'report.html'),
     ('Resources', 'resources.html'),
