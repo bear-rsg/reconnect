@@ -1,9 +1,9 @@
 body, input, select, textarea {
-    color: #2d3c3c;
+    color: #525656;
 }
 
 a {
-    color: #c15449;
+    color: #CA4E10;
 }
 
 h2 {
@@ -15,39 +15,36 @@ h2 {
 }
 
 .wrapper.style2, .style2 h2 {
-    color: #fffff;
+    color: #4D2600;
 }
 
 #banner, #cta {
-    background-color: #1d6373;
-    color: #fff;
+    background-color: #0f3344;
 }
 
 .button.special {
-  background: inherit;
-  border-color: #fff;
-  color: #fff;
+    background: #c16c11;
+    border-color: #fff;
+    color: #fff;
 }
 
 .button.special:hover {
-    background: #eae7b6 !important;
-    border-color: #1d6373 !important;
-    color: #1d6373 !important;
+    background: #f7e7de !important;
+    border-color: #c16c11 !important;
+    color: #c16c11 !important;
 }
 
 #footer {
     color: #525656;
-    text-align: center;
 }
 
 #header {
-  background: #1d6373;
-  color: #fff;
+    background: #255A5F;
 }
 
 #header.reveal {
-    background: #1d6373 !important;
-    color: #fefefe !important;
+    background: #fff !important;
+    color: #707171 !important;
 }
 
 #header.alt.reveal {
