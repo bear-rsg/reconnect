@@ -1,7 +1,7 @@
 title: The RE:Connect Project Alumni
 date: 2024-03-05
-tags: alumni
-slug: alumni
+tags: team, alumni
+slug: team
 icon: user
 
 
