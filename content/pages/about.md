@@ -11,7 +11,7 @@ You can access these curriculum projects for use in your own teaching, or as ins
 
 We also provide a range of resources that project participants have found inspiring and helpful under [resources](https://bear-rsg.github.io/reconnect/resources.html).
 
-The programme is not just about getting ideas, but also enhancing teaching practice and expanding teacher's professional networks. Fellowship programme participants are supported to become ambassadors for further work in this field. You can meet our project team and fellowship alumni on our [about page](https://bear-rsg.github.io/reconnect/about.html).
+The programme is not just about getting ideas, but also enhancing teaching practice and expanding teacher's professional networks. Fellowship programme participants are supported to become ambassadors for further work in this field. You can meet our project team and fellowship alumni on our [team page](https://bear-rsg.github.io/reconnect/team.html).
 
 
 ### Get involved
