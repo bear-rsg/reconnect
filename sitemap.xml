@@ -5,49 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://bear-rsg.github.io/</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/updates.html</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/resources.html</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/projects_gallery.html</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/categories.html</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/tags.html</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/page_with_banner.html</loc>
-<lastmod>2024-02-09T09:29:13-00:00</lastmod>
+<lastmod>2024-02-09T09:30:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,10 +137,52 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://bear-rsg.github.io/updates/rebecca_wright</loc>
+<lastmod>2022-01-02T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/steph_chadwick</loc>
+<lastmod>2022-01-02T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/tom_breakwell</loc>
+<lastmod>2022-01-02T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/tony_kemp</loc>
+<lastmod>2022-01-02T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/zoe_higgins</loc>
+<lastmod>2022-01-02T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
 <loc>https://bear-rsg.github.io/updates/update-2</loc>
 <lastmod>2021-10-20T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/category/alumni-past.html</loc>
+<lastmod>2022-01-02T00:00:00-00:01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 
 <url>
