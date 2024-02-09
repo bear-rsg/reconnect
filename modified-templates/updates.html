@@ -54,7 +54,7 @@
                         </header>
                         <ul>
                             {% for cat_name, article_list in categories %}
-                                {% if 'update' in article_list.tag %}
+                                {% if 'update' in article_list.article.tag %}
                                     <li><a href="/reconnect/category/{{ cat_name }}">{{ cat_name }} ({{article_list|count}})</a></li>
                                 {% endif %}
                             {% endfor %}
