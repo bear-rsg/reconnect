@@ -53,8 +53,8 @@
                             <h3>Categories</h3>
                         </header>
                         <ul>
-                            {% for cat in article.categories %}
-                            <li><a href="/reconnect/category/{{ cat }}">{{ cat }}</a></li>
+                            {% for cat in categories %}
+                            <li><a href="/reconnect/category/{{ cat }}">{{ cat.shortname }}</a></li>
                             {% endfor %}
                         </ul>
                         <footer>
