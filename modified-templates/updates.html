@@ -12,6 +12,8 @@
     <header class="special container">
         <span class="icon fa-pencil"></span>
         <h2>Updates</h2>
+        <!-- add page sub title here -->
+        <p>&nbsp;</p>
     </header>
 
 
@@ -27,7 +29,8 @@
                 </div>
 
                 <div class="content">
-                    {% for article in articles if 'update' in article.tag %}
+                    {% for article in articles %}
+                        {% if 'update' in article.tag %}
                             <section>
                                 <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
                                 <header>
@@ -35,6 +38,7 @@
                                 </header>
                                 <p>{{ article.summary|striptags }}</p>
                             </section>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -49,9 +53,9 @@
                             <h3>Categories</h3>
                         </header>
                         <ul>
-                        {% for category in categories %}
+                            {% for category in categories %}
                             <li><a href="/reconnect/category/{{ category }}">{{ category }}</a></li>
-                        {% endfor %}
+                            {% endfor %}
                         </ul>
                         <footer>
                             <ul class="buttons">
