@@ -42,14 +42,13 @@
                 <div class="sidebar">
                     <section>
                         <header>
-                            <h3>Magna Feugiat</h3>
+                            <h3>Categories</h3>
                         </header>
-                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-                        <footer>
-                            <ul class="buttons">
-                                <li><a href="#" class="button small">Learn More</a></li>
-                            </ul>
-                        </footer>
+                        <ul>
+                            {% for cat_name, article_list in categories %}
+                            <li><a href="/reconnect/category/{{ cat_name }}">{{ cat_name }} ({{article_list|count}})</a></li>
+                            {% endfor %}
+                        </ul>
                     </section>
 
                     <section>
