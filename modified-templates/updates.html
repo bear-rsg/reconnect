@@ -53,8 +53,10 @@
                             <h3>Categories</h3>
                         </header>
                         <ul>
-                            {% for cat_name, article_list|groupby('tag') in categories %}
-                                <li><a href="/reconnect/category/{{ cat_name }}">{{ cat_name }} ({{article_list|count}})</a></li>
+                            {% for cat_name, article_list in categories %}
+                                {% if cat_name not in ['speaker', 'team-current', 'resource-category-1', 'alumni-current', 'alumni-past'] %}
+                                    <li><a href="/reconnect/category/{{ cat_name }}">{{ cat_name }} ({{article_list|count}})</a></li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     </section>
