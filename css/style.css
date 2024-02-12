@@ -511,17 +511,17 @@
 			width: 50%;
 		}
 
-			ul.feature-icons li .icon {
-				display: inline-block;
-				font-size: 6.25em;
-				height: 1.25em;
-				line-height: 1.25em;
-				width: 1em;
-			}
+        ul.feature-icons li .icon {
+            display: inline-block;
+            font-size: 6.25em;
+            height: 1.25em;
+            line-height: 1.25em;
+            width: 1em;
+        }
 
-	ul.buttons {
-		cursor: default;
-	}
+	    ul.buttons {
+    		text-align: center;
+    	}
 
 		ul.buttons:last-child {
 			margin-bottom: 0;
