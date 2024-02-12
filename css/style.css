@@ -338,6 +338,10 @@
         background: #d9ce3d;
     }
 
+    a.image.feature.project {
+      text-align: center;
+    }
+
     .image.feature img {
         display: block;
         width: 100%;
