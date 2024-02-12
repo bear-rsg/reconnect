@@ -338,7 +338,7 @@
         background: #d9ce3d;
     }
 
-    a.image.feature.project {
+    body.index a.image.feature.project {
       text-align: center;
     }
 
