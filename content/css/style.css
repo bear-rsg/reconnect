@@ -324,6 +324,10 @@
         margin: 0
     }
 
+    .style3 > div.row > div.6u > section > header {
+        text-align: left;
+    }
+
     .image.feature.project {
         border: 1px #cccdcb solid;
         height: 200px;
