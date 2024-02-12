@@ -1,20 +1,22 @@
     <section class="wrapper style1 container special">
         <div class="row">
-            {% for article in articles if 'update' in article.tag[:3] %}
-                <div class="4u">
-                    <section>
-                        <span class="icon feature fa-{{ article.icon }}"></span>
-                        <header>
-                            <a href="/reconnect/{{ article.url }}" rel='bookmark'><h3>{{ article.title }}</h3></a>
-                        </header>
-                        <p>{{ article.content[:194]|striptags }}...</p>
-                        <footer>
-                            <ul class="buttons">
-                              <li><a href="/reconnect/{{ article.url }}" class="button small">Read More</a></li>
-                            </ul>
-                        </footer>
-                        </section>
-                </div>
-          {% endfor %}
+            {% for article in articles if 'update' in article.tags %}
+                {% if loop.index <= 3 %}
+                    <div class="4u">
+                        <section>
+                            <span class="icon feature fa-{{ article.icon }}"></span>
+                            <header>
+                                <a href="/reconnect/{{ article.url }}" rel='bookmark'><h3>{{ article.title }}</h3></a>
+                            </header>
+                            <p>{{ article.content[:194]|striptags }}...</p>
+                            <footer>
+                                <ul class="buttons">
+                                  <li><a href="/reconnect/{{ article.url }}" class="button small">Read More</a></li>
+                                </ul>
+                            </footer>
+                            </section>
+                    </div>
+                {% endif %}
+            {% endfor %}
         </div>
     </section>
