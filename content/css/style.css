@@ -48,6 +48,11 @@
 		border-bottom: dotted 1px;
 	}
 
+	 a.category {
+	 	border: dotted 2px #E87942;
+	 	padding: 2px;
+	 }
+
 		a:hover {
 			border-bottom-color: dotted;
 		}
