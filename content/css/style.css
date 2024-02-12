@@ -332,6 +332,7 @@
         border: 1px #cccdcb solid;
         height: 200px;
         background: #1d6373;
+        text-align: center;
     }
 
     .image.feature.project.alternate {
@@ -626,6 +627,7 @@
 
 		.wrapper.style1 {
 			padding: 0;
+			text-align: left;
 		}
 
 		.wrapper.style2 {
@@ -637,6 +639,7 @@
 			color: white;
 			position: relative;
 			top: 2em;
+			text-align: left;
 		}
 
         .wrapper.style2 .button:hover {
