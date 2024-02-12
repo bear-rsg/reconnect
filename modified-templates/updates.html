@@ -36,8 +36,7 @@
                                 <header>
                                     <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
                                 </header>
-                                <p>Date: {{ article.locale_date }}</p>
-                                <p>Category:  <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category }}</a></p>
+                                <p>Date: {{ article.locale_date }}<br />Category:  <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category }}</a></p>
                                 <p>{{ article.summary|striptags }}</p>
                             </section>
                         {% endif %}
