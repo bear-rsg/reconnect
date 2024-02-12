@@ -29,6 +29,7 @@
                         <header>
                             <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
                         </header>
+                        <p><strong>Date:</strong> {{ article.locale_date }}</p>
                         <p>{{ article.summary|striptags }}</p>
                     </section>
                 {% endfor %}
