@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import sys
+
+from themes.elegant.documentation.pelicanconf import TAGS_URL
+from themes.lazystrap.pelicanconf import TAG_URL
+
 sys.path.append('.')
 
 from utils.filters import sidebar
@@ -103,6 +107,9 @@ LOGO = 'st_peters.png'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 SLUGIFY_SOURCE = 'basename'
+
+TAG_URL ('tag/{slug}.html')
+TAGS_URL ('tags.html')
 
 DISPLAY_PAGES_ON_MENU = False
 
