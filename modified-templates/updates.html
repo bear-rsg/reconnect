@@ -39,9 +39,6 @@
                                 <p>
                                     <strong>Date:</strong> {{ article.locale_date }}<br />
                                     <strong>Category:</strong> <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
-                                    {% if article.tags %}
-                                    <br /><span class="tags"><strong>Tags:</strong> {% for tag in article.tags %}<a href="/reconnect/{{ tag.url }}">{{ tag }}</a>{% endfor %}</span>
-                                    {% endif %}
                                 </p>
                                 <p>{{ article.summary|striptags }}</p>
                             </section>
