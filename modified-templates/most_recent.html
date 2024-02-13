@@ -1,6 +1,6 @@
     <section class="wrapper style1 container special">
         <div class="row">
-            {% for article in article_list if 'update' in article.tags %}
+            {% for article in articles if 'update' in article.tags %}
                 {% if loop.index <= 3 %}
                     <div class="4u">
                         <section>
