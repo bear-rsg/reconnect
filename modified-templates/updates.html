@@ -30,7 +30,7 @@
 
                 <div class="content">
                     {% for article in articles %}
-                        {% if 'update' in article.tag %}
+                        {% if 'update' in article.tags %}
                             <section>
                                 <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
                                 <header>
@@ -54,9 +54,9 @@
                             <h3>Categories</h3>
                         </header>
                         <ul class="categories">
-                            {% for cat_name, article_list in categories %}
-                                {% if not (cat_name == 'speaker' or cat_name == 'alumni-current' or cat_name == 'alumni-past' or cat_name == 'team-current' or cat_name == 'resource-category-1') %}
-                                    <li><a href="/reconnect/category/{{ cat_name }}" class="category">{{ cat_name|replace("-", " ") }} ({{article_list|count}})</a></li>
+                            {% for category, article_list in categories|sort %}
+                                {% if not (category == 'speaker' or category == 'alumni-current' or category == 'alumni-past' or category == 'team-current' or category == 'resource-category-1') %}
+                                    <li><a href="/reconnect/category/{{ category }}" class="category">{{ category|replace("-", " ") }} ({{article_list|count}})</a></li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
