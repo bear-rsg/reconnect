@@ -24,21 +24,23 @@
         <div class="content">
           <section class="blogupdate">
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            {% for category, articles in categories if 'team-current' in category %}
-            <div class="4u">
-              <section>
-                <span class="icon feature fa-{{ article.icon }}"></span>
-                <header>
-                  <a href="/reconnect/{{ article.url }}" rel='bookmark'><h3>{{ article.title }}</h3></a>
-                </header>
-                <p>{{ article.content[:194]|striptags }}...</p>
-                <footer>
-                  <ul class="buttons">
-                    <li><a href="/reconnect/{{ article.url }}" class="button small">Learn More</a></li>
-                  </ul>
-                </footer>
-              </section>
-            </div>
+            {% for article in articles %}
+              {% if 'team-current' in article.category %}
+                <div class="4u">
+                  <section>
+                    <span class="icon feature fa-{{ article.icon }}"></span>
+                    <header>
+                      <a href="/reconnect/{{ article.url }}" rel='bookmark'><h3>{{ article.title }}</h3></a>
+                    </header>
+                    <p>{{ article.content[:194]|striptags }}...</p>
+                    <footer>
+                      <ul class="buttons">
+                        <li><a href="/reconnect/{{ article.url }}" class="button small">Learn More</a></li>
+                      </ul>
+                    </footer>
+                  </section>
+                </div>
+              {% endif %}
             {% endfor %}
           </section>
         </div>
