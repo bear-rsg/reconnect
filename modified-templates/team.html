@@ -11,10 +11,10 @@
 
   <header class="special container">
     <span class="icon fa-pencil"></span>
-    <h2>{{ article.title }}</h2>
+    <h2>Team</h2>
     <!-- add page sub title here -->
-    <p>Posted on {{ article.locale_date }} by {{ article.author }}</p>
-    <p>{{ article.icon }}</p>
+    <p></p>
+    <p>{{ page.icon }}</p>
   </header>
 
   <!-- One -->
@@ -24,7 +24,7 @@
         <div class="content">
           <section class="blogupdate">
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            {% for article in articles if 'jeremy_kidwell.md' in article.category %}
+            {% for article in articles if 'team-current' in article.category %}
             <div class="4u">
               <section>
                 <span class="icon feature fa-{{ article.icon }}"></span>
