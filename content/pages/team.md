@@ -3,7 +3,6 @@ date: 2024-03-05
 tags: team, alumni
 slug: team
 icon: user
-template: team.html
 
 ### Current RE:Connect Team
 
