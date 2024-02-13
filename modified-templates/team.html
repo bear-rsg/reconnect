@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title|striptags }} | {{ super() }}{% endblock title %}
+
+{% block content %}
+<!-- Banner -->
+<section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
+
+<!-- Main -->
+<article id="main" class="blogupdate">
+
+  <header class="special container">
+    <span class="icon fa-pencil"></span>
+    <h2>{{ article.title }}</h2>
+    <!-- add page sub title here -->
+    <p>Posted on {{ article.locale_date }} by {{ article.author }}</p>
+    <p>{{ article.icon }}</p>
+  </header>
+
+  <!-- One -->
+    <section class="wrapper style4 container">
+
+      <!-- Content -->
+        <div class="content">
+          <section class="blogupdate">
+            <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
+            {% for article in articles if 'jeremy_kidwell.md' in article.category %}
+            <div class="4u">
+              <section>
+                <span class="icon feature fa-{{ article.icon }}"></span>
+                <header>
+                  <a href="/reconnect/{{ article.url }}" rel='bookmark'><h3>{{ article.title }}</h3></a>
+                </header>
+                <p>{{ article.content[:194]|striptags }}...</p>
+                <footer>
+                  <ul class="buttons">
+                    <li><a href="/reconnect/{{ article.url }}" class="button small">Learn More</a></li>
+                  </ul>
+                </footer>
+              </section>
+            </div>
+            {% endfor %}
+          </section>
+        </div>
+
+    </section>
+
+    <!-- Two -->
+    {% include 'most_recent.html' %}
+
+  </article>
+
+{% if DISQUS_SITENAME %}
+  <div id="comments">
+      <h2 class="space-above">Comments</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          var disqus_identifier = "{{ article.url }}";
+          (function() {
+              var dsq = document.createElement('script');
+              dsq.type = 'text/javascript';
+              dsq.async = true;
+              dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view <a href="http://disqus.com/?ref_noscript">comments</a>.</noscript>
+  </div>
+{% endif %}
+
+{% endblock content %}
