@@ -493,6 +493,7 @@
     ul.categories li {
         padding: 0.2em 0;
         list-style: none;
+        left: 0;
     }
 
 	ul.icons {
