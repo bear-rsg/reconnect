@@ -24,7 +24,7 @@
         <div class="content">
           <section class="blogupdate">
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            {% for article in articles if 'team-current' in article.category %}
+            {% for category, articles in categories if 'team-current' in category %}
             <div class="4u">
               <section>
                 <span class="icon feature fa-{{ article.icon }}"></span>
