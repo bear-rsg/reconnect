@@ -22,12 +22,16 @@
 
             <div class="8u">
                 <div class="content">
-                    <h2>Tags for {{ SITENAME }}</h2>
-                    <ul>
-                        {% for tag, articles in tags|sort %}
-                        <li><a href="/reconnect/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
-                        {% endfor %}
-                    </ul>
+                    {% for article in articles %}
+                    <section>
+                        <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
+                        <header>
+                            <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
+                        </header>
+                        <p><strong>Date:</strong> {{ article.locale_date }}</p>
+                        <p>{{ article.summary|striptags }}</p>
+                    </section>
+                    {% endfor %}
                 </div>
             </div>
 
