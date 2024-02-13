@@ -48,7 +48,7 @@
                         <ul class="categories">
                             {% for cat_name, article_list in categories %}
                                 {% if not (cat_name == 'speaker' or cat_name == 'alumni-current' or cat_name == 'alumni-past' or cat_name == 'team-current' or cat_name == 'resource-category-1') %}
-                                    <li><a href="/reconnect/category/{{ cat_name }}">{{ cat_name }} ({{article_list|count}})</a></li>
+                                    <li><a href="/reconnect/category/{{ cat_name }}" class="category">{{ cat_name }} ({{article_list|count}})</a></li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
