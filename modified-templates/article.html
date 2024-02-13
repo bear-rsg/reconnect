@@ -26,8 +26,8 @@
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
             <div class="blogsubheader">Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a></div>
             <p class="tags">
-            {% if article.tags %}
-              {% for tag in article.tags %}
+            {% if article.tag %}
+              {% for tag in article.tag %}
                 <a href="/reconnect/{{ tag.url }}">{{ tag }}</a>
               {% endfor %}
             {% endif %}</p>
