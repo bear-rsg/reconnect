@@ -24,13 +24,15 @@
         <div class="content">
           <section class="blogupdate">
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            <div class="blogsubheader">Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a></div>
-            <p class="tags">
+            <div class="blogsubheader">
+              Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
             {% if article.tags %}
-              {% for tag in article.tags %}
+              <p class="tags">
+              Tags: {% for tag in article.tags %}
                 <a href="/reconnect/{{ tag.url }}">{{ tag }}</a>
               {% endfor %}
-            {% endif %}</p>
+              </p>
+            {% endif %}</div>
             <p>{{ article.content }}</p>
           </section>
         </div>
