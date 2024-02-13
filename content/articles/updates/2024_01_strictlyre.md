@@ -1,6 +1,6 @@
 title: Project Members Presenting at Strictly RE
 date: 2024-01-27
-tag: update
+tags: update
 category: presentations
 
 ### Project Members Presenting at Strictly RE

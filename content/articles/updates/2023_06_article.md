@@ -1,6 +1,6 @@
 title: Article by Ian Jones and Jeremy Kidwell out in RE Today
 date: 2023-06-28
-tag: update
+tags: update
 category: outputs
 
 ### Article by Ian Jones and Jeremy Kidwell out in RE Today

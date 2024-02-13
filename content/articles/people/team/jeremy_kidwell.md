@@ -1,6 +1,6 @@
 title: Jeremy Kidwell
 date: 2022-01-02
-tag: alumni, past
+tags: alumni, past
 category: team-current
 person: jeremy
 

@@ -1,6 +1,6 @@
 title: Person 1
 date: 2024-01-02
-tag: alumni, current
+tags: alumni, current
 category: alumni-current
 
 

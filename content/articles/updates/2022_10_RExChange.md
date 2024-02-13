@@ -1,6 +1,6 @@
 title: RE:Connect at RExChange 2022
 date: 2022-10-20
-tag: update
+tags: update
 category: presentations
 
 ### RE:Connect at RExChange 2022

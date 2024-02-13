@@ -1,6 +1,6 @@
 title: A new cohort begins!
 date: 2023-09-19
-tag: update
+tags: update
 category: cohort2024
 
 ### A new cohort begins!

@@ -1,6 +1,6 @@
 title: Nick Adams
 date: 2022-01-02
-tag: speaker
+tags: speaker
 category: speaker
 person: nick_adams
 

@@ -1,6 +1,6 @@
 title: Steph Chadwick
 date: 2022-01-02
-tag: alumni, past
+tags: alumni, past
 category: alumni-past
 
 

@@ -1,6 +1,6 @@
 title: First session of the inaugural RE:Connect Teacher Fellowship Programme
 date: 2021-10-20
-tag: update
+tags: update
 category: cohort2022
 
 ### First session of the inaugural RE:Connect Teacher Fellowship Programme

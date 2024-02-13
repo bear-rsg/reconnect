@@ -1,6 +1,6 @@
 title: Article by Zoe Higgins out in RE Today
 date: 2022-06-28
-tag: update
+tags: update
 category: outputs
 
 ### Article by Zoe Higgins out in RE Today

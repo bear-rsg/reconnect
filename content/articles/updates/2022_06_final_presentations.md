@@ -1,6 +1,6 @@
 title: RE:Connect End of Programme Presentation Day
 date: 2022-06-28
-tag: update
+tags: update
 category: 2022cohort
 
 ### RE:Connect End of Programme Presentation Day

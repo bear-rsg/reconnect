@@ -1,6 +1,6 @@
 title: Resource 1
 date: 2024-01-02
-tag: resource
+tags: resource
 category: resource-category-1
 
 ### Resource 1 
