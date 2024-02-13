@@ -31,7 +31,7 @@ AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
 DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'team', 'page_with_banner']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
+PAGINATED_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
 
 ARTICLE_URL = 'updates/{slug}'
 ARTICLE_SAVE_AS = 'updates/{slug}/index.html'
@@ -82,7 +82,7 @@ STATIC_PATHS = ['images', 'css', 'js', 'files']
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['sitemap', 'pelican-page-hierarchy', 'category_order', 'optimize_images', 'gzip_cache',
-           'pelican_vimeo', 'more-categories']
+           'pelican_vimeo']
 
 SITEMAP = {
     'format': 'xml',
