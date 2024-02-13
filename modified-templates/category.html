@@ -29,7 +29,11 @@
                         <header>
                             <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
                         </header>
-                        <p><strong>Date:</strong> {{ article.locale_date }}</p>
+                        <p><strong>Date:</strong> {{ article.locale_date }}
+                            {% if article.tags %}
+                            <br /><span class="tags"><strong>Tags:</strong> {% for tag in article.tags %}<a href="/reconnect/{{ tag.url }}">{{ tag }}</a>{% endfor %}</span>
+                            {% endif %}
+                        </p>
                         <p>{{ article.summary|striptags }}</p>
                     </section>
                 {% endfor %}
