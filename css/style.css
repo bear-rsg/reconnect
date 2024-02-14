@@ -154,6 +154,10 @@
             color: #1d6373;
 		}
 
+		#main.resources header.special h2 {
+          top: 7em;
+        }
+
 		#main.blog header.special h2 {
           top: 5.5em;
           position: relative;
@@ -1000,6 +1004,10 @@
       width: 86%;
       left: 7%;
       padding-top: 10em;
+    }
+
+    #main.resources {
+        top: -31em;
     }
 
 		#main > :last-child {
