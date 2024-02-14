@@ -3,7 +3,6 @@ date: 2022-07-20
 tags: resources
 slug: resources
 icon: cogs
-template: resources
 
 
 ### Resource Links
