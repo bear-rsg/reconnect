@@ -1,4 +1,4 @@
-title: Resource 1 Title
+title: Resource 2 Title
 date: 2024-01-02
 tags: resource
 category: resources
