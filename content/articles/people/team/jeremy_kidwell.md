@@ -5,6 +5,6 @@ category: people
 person: jeremy
 
 ![](../../../images/team/jeremy_kidwell.jpg)
-## Jeremy Kidwell
+#### Jeremy Kidwell
 
 Jeremy Kidwell is an associate professor in theological ethics at the University of Birmingham.
