@@ -1,0 +1,15 @@
+title: Introduction to climate change and different responses
+date: 2022-01-02
+slug: introtoclimatechange
+tags: project
+category: projects
+color_style: alternate
+icon: comment
+project_title: KS3 Curriculum Project</div>
+author_img: test
+author: Second Author
+school: Different School 
+location: Other Place
+file: intro_to_climate_change
+
+<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>

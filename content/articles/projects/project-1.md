@@ -3,7 +3,7 @@ date: 2022-01-02
 slug: peopleandtheplanet
 tags: project
 category: projects
-color: blue
+color_style: 
 icon: globe
 project_title: KS3 Curriculum Project</div>
 author_img: test

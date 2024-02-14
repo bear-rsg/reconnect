@@ -23,7 +23,7 @@
                 {% for article in articles if 'project' in article.tags %}
                     <div class="6u">
                         <section>
-                            <a href="#" class="image feature project" id="{{ article.slug }}">
+                            <a href="#" class="image feature project {{ article.color_style }}" id="{{ article.slug }}">
                                 <span class="icon fa-{{ article.icon }}"></span>
                             </a>
                             <header>
