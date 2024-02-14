@@ -26,14 +26,20 @@
                 <div class="content">
                     <section>
                         <h3>Current Team</h3>
-                        {% for article in articles if 'resource-type-1' in article.tags %}
+                        {% for article in articles if 'team-current' in article.tags %}
                             <p>{{ article.summary }}</p>
                         {% endfor %}
 
-                        <h3>Resource Type 2</h3>
-                        {% for article in articles if 'resource-type-2' in article.tags %}
+                        <h3>Speakers</h3>
+                        {% for article in articles if 'speaker' in article.tags %}
                         <p>{{ article.summary }}</p>
                         {% endfor %}
+
+                        <h3>Alumni</h3>
+                        {% for article in articles if 'alumni' in article.tags %}
+                        <p>{{ article.summary }}</p>
+                        {% endfor %}
+
                     </section>
                 </div>
             </div>
