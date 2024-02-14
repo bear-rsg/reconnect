@@ -30,8 +30,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # PATH_METADATA = 'articles/(?P<path>.*)\..*'
-DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
-PAGINATED_DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
+DIRECT_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'team', 'page_with_banner']
+PAGINATED_TEMPLATES = ['index', 'updates', 'resources', 'projects_gallery', 'categories', 'tags', 'page_with_banner']
 
 ARTICLE_URL = 'updates/{slug}'
 ARTICLE_SAVE_AS = 'updates/{slug}/index.html'
@@ -123,3 +123,5 @@ MENUITEMS = (
     ('Resources', 'resources.html'),
     ('Updates', 'updates.html'),
 )
+
+CUSTOM_MENU_ORDER = ['about', 'team-current', 'projects_gallery', 'report', 'resources', 'updates']
