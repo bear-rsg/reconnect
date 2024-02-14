@@ -7,7 +7,7 @@
 <section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
 
 <!-- Main -->
-<article id="main" class="blog">
+<article id="main" class="resources">
 
     <header class="special container">
         <span class="icon fa-cog"></span>
@@ -24,7 +24,7 @@
             <div class="12u">
 
                 <div class="content">
-                    {% for article in articles %}
+                    {% for article in articles if 'resource' in article.tags %}
                             <section>
                                 <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
                                 <header>
