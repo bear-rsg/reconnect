@@ -123,5 +123,3 @@ MENUITEMS = (
     ('Resources', 'resources.html'),
     ('Updates', 'updates.html'),
 )
-
-CUSTOM_MENU_ORDER = ['about', 'team-current', 'projects_gallery', 'report', 'resources', 'updates']
