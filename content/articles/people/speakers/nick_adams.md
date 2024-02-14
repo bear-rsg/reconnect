@@ -1,7 +1,7 @@
 title: Nick Adams
 date: 2022-01-02
 tags: speaker
-category: speaker
+category: people
 person: nick_adams
 
 ![](C:\Dev\reconnect-pelican\content\images\pic03.jpg)

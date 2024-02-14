@@ -1,10 +1,10 @@
 title: Jeremy Kidwell
 date: 2022-01-02
-tags: alumni, past
-category: team-current
+tags: team, current, team-current
+category: people
 person: jeremy
 
-![](C:\Dev\reconnect-pelican\content\images\pic03.jpg)
+![](../../../images/team/jeremy_kidwell.jpg)
 ## Jeremy Kidwell
 
 Jeremy Kidwell is an associate professor in theological ethics at the University of Birmingham.

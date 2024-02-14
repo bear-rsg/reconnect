@@ -1,73 +1,47 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page.title|striptags }} | {{ super() }}{% endblock title %}
+{% block title %}Team | {{ super() }}{% endblock title %}
 
 {% block content %}
 <!-- Banner -->
 <section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
 
 <!-- Main -->
-<article id="main" class="blogupdate">
+<article id="main" class="resources">
 
-  <header class="special container">
-    <span class="icon fa-pencil"></span>
-    <h2>Team</h2>
-    <!-- add page sub title here -->
-    <p></p>
-    <p>{{ page.icon }}</p>
-  </header>
+    <header class="special container">
+        <span class="icon fa-cog"></span>
+        <h2>Team</h2>
+        <!-- add page sub title here -->
+        <p></p>
+    </header>
 
-  <!-- One -->
-    <section class="wrapper style4 container">
 
-      <!-- Content -->
-        <div class="content">
-          <section class="blogupdate">
-            <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
-            {% for article in articles %}
-              {% if 'team-current' in article.category %}
-                <div class="4u">
-                  <section>
-                    <span class="icon feature fa-{{ article.icon }}"></span>
-                    <header>
-                      <a href="/reconnect/{{ article.url }}" rel='bookmark'><h3>{{ article.title }}</h3></a>
-                    </header>
-                    <p>{{ article.content[:194]|striptags }}...</p>
-                    <footer>
-                      <ul class="buttons">
-                        <li><a href="/reconnect/{{ article.url }}" class="button small">Learn More</a></li>
-                      </ul>
-                    </footer>
-                  </section>
+    <section class="wrapper style4 container resources">
+
+        <div class="row oneandhalf">
+
+            <div class="12u">
+
+                <div class="content">
+                    <section>
+                        <h3>Current Team</h3>
+                        {% for article in articles if 'resource-type-1' in article.tags %}
+                            <p>{{ article.summary }}</p>
+                        {% endfor %}
+
+                        <h3>Resource Type 2</h3>
+                        {% for article in articles if 'resource-type-2' in article.tags %}
+                        <p>{{ article.summary }}</p>
+                        {% endfor %}
+                    </section>
                 </div>
-              {% endif %}
-            {% endfor %}
-          </section>
+            </div>
+
         </div>
-
     </section>
+</article>
 
-    <!-- Two -->
-    {% include 'most_recent.html' %}
-
-  </article>
-
-{% if DISQUS_SITENAME %}
-  <div id="comments">
-      <h2 class="space-above">Comments</h2>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-          var disqus_identifier = "{{ article.url }}";
-          (function() {
-              var dsq = document.createElement('script');
-              dsq.type = 'text/javascript';
-              dsq.async = true;
-              dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view <a href="http://disqus.com/?ref_noscript">comments</a>.</noscript>
-  </div>
-{% endif %}
+{% include 'cta.html' %}
 
 {% endblock content %}

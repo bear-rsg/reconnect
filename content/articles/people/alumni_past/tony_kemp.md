@@ -1,7 +1,7 @@
 title: Tony Kemp
 date: 2022-01-02
-tags: alumni, past
-category: alumni-past
+tags: alumni, past, alumni-past
+category: people
 
 
 ![](C:\Dev\reconnect-pelican\content\images\pic03.jpg)

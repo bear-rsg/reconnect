@@ -1,7 +1,7 @@
 title: Person 2
 date: 2024-01-02
-tags: alumni, current
-category: alumni-current
+tags: alumni, current, alumni-current
+category: people
 
 
 ![](C:\Dev\reconnect-pelican\content\images\pic02.jpg)
