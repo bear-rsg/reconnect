@@ -26,11 +26,22 @@
                 <div class="content">
                     {% for article in articles if 'resource' in article.tags %}
                             <section>
+                                <h3>Resource Type 1</h3>
+                                {% if 'resource-type-1' in article.tags %}
                                 <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
-                                <header>
+                                <!--header>
                                     <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
-                                </header>
+                                </header -->
                                 <p>{{ article.summary }}</p>
+                                {% endif %}
+                                <h3>Resource Type 1</h3>
+                                {% if 'resource-type-2' in article.tags %}
+                                <!-- <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a> -->
+                                <!--header>
+                                    <a href="/reconnect/{{ article.url }}"><h3>{{ article.title }}</h3></a>
+                                </header -->
+                                <p>{{ article.summary }}</p>
+                                {% endif %}
                             </section>
                     {% endfor %}
                 </div>
