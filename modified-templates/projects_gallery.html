@@ -19,10 +19,9 @@
 
         <!-- Content -->
         <div class="content gallery">
-                {% set count = namespace(value=1) %}
+                {% set count = namespace(value=0) %}
                 {% for article in articles if 'project' in article.tags %}
-                    {{ count.value }}
-                    {% if(count.value % 2) == 0 %}
+                    {% if(count.value % 2) == 0 or count.value==0  %}
                         <div class="row" id="row-{{ count.value }}">
                     {% endif %}
                     <div class="6u">
