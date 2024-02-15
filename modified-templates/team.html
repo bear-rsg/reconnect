@@ -33,7 +33,7 @@
                             {% endif %}
                                     <div class="6u">
                                         <h4>{{ article.title }}</h4>
-                                        {% if article.photo %}
+                                        {% if article.photo != '' %}
                                             <div class="team_photo">
                                                 <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                             </div>
