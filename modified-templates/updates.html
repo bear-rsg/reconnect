@@ -58,7 +58,7 @@
                         </header>
                         <ul class="categories">
                             {% for category, article_list in categories|sort %}
-                                {% if not (category == 'speaker' or category == 'alumni-current' or category == 'alumni-past' or category == 'team-current' or category == 'resources') %}
+                                {% if not (category == 'people' or category == 'projects' or category == 'resources') %}
                                     <li><a href="/reconnect/category/{{ category }}" class="category">{{ category|replace("-", " ") }} ({{article_list|count}})</a></li>
                                 {% endif %}
                             {% endfor %}
