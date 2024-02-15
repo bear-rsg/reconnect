@@ -26,8 +26,22 @@
                 <div class="content">
                     <section>
                         <h3>Current Team</h3>
+                        {% set count = namespace(value=0) %}
                         {% for article in articles if 'team-current' in article.tags %}
-                            <p>{{ article.summary }}</p>
+                            {% if(count.value % 2) == 0 or count.value==0  %}
+                                <div class="row" id="row-{{ count.value }}">
+                            {% endif %}
+                                    <div class="6u">
+                                        <h4>{{ article.title }}</h4>
+                                        <div class="team_photo">
+                                            <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                                        </div>
+                                        <p>{{ article.summary }}</p>
+                                    </div>
+                            {% if(count.value % 2) == 1 or count.value==1 %}
+                                </div>
+                            {% endif %}
+                            {% set count.value = count.value + 1 %}
                         {% endfor %}
 
                         <h3>Speakers</h3>
