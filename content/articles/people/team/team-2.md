@@ -5,4 +5,4 @@ category: people
 person: joe
 photo: joe-bloggs.jpg
 
-<p>Jeremy Kidwell is an associate professor in theological ethics at the University of Birmingham.</p>
+<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>

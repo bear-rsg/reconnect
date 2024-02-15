@@ -33,9 +33,11 @@
                             {% endif %}
                                     <div class="6u">
                                         <h4>{{ article.title }}</h4>
-                                        <div class="team_photo">
-                                            <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
-                                        </div>
+                                        {% if article.photo %}
+                                            <div class="team_photo">
+                                                <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                                            </div>
+                                        {% endif %}
                                         <p>{{ article.summary }}</p>
                                     </div>
                             {% if(count.value % 2) == 1 or count.value==1 %}
