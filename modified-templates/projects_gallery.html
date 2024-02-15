@@ -19,12 +19,11 @@
 
         <!-- Content -->
         <div class="content gallery">
-            <div class="row">
-                {% set count = namespace(value=0) %}
+                {% set count = namespace(value=1) %}
                 {% for article in articles if 'project' in article.tags %}
-                {% if(count.value % 2) == 0 %}
-                <div>row {{ count.value }} goes here</div>
-                {% endif %}
+                    {% if(count.value % 2) == 0 %}
+                        <div class="row" id="row-{{ count.value }}">
+                    {% endif %}
                     <div class="6u">
                         <section>
                             <a href="#" class="image feature project {{ article.color_style }}" id="{{ article.slug }}">
@@ -50,9 +49,11 @@
                             </div>
                         </section>
                     </div>
+                    {% if(count.value % 2) == 0 %}
+                        </div>
+                    {% endif %}
                     {% set count.value = count.value + 1 %}
                 {% endfor %}
-            </div>
         </div>
 
     </section>
