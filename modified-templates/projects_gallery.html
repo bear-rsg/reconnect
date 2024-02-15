@@ -24,7 +24,7 @@
                     {% if(count.value % 2) == 0 or count.value==0  %}
                         <div class="row" id="row-{{ count.value }}">
                     {% endif %}
-                    <div class="6u">
+                    <div class="6u" id="block-{{ count.value }}">
                         <section>
                             <a href="#" class="image feature project {{ article.color_style }}" id="{{ article.slug }}">
                                 <span class="icon fa-{{ article.icon }}"></span>
