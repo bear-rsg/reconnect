@@ -1,16 +1,16 @@
-title: Introduction to climate change and different responses
+title: Project 4
 date: 2022-01-02
-slug: introtoclimatechange
+slug: project-4
 tags: project
 category: projects
 color_style: alternate
-icon: comment
-project_title: KS3 Curriculum Project
+icon: question
+project_title: Project 4 type
 author_img: test
-author: Second Author
-school: Different School 
-location: Other Place
-file: intro_to_climate_change
+author: Another Author
+school: Fourth School
+location: Somewhere
+file: name_tbc
 file_extension: pptx
 file_icon: powerpoint
 

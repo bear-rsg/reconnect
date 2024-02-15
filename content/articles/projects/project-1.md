@@ -5,7 +5,7 @@ tags: project
 category: projects
 color_style: 
 icon: globe
-project_title: KS3 Curriculum Project</div>
+project_title: KS3 Curriculum Project
 author_img: test
 author: Author Name
 school: School Name
