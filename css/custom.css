@@ -109,19 +109,19 @@ h3 {
 }
 
 header.special .icon {
-  # color: #7a893c;
-  color: #fff;
-  font-size: 1.5em;
-  position: relative;
-  top: 2.1em;
+    # color: #7a893c;
+    color: #fff;
+    font-size: 1.5em;
+    position: relative;
+    top: 2.1em;
 }
 
 #main.blogupdate header.special .icon {
-  top: 5em;
+    top: 5em;
 }
 
 #main.resources header.special .icon {
-  top: 4.1em;
+    top: 4.1em;
 }
 
 #stpeters {
@@ -173,9 +173,9 @@ body {
 }
 
 #header.alt h1.logo {
-  font-size: 1.2em;
-  position: relative;
-  top: -15px;
+    font-size: 1.2em;
+    position: relative;
+    top: -15px;
 }
 
 .blogheader {
@@ -225,19 +225,19 @@ body {
 }
 
 .style3 .authorinfo {
-  top: 0.5em;
-  position: relative;
-  text-align: left;
-  width: 400px;
+    top: 0.5em;
+    position: relative;
+    text-align: left;
+    width: 400px;
 }
 
 .style3 .gallery_metadata {
-  position: relative;
-  top: -12px;
+    position: relative;
+    top: -12px;
 }
 
 .project_author_detail {
-    width: 20em;
+    width: 90%;
     display: block;
     height: 8em;
 }
@@ -267,7 +267,7 @@ body {
 }
 
 #header nav {
-  top: 0.3em !important;
+    top: 0.3em !important;
 }
 
 #header.reveal #nav {
