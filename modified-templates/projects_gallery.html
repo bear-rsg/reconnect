@@ -20,7 +20,7 @@
         <!-- Content -->
         <div class="content gallery">
             <div class="row">
-                {% for idx, article in enumerate(articles) if 'project' in article.tags %}
+                {% for article in articles if 'project' in article.tags %}
                     <div class="6u">
                         <section>
                             <a href="#" class="image feature project {{ article.color_style }}" id="{{ article.slug }}">
