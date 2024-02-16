@@ -25,8 +25,8 @@
 
                 <div class="content">
                     <section>
-                        {% for tag in tags|sort %}
-                            {{ tag.value }}
+                        {% for tag, articles in tags|sort %}
+                            {{ tag|replace(' ', '-')|e }}
                         {% endfor %}
                         <h3>Resource Type 1</h3>
                         {% for article in articles if 'resource-type-1' in article.tags %}
