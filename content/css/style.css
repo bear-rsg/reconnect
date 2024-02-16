@@ -1370,7 +1370,10 @@ div.alumi_text.img {
 
 }
 
-
 .clearfix:after {
   clear: both;
+}
+
+.user .photo {
+    text-align: center;
 }

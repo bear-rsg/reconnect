@@ -10,12 +10,11 @@
 <article id="main" class="blogupdate">
 
   <header class="special container">
-    {{ article.title }}
     <span class="icon fa-{% if article.category != 'people' %}pencil{% else %}{{ article.icon }}{% endif %}"></span>
     <h2>{{ article.title }}</h2>
     <!-- add page sub title here -->
     {% if article.category != 'people' %}
-    <p>Posted on {{ article.locale_date }} by {{ article.author }}</p>
+      <p>Posted on {{ article.locale_date }} by {{ article.author }}</p>
     {% endif %}
   </header>
 
@@ -24,7 +23,11 @@
 
       <!-- Content -->
         <div class="content">
-          <section class="blogupdate">
+          {% if article.category != 'people' %}
+            <section class="blogupdate">
+          {% else %}
+              <section class="user">
+          {% endif %}
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
             {% if article.category != 'people' %}
             <div class="blogsubheader">
