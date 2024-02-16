@@ -7,6 +7,7 @@ color_style:
 icon: globe
 project_title: KS3 Curriculum Project
 author_img: test
+author_img_ext: png
 author: Author Name
 school: School Name
 location: Place

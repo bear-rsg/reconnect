@@ -7,6 +7,7 @@ color_style: alternate
 icon: comment
 project_title: KS3 Curriculum Project
 author_img: test
+author_img_ext: jpg
 author: Second Author
 school: Different School 
 location: Other Place

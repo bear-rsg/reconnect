@@ -7,6 +7,7 @@ color_style: alternate
 icon: question
 project_title: Project 4 type
 author_img: test
+author_img_ext: png
 author: Another Author
 school: Fourth School
 location: Somewhere
