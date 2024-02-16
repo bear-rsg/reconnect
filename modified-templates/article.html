@@ -34,10 +34,12 @@
               Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
             </div>
             {% endif %}
-            {% if article.photo != '' %}
-            <div class="photo">
-              <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
-            </div>
+            {% if article.category == 'people' %}
+              {% if article.photo != '' %}
+                <div class="photo">
+                  <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                </div>
+              {% endif %}
             {% endif %}
             <p>{{ article.content }}</p>
           </section>
