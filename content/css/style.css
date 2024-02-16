@@ -538,7 +538,7 @@
         }
 
 	    ul.buttons {
-    		text-align: center;
+    		text-align: left;
     	}
 
 		ul.buttons:last-child {
