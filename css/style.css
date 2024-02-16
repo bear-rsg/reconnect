@@ -1347,6 +1347,14 @@ div.alumi_photo {
 div.team_text {
 }
 
+#current-team,
+#speakers,
+#alumni {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
 div.speaker_text,
 div.alumi_text {
     display: block;
