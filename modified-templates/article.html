@@ -7,7 +7,7 @@
 <section id="banner_img" xmlns="http://www.w3.org/1999/html"></section>
 
 <!-- Main -->
-<article id="main" class="blogupdate">
+<article id="main" class="{% if article.category != 'people' %}blogupdate{% else %}user{% endif %}">
 
   <header class="special container">
     <span class="icon fa-{% if article.category != 'people' %}pencil{% else %}{{ article.icon }}{% endif %}"></span>
