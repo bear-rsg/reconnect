@@ -559,9 +559,9 @@
 			padding: 1.5em 0 0 0;
 		}
 
-			ul.buttons.vertical li:first-child {
-				padding: 0;
-			}
+        ul.buttons.vertical li:first-child {
+            padding: 0;
+        }
 
 /* Tables */
 
@@ -1344,4 +1344,24 @@
 
 ul {
   margin: 0 0 2em 0;
+}
+
+div.team_photo {
+}
+
+div.speaker_photo,
+div.alumi_photo {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+div.team_text {
+}
+
+div.speaker_text,
+div.alumi_text {
+    display: block;
+    float: left;
+    width: 80%;
 }
