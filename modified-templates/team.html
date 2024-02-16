@@ -39,7 +39,7 @@
                                                     <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                                 </div>
                                             {% endif %}
-                                            <div class="team_text">{{ article }}</div>
+                                            <div class="team_text">{{ article.content }}</div>
                                             <div class="clearfix"><!-- --></div>
                                         </div>
                                 {% if(count.value % 2) == 1 or count.value==1 %}
@@ -58,7 +58,7 @@
                                         <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                     </div>
                                 {% endif %}
-                                <div class="speaker_text{% if article.photo != '' %} img{% endif%}">{{ article }}</div>
+                                <div class="speaker_text{% if article.photo != '' %} img{% endif%}">{{ article.content }}</div>
                                 <div class="clearfix"><!-- --></div>
                             {% endfor %}
                         </div>
@@ -72,7 +72,7 @@
                                     <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                 </div>
                                 {% endif %}
-                                <div class="alumni_text{% if article.photo != '' %} img{% endif%}">{{ article }}</div>
+                                <div class="alumni_text{% if article.photo != '' %} img{% endif%}">{{ article.content }}</div>
                                 <div class="clearfix"><!-- --></div>
                             {% endfor %}
                         </div>
