@@ -25,13 +25,6 @@
 
                 <div class="content">
                     <section>
-                        {% set tag_list_elements = [] %}
-                        {% for tag in tags|sort %}
-                            {{ tag_list_elements.append( tag|replace(' ', '-')|e ) }}
-                        {% endfor %}
-                        {% set tag_list = tag_list_elements|join(',') %}
-                        {{ tag_list }}
-
                         <h3>Resource Type 1</h3>
                         {% for article in articles if 'resource-type-1' in article.tags %}
                             <p>{{ article.summary }}</p>
