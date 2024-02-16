@@ -25,6 +25,11 @@
 
                 <div class="content">
                     <section>
+                        {% for tag, articles in tags if 'resources' in article.category %}
+                            {% if tag != 'resource' %}
+                                {{ tag.value }}
+                            {% endif %}
+                        {% endfor %}
                         <h3>Resource Type 1</h3>
                         {% for article in articles if 'resource-type-1' in article.tags %}
                             <p>{{ article.summary }}</p>
