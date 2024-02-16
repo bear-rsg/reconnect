@@ -38,7 +38,7 @@
                                                 <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                             </div>
                                         {% endif %}
-                                        <p>{{ article.summary }}</p>
+                                        <div class="team_text">{{ article.summary }}</div>
                                     </div>
                             {% if(count.value % 2) == 1 or count.value==1 %}
                                 </div>
@@ -47,13 +47,25 @@
                         {% endfor %}
 
                         <h3>Speakers</h3>
+                        <h4>{{ article.title }}</h4>
+                        {% if article.photo != '' %}
+                        <div class="speaker_photo">
+                            <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                        </div>
+                        {% endif %}
                         {% for article in articles if 'speaker' in article.tags %}
-                        <p>{{ article.summary }}</p>
+                        <div class="speaker_text">{{ article.summary }}</div>
                         {% endfor %}
 
                         <h3>Alumni</h3>
+                        <h4>{{ article.title }}</h4>
+                        {% if article.photo != '' %}
+                        <div class="alumni_photo">
+                            <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                        </div>
+                        {% endif %}
                         {% for article in articles if 'alumni' in article.tags %}
-                        <p>{{ article.summary }}</p>
+                        <div class="alumni_text">{{ article.summary }}</div>
                         {% endfor %}
 
                     </section>
