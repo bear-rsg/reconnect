@@ -25,6 +25,13 @@
 
                 <div class="content">
                     <section>
+                        {% set tag_list = namespace([]) %}
+                        {% for author in article.authors %}
+                        {% for tag, articles in tags|sort %}
+                            {{ tag_list.append( tag|replace(' ', '-')|e ) }}
+                        {% endfor %}
+                        {{ tag_list|join(',') }}
+
                         <h3>Resource Type 1</h3>
                         {% for article in articles if 'resource-type-1' in article.tags %}
                             <p>{{ article.summary }}</p>
