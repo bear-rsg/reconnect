@@ -1359,7 +1359,16 @@ div.speaker_text,
 div.alumi_text {
     display: block;
     float: left;
+    width: 100%;
 }
+div.speaker_text.img,
+div.alumi_text.img {
+    display: block;
+    float: left;
+    width: 80%;
+
+}
+
 
 .clearfix:after {
   clear: both;
