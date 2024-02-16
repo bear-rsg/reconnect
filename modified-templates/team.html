@@ -25,52 +25,57 @@
 
                 <div class="content">
                     <section>
-                        <h3>Current Team</h3>
-                        {% set count = namespace(value=0) %}
-                        {% for article in articles if 'team-current' in article.tags %}
-                            {% if(count.value % 2) == 0 or count.value==0  %}
-                                <div class="row" id="row-{{ count.value }}">
-                            {% endif %}
-                                    <div class="6u">
-                                        <h4>{{ article.title }}</h4>
-                                        {% if article.photo != '' %}
-                                            <div class="team_photo">
-                                                <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
-                                            </div>
-                                        {% endif %}
-                                        <div class="team_text">{{ article.summary }}</div>
-                                        <div class="clearfix"><!-- --></div>
+                        <div id="current-team">
+                            <h3>Current Team</h3>
+                            {% set count = namespace(value=0) %}
+                            {% for article in articles if 'team-current' in article.tags %}
+                                {% if(count.value % 2) == 0 or count.value==0  %}
+                                    <div class="row" id="row-{{ count.value }}">
+                                {% endif %}
+                                        <div class="6u">
+                                            <h4>{{ article.title }}</h4>
+                                            {% if article.photo != '' %}
+                                                <div class="team_photo">
+                                                    <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                                                </div>
+                                            {% endif %}
+                                            <div class="team_text">{{ article.summary }}</div>
+                                            <div class="clearfix"><!-- --></div>
+                                        </div>
+                                {% if(count.value % 2) == 1 or count.value==1 %}
                                     </div>
-                            {% if(count.value % 2) == 1 or count.value==1 %}
-                                </div>
-                            {% endif %}
-                            {% set count.value = count.value + 1 %}
-                        {% endfor %}
+                                {% endif %}
+                                {% set count.value = count.value + 1 %}
+                            {% endfor %}
+                        </div>
 
-                        <h3>Speakers</h3>
-                        {% for article in articles if 'speaker' in article.tags %}
-                            <h4>{{ article.title }}</h4>
-                            {% if article.photo != '' %}
-                                <div class="speaker_photo">
+                        <div id="speakers">
+                            <h3>Speakers</h3>
+                            {% for article in articles if 'speaker' in article.tags %}
+                                <h4>{{ article.title }}</h4>
+                                {% if article.photo != '' %}
+                                    <div class="speaker_photo">
+                                        <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                                    </div>
+                                {% endif %}
+                                <div class="speaker_text">{{ article.summary }}</div>
+                                <div class="clearfix"><!-- --></div>
+                            {% endfor %}
+                        </div>
+
+                        <div id="alumni">
+                            <h3>Alumni</h3>
+                            {% for article in articles if 'alumni' in article.tags %}
+                                <h4>{{ article.title }}</h4>
+                                {% if article.photo != '' %}
+                                <div class="alumni_photo">
                                     <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                 </div>
-                            {% endif %}
-                            <div class="speaker_text">{{ article.summary }}</div>
-                            <div class="clearfix"><!-- --></div>
-                        {% endfor %}
-
-                        <h3>Alumni</h3>
-                        {% for article in articles if 'alumni' in article.tags %}
-                            <h4>{{ article.title }}</h4>
-                            {% if article.photo != '' %}
-                            <div class="alumni_photo">
-                                <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
-                            </div>
-                            {% endif %}
-                            <div class="alumni_text">{{ article.summary }}</div>
-                            <div class="clearfix"><!-- --></div>
-                        {% endfor %}
-
+                                {% endif %}
+                                <div class="alumni_text">{{ article.summary }}</div>
+                                <div class="clearfix"><!-- --></div>
+                            {% endfor %}
+                        </div>
                     </section>
                 </div>
             </div>
