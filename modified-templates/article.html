@@ -27,6 +27,11 @@
             <div class="blogsubheader">
               Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
             </div>
+            {% if article.photo != '' %}
+            <div class="photo">
+              <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+            </div>
+            {% endif %}
             <p>{{ article.content }}</p>
           </section>
         </div>
