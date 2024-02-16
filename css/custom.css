@@ -42,6 +42,10 @@ ul.buttons li, ul.feature-icons li, ul.submenu li, ul.dropotron.level-0 li  {
     left: 0;
 }
 
+.style1 footer > ul.buttons {
+    text-align: left;
+}
+
 a.button.special {
     display: block;
 }
