@@ -25,7 +25,7 @@
 
                 <div class="content">
                     <section>
-                        {% for tag, articles in tags|sort %}
+                        {% for tag, articles_page.object_list if article.category.name == 'resources' %}
                             {{ tag|replace(' ', '-')|e }}
                         {% endfor %}
                         <h3>Resource Type 1</h3>
