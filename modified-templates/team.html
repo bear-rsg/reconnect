@@ -47,25 +47,25 @@
                         {% endfor %}
 
                         <h3>Speakers</h3>
-                        <h4>{{ article.title }}</h4>
-                        {% if article.photo != '' %}
-                        <div class="speaker_photo">
-                            <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
-                        </div>
-                        {% endif %}
                         {% for article in articles if 'speaker' in article.tags %}
+                            <h4>{{ article.title }}</h4>
+                            {% if article.photo != '' %}
+                            <div class="speaker_photo">
+                                <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                            </div>
+                            {% endif %}
                         <div class="speaker_text">{{ article.summary }}</div>
                         {% endfor %}
 
                         <h3>Alumni</h3>
-                        <h4>{{ article.title }}</h4>
-                        {% if article.photo != '' %}
-                        <div class="alumni_photo">
-                            <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
-                        </div>
-                        {% endif %}
                         {% for article in articles if 'alumni' in article.tags %}
-                        <div class="alumni_text">{{ article.summary }}</div>
+                            <h4>{{ article.title }}</h4>
+                            {% if article.photo != '' %}
+                            <div class="alumni_photo">
+                                <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                            </div>
+                            {% endif %}
+                            <div class="alumni_text">{{ article.summary }}</div>
                         {% endfor %}
 
                     </section>
