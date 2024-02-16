@@ -1342,6 +1342,7 @@ div.alumi_photo {
     display: block;
     float: left;
     width: 20%;
+    padding: 1em 0;
 }
 
 div.team_text {
