@@ -24,9 +24,11 @@
         <div class="content">
           <section class="blogupdate">
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
+            {% if article.category != 'people' %}
             <div class="blogsubheader">
               Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
             </div>
+            {% endif %}
             {% if article.photo != '' %}
             <div class="photo">
               <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
