@@ -1352,3 +1352,7 @@ div.alumi_text {
     display: block;
     float: left;
 }
+
+.clearfix:after {
+  clear: both;
+}
