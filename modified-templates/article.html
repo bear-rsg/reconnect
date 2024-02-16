@@ -11,7 +11,7 @@
 
   <header class="special container">
     {{ article.title }}
-    <span class="icon fa-{% if article.category != 'people' %}pencil{% else %}{% article.icon %}{% endif %}"></span>
+    <span class="icon fa-{% if article.category != 'people' %}pencil{% else %}{{ article.icon }}{% endif %}"></span>
     <h2>{{ article.title }}</h2>
     <!-- add page sub title here -->
     {% if article.category != 'people' %}
