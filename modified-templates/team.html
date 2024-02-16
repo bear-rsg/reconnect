@@ -48,7 +48,7 @@
                                 {% set count.value = count.value + 1 %}
                             {% endfor %}
                         </div>
-
+                        <br />
                         <div id="speakers">
                             <h3>Speakers</h3>
                             {% for article in articles if 'speaker' in article.tags %}
@@ -58,11 +58,11 @@
                                         <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                     </div>
                                 {% endif %}
-                                <div class="speaker_text">{{ article.summary }}</div>
+                                <div class="speaker_text{% if article.photo != '' %} img{% endif%}">{{ article.summary }}</div>
                                 <div class="clearfix"><!-- --></div>
                             {% endfor %}
                         </div>
-
+                        <br />
                         <div id="alumni">
                             <h3>Alumni</h3>
                             {% for article in articles if 'alumni' in article.tags %}
@@ -72,7 +72,7 @@
                                     <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                                 </div>
                                 {% endif %}
-                                <div class="alumni_text">{{ article.summary }}</div>
+                                <div class="alumni_text{% if article.photo != '' %} img{% endif%}">{{ article.summary }}</div>
                                 <div class="clearfix"><!-- --></div>
                             {% endfor %}
                         </div>
