@@ -13,7 +13,9 @@
     <span class="icon fa-pencil"></span>
     <h2>{{ article.title }}</h2>
     <!-- add page sub title here -->
+    {% if article.category != 'people' %}
     <p>Posted on {{ article.locale_date }} by {{ article.author }}</p>
+    {% endif %}
     <p>{{ article.icon }}</p>
   </header>
 
