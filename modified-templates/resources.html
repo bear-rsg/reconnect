@@ -26,7 +26,6 @@
                 <div class="content">
                     <section>
                         {% set tag_list = namespace([]) %}
-                        {% for author in article.authors %}
                         {% for tag, articles in tags|sort %}
                             {{ tag_list.append( tag|replace(' ', '-')|e ) }}
                         {% endfor %}
