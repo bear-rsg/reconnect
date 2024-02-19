@@ -347,7 +347,7 @@ header.special::before, header.special::after {
   padding-top: 4em !important;
 }
 
-#main.user header.special .icon {
+#main.team header.special .icon {
   top: 0 !important;
 }
 
