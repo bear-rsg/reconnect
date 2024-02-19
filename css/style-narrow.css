@@ -103,12 +103,28 @@
   padding-top: 8em;
 }
 
+#main.about {
+  position: relative;
+  top: -29em;
+  width: 86%;
+  left: 7%;
+  padding-top: 8em;
+}
+
 #main.blogcategory {
   top: -26em;
 }
 
 header.special .icon {
     top: 2.6em;
+}
+
+#main.about header.special .icon {
+   top: 3.1em !important;
+}
+
+#main.about header.special h2 {
+  top: 7em !important;
 }
 
 header.special h2 {
