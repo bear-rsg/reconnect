@@ -449,5 +449,5 @@ div.alumni_photo {
 }
 
 #main.team header.special h2 {
-    top: 4.5em;
+    top: 4.5em !important;
 }
