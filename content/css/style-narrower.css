@@ -208,3 +208,10 @@ h1.logo.responsive {
 #main.blogupdate header.special .icon {
   top: 5em !important;
 }
+
+div.team_photo,
+div.speaker_photo,
+div.alumni_photo {
+    width: 100%;
+    text-align: center;
+}
