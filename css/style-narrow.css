@@ -106,12 +106,9 @@
   padding-top: 8em;
 }
 
+#main.resources,
 #main.team {
   top: -29em;
-}
-
-#main.blogcategory {
-  top: -26em;
 }
 
 header.special .icon {
