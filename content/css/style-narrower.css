@@ -215,3 +215,11 @@ div.alumni_photo {
     width: 100%;
     text-align: center;
 }
+
+#main.blogupdate header.special h2 + p {
+  margin-bottom: 0;
+  padding-top: 1.5em;
+  z-index: 10000;
+  position: relative;
+  top: 11.5em;
+}
