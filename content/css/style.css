@@ -169,7 +169,7 @@ header.special h2 {
 }
 
 #main.team header.special h2 {
-    top: 7em !important;
+    top: 7.5em;
 }
 
 header.special h2 + p {
