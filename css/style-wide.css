@@ -34,6 +34,10 @@ header.special h2 {
   top: 6em !important;
 }
 
+#main.resources header.special h2
+  top: 7em !important;
+}
+
 #main.blogupdate header.special h2 {
   top: 8.5em !important;
 }
