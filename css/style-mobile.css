@@ -290,9 +290,12 @@ header.special h2 {
   top: 0 !important;
 }
 
-#main.blog .wrapper.style4,
-#main.blogcategory .wrapper.style4 {
+#main.blog .wrapper.style4 {
     padding-top: 3em;
+}
+
+#main.blogcategory .wrapper.style4 {
+  padding-top: 0em !important;
 }
 
 #main.page .wrapper.style4 {
@@ -304,9 +307,12 @@ header.special h2 {
   position: relative;
 }
 
-#main.blogcategory header.special h2,
 #main.blog header.special h2 {
   top: 6em !important;
+}
+
+#main.blogcategory header.special h2,
+  top: 3em !important;
 }
 
 #banner_img {
