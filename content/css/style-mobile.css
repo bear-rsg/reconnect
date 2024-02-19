@@ -337,7 +337,7 @@ header.special::before, header.special::after {
 
 #main.blog {
   position: relative;
-  top: -12em !important;
+  top: -16em !important;
 }
 
 #main.blogcategory header.special .icon,
