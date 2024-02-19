@@ -411,7 +411,7 @@ div.alumi_text.img {
 
 #main.blogcategory {
   position: relative;
-  top: -8em !important;
+  top: -11em !important;
 }
 
 #main.blogupdate {
@@ -437,7 +437,7 @@ div.alumi_text.img {
 }
 
 #main.blogcategory header.special .icon {
-    top: -0.6em !important;
+    top: -1.6em !important;
 }
 
 div.team_photo,
