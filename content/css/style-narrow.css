@@ -120,10 +120,6 @@ header.special .icon {
   top: 2em !important;
 }
 
-#main.user header.special .icon {
-  top: 0 !important;
-}
-
 #main.about header.special h2 {
   top: 7em !important;
 }
