@@ -234,6 +234,11 @@ ul.feature-icons {
     top: -14.5em !important;
 }
 
+#main.team header.special .icon,
+#main.resources header.special .icon {
+  top: 1em !important;
+}
+
 h1.logo.responsive {
   font-size: 0.8em !important;
   right: -1em !important;
@@ -350,10 +355,6 @@ header.special::before, header.special::after {
 
 #main.about .wrapper.style4 .content {
   padding-top: 4em !important;
-}
-
-#main.team header.special .icon {
-  top: 0 !important;
 }
 
 #main.page header.special h2,
