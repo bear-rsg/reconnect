@@ -357,7 +357,7 @@ header.special::before, header.special::after {
 }
 
 #main.about {
-  top: -14em !important;
+  top: -10em !important;
 }
 
 #main.about header.special .icon {
