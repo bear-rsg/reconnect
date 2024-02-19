@@ -382,9 +382,9 @@ header.special::before, header.special::after {
     top: -0.6em !important;
 }
 
-.team_photo,
-.speaker_photo,
-.alumni_photo {
+div.team_photo,
+div.speaker_photo,
+div.alumni_photo {
     width: 100%;
     text-align: center;
 }
