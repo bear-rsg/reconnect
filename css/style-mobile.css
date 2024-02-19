@@ -360,6 +360,12 @@ header.special::before, header.special::after {
   top: -10em !important;
 }
 
+div.team_text, div.speaker_text.img, div.alumi_text.img {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
 #main.about header.special .icon {
   top: 0.4em !important;
 }
