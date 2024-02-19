@@ -201,7 +201,7 @@ h1.logo.responsive {
 }
 
 #main.blogupdate {
-  top: -34em !important;
+  top: -34em;
   position: relative;
 }
 
