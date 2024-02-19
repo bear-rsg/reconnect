@@ -192,8 +192,12 @@ h1.logo.responsive {
      padding: 7em 3em 10em 3em;
 }
 
-#main.blogcategory .wrapper.style4, #main.blog .wrapper.style4 {
+#main.blogcategory .wrapper.style4 {
      padding: 1em 3em 10em 3em;
+}
+
+#main.blog .wrapper.style4 {
+    padding: 6em 3em 10em 3em;
 }
 
 #main.blogupdate {
