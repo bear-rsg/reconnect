@@ -909,18 +909,16 @@
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-o-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation: reveal-banner 0s 0s ease-in-out;
+			-webkit-animation: reveal-banner 0s 0s ease-in-out;
+			-o-animation: reveal-banner 0s 0s ease-in-out;
+			-ms-animation: reveal-banner 0s 0s ease-in-out;
+			animation: reveal-banner 0s 0s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			# background: rgba(52, 27, 43, 0.5);
-			# background: rgba(58, 101, 108, 0.5);
 			background: #d9ce3d;
 			width: 75%;
 			color: #425757;
@@ -930,14 +928,14 @@
 			text-align: center;
 		}
 
-			#banner .inner header {
-				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 2em 0 2em 0;
-				padding: 3px 0 3px 0;
-				color: #fff;
-			}
+        #banner .inner header {
+            display: inline-block;
+            border-bottom: solid 2px;
+            border-top: solid 2px;
+            margin: 2em 0 2em 0;
+            padding: 3px 0 3px 0;
+            color: #fff;
+        }
 
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
