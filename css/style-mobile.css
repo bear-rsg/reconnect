@@ -229,6 +229,11 @@ ul.feature-icons {
   padding-top: 8em;
 }
 
+#main.team,
+#main.resources {
+    top: -14.5em !important;
+}
+
 h1.logo.responsive {
   font-size: 0.8em !important;
   right: -1em !important;
