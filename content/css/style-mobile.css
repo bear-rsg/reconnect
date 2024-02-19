@@ -380,7 +380,7 @@ div.alumi_text.img {
 #main.gallery header.special h2,
 #main.report header.special h2 {
   z-index: 1;
-  top: 3em !important;
+  top: 3em;
 }
 
 #main.about header.special h2 {
