@@ -94,6 +94,8 @@
 
 #main.page,
 #main.gallery,
+#main.team,
+#main.about,
 #main.blog,
 #main.blogcategory {
   position: relative;
@@ -103,12 +105,8 @@
   padding-top: 8em;
 }
 
-#main.about {
-  position: relative;
+#main.team {
   top: -29em;
-  width: 86%;
-  left: 7%;
-  padding-top: 8em;
 }
 
 #main.blogcategory {
@@ -120,7 +118,7 @@ header.special .icon {
 }
 
 #main.about header.special .icon {
-   top: 3.1em !important;
+   top: 3.5em !important;
 }
 
 #main.about header.special h2 {
