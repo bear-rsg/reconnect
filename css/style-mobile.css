@@ -321,7 +321,7 @@ header.special h2 {
 
 header.special .icon {
     position: relative;
-    top: -0.6em !important;
+    top: -1em !important;
 }
 
 #header.alt h1.logo {
