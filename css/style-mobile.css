@@ -420,6 +420,10 @@ header.special::before, header.special::after {
   top: 3em !important;
 }
 
+#main.blogupdate header.special h2 {
+    top: 8em !important
+}
+
 #main.blogupdate header.special h2 + p {
   margin-bottom: 0;
   padding-top: 0.5em !important;
