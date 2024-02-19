@@ -352,7 +352,7 @@ header.special::before, header.special::after {
 }
 
 #main.about {
-  top: -10em !important;
+  top: -13em !important;
 }
 
 div.team_text,
