@@ -381,3 +381,10 @@ header.special::before, header.special::after {
 #main.blogcategory header.special .icon {
     top: -0.6em !important;
 }
+
+.team_photo,
+.speaker_photo,
+.alumni_photo {
+    width: 100%;
+    text-align: center;
+}
