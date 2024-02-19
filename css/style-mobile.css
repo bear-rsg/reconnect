@@ -336,7 +336,7 @@ header.special::before, header.special::after {
 
 #main.blog {
   position: relative;
-  top: -16em !important;
+  top: -12em !important;
 }
 
 #main.blogcategory header.special .icon,
@@ -402,7 +402,21 @@ header.special::before, header.special::after {
 
 #main.blogcategory {
   position: relative;
-  top: -12em !important;
+  top: -8em !important;
+}
+
+#main.blogupdate {
+  top: -16em !important;
+  position: relative;
+}
+
+#main.blogupdate header.special .icon {
+  top: 3em !important;
+}
+
+#main.blogupdate header.special h2 + p {
+  margin-bottom: 0;
+  padding-top: 0.5em !important;
 }
 
 #main.blogcategory header.special .icon {
