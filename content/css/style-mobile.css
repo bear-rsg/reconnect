@@ -388,10 +388,6 @@ div.alumi_text.img {
   top: 5em;
 }
 
-#main.team header.special h2 {
-    top: 4.5em;
-}
-
 #main.team .wrapper.style4 {
     padding-top: 1.5em !important;
 }
@@ -450,4 +446,8 @@ div.speaker_photo,
 div.alumni_photo {
     width: 100%;
     text-align: center;
+}
+
+#main.team header.special h2 {
+    top: 4.5em;
 }
