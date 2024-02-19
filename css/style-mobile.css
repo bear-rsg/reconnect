@@ -373,7 +373,8 @@ header.special::before, header.special::after {
     top: 4.5em !important;
 }
 
-#main.team .wrapper.style4 {
+#main.team .wrapper.style4,
+#main.resources .wrapper.style4 {
     padding-top: 1.5em !important;
 }
 
