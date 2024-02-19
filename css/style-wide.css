@@ -31,7 +31,7 @@ ul {
 }
 
 header.special h2 {
-  top: 6em !important;
+  top: 6em;
 }
 
 #main.resources header.special h2
