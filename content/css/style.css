@@ -205,6 +205,10 @@
             top: 5em;
         }
 
+        #main.team header.special .icon {
+            top: 5em;
+        }
+
         #main.blogupdates h3 {
             top: 0.5em;
             position: relative;
@@ -1008,26 +1012,30 @@
         top: -31em;
     }
 
-		#main > :last-child {
-			margin-bottom: 0;
-		}
+    #main.team {
+        top: -26em;
+    }
 
-		#main .sidebar section {
-			border-top: solid 1px rgba(124, 128, 129, 0.2);
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
-		}
+    #main > :last-child {
+        margin-bottom: 0;
+    }
 
-		#main.blogcategory .sidebar {
-          position: relative;
-          top: 6em;
-        }
+    #main .sidebar section {
+        border-top: solid 1px rgba(124, 128, 129, 0.2);
+        margin: 3em 0 0 0;
+        padding: 3em 0 0 0;
+    }
 
-			#main .sidebar section:first-child {
-				border-top: 0;
-				padding-top: 0;
-				margin-top: 0;
-			}
+    #main.blogcategory .sidebar {
+      position: relative;
+      top: 6em;
+    }
+
+    #main .sidebar section:first-child {
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
 
 	body.index #main {
 		padding-top: 5em;
