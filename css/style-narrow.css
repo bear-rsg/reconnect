@@ -209,7 +209,7 @@ h1.logo.responsive {
 }
 
 #main.blogupdate header.special h2 {
-  top: 9.5em !important;
+  top: 9.5em;
 }
 
 .wrapper.style2 {
