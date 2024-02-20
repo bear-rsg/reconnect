@@ -292,9 +292,8 @@ header.special h2 {
 }
 
 #main.blogcategory .wrapper.style4 {
-  padding-top: 0em !important;
+  padding: 0 1.5em 10em 1.5em;
 }
-
 #main.page .wrapper.style4 {
   padding-top: 1em !important;
 }
