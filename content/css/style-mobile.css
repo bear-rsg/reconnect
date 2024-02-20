@@ -384,9 +384,8 @@ div.alumi_text.img {
   top: 4.5em;
 }
 
-#main.resources header.special h2
-  z-index: 1;
-  top: 5em !important;
+#main.resources header.special h2 {
+  top: 5em;
 }
 
 #main.team .wrapper.style4 {
