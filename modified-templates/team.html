@@ -54,7 +54,7 @@
                             {% for article in articles if 'speaker' in article.tags %}
                                 {% if article.photo != '' %}
                                     <div class="speaker_photo">
-                                        <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                                        <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}" class="fluid-img" />
                                     </div>
                                 {% endif %}
                                 <div class="speaker_text{% if article.photo != '' %} img{% endif%}"><a href="/reconnect/{{ article.url }}"><h4>{{ article.title }}</h4></a>{{ article.summary }}</div>
