@@ -65,13 +65,12 @@
                         <div id="alumni">
                             <h3>Alumni</h3>
                             {% for article in articles if 'alumni' in article.tags %}
-                                <a href="/reconnect/{{ article.url }}"><h4>{{ article.title }}</h4></a>
-                                    {% if article.photo != '' %}
-                                    <div class="alumni_photo">
-                                        <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}" class="fluid-img" />
-                                    </div>
-                                    {% endif %}
-                                <div class="alumni_text{% if article.photo != '' %} img{% endif%}">{{ article.summary }}</div>
+                                {% if article.photo != '' %}
+                                <div class="alumni_photo">
+                                    <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}" class="fluid-img" />
+                                </div>
+                                {% endif %}
+                                <div class="alumni_text{% if article.photo != '' %} img{% endif%}"><a href="/reconnect/{{ article.url }}"><h4>{{ article.title }}</h4></a>{{ article.summary }}</div>
                                 <div class="clearfix"><!-- --></div>
                             {% endfor %}
                         </div>
