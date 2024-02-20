@@ -441,7 +441,7 @@ div.alumi_text.img {
 }
 
 #main.gallery {
-    top: 8em;
+  top: -11em !important;
 }
 
 .wrapper.style4 .content.gallery {
