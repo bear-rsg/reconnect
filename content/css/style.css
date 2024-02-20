@@ -1399,3 +1399,8 @@ div.alumi_text.img {
     text-align: center;
     padding: 1.5em
 }
+
+.fluid-img {
+  max-width: 100%;
+  height: auto;
+}
