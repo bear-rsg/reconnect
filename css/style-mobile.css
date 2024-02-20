@@ -233,9 +233,12 @@ ul.feature-icons {
     top: -11.5em;
 }
 
-#main.team header.special .icon,
 #main.resources header.special .icon {
   top: 1em !important;
+}
+
+#main.team header.special .icon {
+  top: 0.8em !important;
 }
 
 h1.logo.responsive {
