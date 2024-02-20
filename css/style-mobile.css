@@ -440,6 +440,14 @@ div.alumi_text.img {
     top: -1.6em !important;
 }
 
+#main.gallery {
+    top: 8em;
+}
+
+.wrapper.style4 .content.gallery {
+  padding-top: 4em !important;
+}
+
 div.team_photo,
 div.speaker_photo,
 div.alumni_photo {
