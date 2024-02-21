@@ -429,7 +429,8 @@ div.alumi_text.img {
 }
 
 #main.blogupdate header.special h2 {
-    top: 8em !important
+  top: 8em !important;
+  font-size: 120%;
 }
 
 #main.blogupdate header.special h2 + p {
