@@ -429,13 +429,14 @@ div.alumi_text.img {
 }
 
 #main.blogupdate header.special h2 {
-  top: 8em !important;
-  font-size: 120%;
+  top: 9em !important;
+  font-size: 110%;
 }
 
 #main.blogupdate header.special h2 + p {
   margin-bottom: 0;
   padding-top: 0.5em !important;
+  font-size: 80%;
 }
 
 #main.blogcategory header.special h2 {
