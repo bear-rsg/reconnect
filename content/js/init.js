@@ -12,7 +12,7 @@ skel.init({
 		normal:		{ range: '-1280', href: '/reconnect/css/style-normal.css', containers: 960, lockViewport: true },
 		narrow:		{ range: '-1042', href: '/reconnect/css/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
 		narrower:	{ range: '-840', href: '/reconnect/css/style-narrower.css', grid: { collapse: 1 } },
-		mobile:		{ range: '-640', href: '/reconnect/css/style-mobile.css', containers: '100%', grid: { gutters: 15, collapse: 2 } }
+		mobile:		{ range: '-600', href: '/reconnect/css/style-mobile.css', containers: '100%', grid: { gutters: 15, collapse: 2 } }
 	}
 }, {
 	layers: {

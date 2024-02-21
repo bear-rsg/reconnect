@@ -209,6 +209,10 @@ h1.logo.responsive {
   top: 5em !important;
 }
 
+#main.about header.special .icon {
+  top: 3em;
+}
+
 div.team_photo,
 div.speaker_photo,
 div.alumni_photo {
