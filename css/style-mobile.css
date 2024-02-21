@@ -401,6 +401,10 @@ div.alumi_text.img {
     position: relative;
 }
 
+#main.user {
+  top: -11em !important;
+}
+
 .wrapper.style2 {
     top: 12em !important;
 }
