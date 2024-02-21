@@ -206,12 +206,16 @@ h1.logo.responsive {
 }
 
 #main.blogupdate header.special .icon {
-    top: 2em !important;
+  top: 6em !important;
 }
 
 #main.blogupdate header.special h2 {
   top: 10.5em;
   font-size: 130%;
+}
+
+#main.blogupdate header.special h2 + p {
+  padding-top: 2.5em;
 }
 
 .wrapper.style2 {
