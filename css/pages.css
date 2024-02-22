@@ -139,8 +139,7 @@ body, #skel-layers-wrapper, #footer {
         padding-top: 5em;
     }
     #main.blogcategory {
-        top: -21em;
-        padding: 3em 3em 10em 3em;
+        top: -21.2em;
     }
     #main.blogupdate {
         top: -33em;
@@ -226,28 +225,28 @@ body, #skel-layers-wrapper, #footer {
 
 @media (max-width: 1268px) {
     #main.about {
-        top: -28em;
+        top: -27.6em;
     }
     #main.blog {
         top: -28em;
     }
     #main.blogcategory {
-        top: -28em
+        top: -27.6em;
     }
     #main.blogupdate {
-        top: -32.5em;
+        top: -33.2em;
     }
     #main.gallery {
-        top: -26em;
+        top: -27.6em;
     }
     #main.team {
-        top: -31em;
+        top: -30.6em;
     }
     #main.user {
-        top: -28em;
+        top: -27.6em;
     }
     #main.report {
-        top: -26em;
+        top: -27.6em;
     }
     #main.resources {
         top: -30.5em;
