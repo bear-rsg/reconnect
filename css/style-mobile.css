@@ -211,7 +211,7 @@ ul.feature-icons {
 
 #main {
   position: relative;
-  top: -14em !important;
+  top: -14em;
   width: 100% !important;
   left: 0 !important;
   padding-top: 8em;
@@ -226,19 +226,6 @@ ul.feature-icons {
   width: 100%;
   left: 0;
   padding-top: 8em;
-}
-
-#main.team,
-#main.resources {
-    top: -14.5em !important;
-}
-
-#main.resources header.special .icon {
-  top: 1em !important;
-}
-
-#main.team header.special .icon {
-  top: 0.8em !important;
 }
 
 h1.logo.responsive {
@@ -274,19 +261,6 @@ header.special h2 {
     background-image: none;
 }
 
-#main.page {
-    top: -12em !important;
-}
-
-#main.page header.special .icon {
-  top: -0.8em !important;
-}
-
-#main.blogcategory header.special .icon,
-#main.blog header.special .icon {
-  top: 0 !important;
-}
-
 #main.blog .wrapper.style4 {
   padding: 5em 1.5em 3em 1.5em;
 }
@@ -296,19 +270,7 @@ header.special h2 {
 }
 #main.page .wrapper.style4 {
   padding-top: 1em !important;
-}
-
-#main.page .wrapper.style4 {
-  padding-top: 2em;
   position: relative;
-}
-
-#main.blog header.special h2 {
-  top: 6em !important;
-}
-
-#main.blogcategory header.special h2,
-  top: 3em !important;
 }
 
 #banner_img {
@@ -330,30 +292,11 @@ header.special::before, header.special::after {
   display: none;
 }
 
-#main.blogcategory header.special h2 + p,
-#main.blog header.special h2 + p {
-  position: relative;
-  top: 5em !important;
-}
-
-#main.blog {
-  position: relative;
-  top: -16em !important;
-}
-
-#main.blogcategory header.special .icon,
-#main.blog header.special .icon {
-  top: 1.7em !important;
-}
 
 #main.blogcategory .image.feature,
 #main.blog .image.feature {
   margin-left: auto;
   margin-right: auto;
-}
-
-#main.about {
-  top: -13em !important;
 }
 
 div.team_text,
@@ -364,45 +307,8 @@ div.alumi_text.img {
   width: 100%;
 }
 
-#main.about header.special .icon {
-  top: 0.4em !important;
-}
-
 #main.about .wrapper.style4 .content {
   padding-top: 4em !important;
-}
-
-#main.page header.special h2,
-#main.gallery header.special h2,
-#main.report header.special h2 {
-  z-index: 1;
-  top: 3em;
-}
-
-#main.about header.special h2 {
-  z-index: 1;
-  top: 4.5em;
-}
-
-#main.resources header.special h2 {
-  top: 5em !important;
-}
-
-#main.team .wrapper.style4 {
-    padding-top: 1.5em !important;
-}
-
-#main.resources .wrapper.style4 {
-  padding-top: 2.5em !important;
-}
-
-#main.report .wrapper.style4 {
-    padding-top: 1em !important;
-    position: relative;
-}
-
-#main.user {
-  top: -11em !important;
 }
 
 .wrapper.style2 {
@@ -414,43 +320,6 @@ div.alumi_text.img {
   position: relative;
 }
 
-#main.blogcategory {
-  position: relative;
-  top: -11em !important;
-}
-
-#main.blogupdate {
-  top: -19em !important;
-  position: relative;
-}
-
-#main.blogupdate header.special .icon {
-  top: 2.5em !important;
-}
-
-#main.blogupdate header.special h2 {
-  top: 9em !important;
-  font-size: 110%;
-}
-
-#main.blogupdate header.special h2 + p {
-  margin-bottom: 0;
-  padding-top: 0.5em !important;
-  font-size: 80%;
-}
-
-#main.blogcategory header.special h2 {
-  top: 3.5em;
-}
-
-#main.blogcategory header.special .icon {
-    top: -1.6em !important;
-}
-
-#main.gallery {
-  top: -11em !important;
-}
-
 .wrapper.style4 .content.gallery {
   padding-top: 4em !important;
 }
@@ -460,8 +329,4 @@ div.speaker_photo,
 div.alumni_photo {
     width: 100%;
     text-align: center;
-}
-
-#main.team header.special h2 {
-    top: 4.5em !important;
 }
