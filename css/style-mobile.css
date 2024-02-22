@@ -230,7 +230,7 @@ ul.feature-icons {
 
 #main.team,
 #main.resources {
-    top: -11.5em;
+    top: -14.5em !important;
 }
 
 #main.resources header.special .icon {
@@ -385,7 +385,7 @@ div.alumi_text.img {
 }
 
 #main.resources header.special h2 {
-  top: 5em;
+  top: 5em !important;
 }
 
 #main.team .wrapper.style4 {
