@@ -380,7 +380,7 @@ body, #skel-layers-wrapper, #footer {
 
 
     #main.about header.special h2 {
-        top: 5.5em;
+        top: 7em;
     }
     #main.blog header.special h2 {
         top: 5.6em;
@@ -511,5 +511,9 @@ body, #skel-layers-wrapper, #footer {
         top: 2.1em;
         font-size: 90%;
     }
+
+}
+
+@media (max-width: 320px) {
 
 }
