@@ -109,16 +109,37 @@
 
 #main.resources,
 #main.team {
-  top: -29em;
+  top: -29em !important;
+}
+
+#main.user {
+  top: -26em !important;
+}
+
+#main.gallery {
+  top: -26em !important;
 }
 
 header.special .icon {
     top: 2.6em;
 }
 
+#main.gallery header.special .icon {
+  top: 2em;
+}
+
+#main.user header.special .icon {
+  top: 1.5m;
+}
+
 #main.about header.special .icon {
   top: 2em !important;
 }
+
+#main.team header.special .icon {
+  top: 3.8em !important;
+}
+
 
 #main.resources header.special h2,
 #main.about header.special h2 {
