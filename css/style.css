@@ -188,7 +188,7 @@ header.special h2 + p {
   padding-top: 1.5em;
   z-index: 10000;
   position: relative;
-  top: 9.5em;
+  top: 11.5em;
 }
 
 header.special .icon {
