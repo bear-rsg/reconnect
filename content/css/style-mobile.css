@@ -49,7 +49,7 @@
 
 		header p {
           text-align: center;
-          top: 2.8em !important;
+          top: 2.8em;
         }
 
         .style4.container > div.gallery section header {
@@ -279,7 +279,7 @@ header.special h2 {
 
 header.special .icon {
     position: relative;
-    top: -1em !important;
+    top: -1em;
 }
 
 #header.alt h1.logo {
