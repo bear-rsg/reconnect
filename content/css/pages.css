@@ -36,6 +36,99 @@ body, #skel-layers-wrapper, #footer {
     position: relative;
     top: 11.5em;
 }
+@media (min-width: 1298px) {
+    #main.about {
+        top: -28em;
+    }
+    #main.blog {
+        top: -24em;
+        padding-top: 5em;
+    }
+    #main.blogcategory {
+        top: -21em;
+        padding: 3em 3em 10em 3em;
+    }
+    #main.blogupdate {
+        top: -33em;
+    }
+    #main.gallery {
+        top: -23em;
+    }
+    #main.team {
+        top: -26em;
+    }
+    #main.user {
+        top: -23em;
+    }
+    #main.report { #check
+        top: -26em;
+    }
+    #main.resources {
+        top: -26.5em;
+    }
+
+    #main.about header.special .icon {
+        top: 2.3em;
+    }
+    #main.blog header.special .icon {
+        top: 2.8em;
+    }
+    #main.blogcategory header.special .icon {
+        top: 2.6em;
+    }
+    #main.blogupdate header.special .icon {
+        top: 5.5em;
+    }
+    #main.gallery header.special .icon {
+        top: 2.3em;
+    }
+    #main.team header.special .icon {
+        top: 4.3em;
+    }
+    #main.user header.special .icon {
+        top: 2.3em;
+    }
+    #main.report.resources header.special .icon {
+        top: 2.4em;
+    }
+    #main.resources header.special .icon {
+        top: 4.5em;
+    }
+
+
+    #main.about header.special h2 {
+        top: 5.5em;
+    }
+    #main.blog header.special h2 {
+        top: 5.5em;
+    }
+    #main.blogcategory header.special h2 {
+        top: 5.5em;
+    }
+    #main.blogupdate header.special h2 {
+        top: 8.5em;
+    }
+    #main.gallery header.special h2 {
+        top: 5.5em;
+    }
+    #main.team header.special h2 {
+        top: 7.5em;
+    }
+    #main.user header.special h2 {
+        top: 5.5em;
+    }
+    #main.report header.special h2 {
+        top: 5.5em;
+    }
+    #main.resources header.special h2 {
+      top: 7.5em;
+    }
+
+    #main.blogupdate header.special h2 + p {
+        padding-top: 1.5em;
+        top: 11.5em;
+    }
+}
 
 @media (min-width: 1269px) {
     #main.about {
@@ -75,7 +168,7 @@ body, #skel-layers-wrapper, #footer {
         top: 2.8em;
     }
     #main.blogcategory header.special .icon {
-        top: 2.1em;
+        top: 2.6em;
     }
     #main.blogupdate header.special .icon {
         top: 5.5em;
