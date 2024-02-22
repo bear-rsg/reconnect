@@ -354,16 +354,16 @@ body, #skel-layers-wrapper, #footer {
     }
 
     #main.about {
-        top: -13em;
+        top: -15em;
     }
     #main.blog {
         top: -17em;
     }
     #main.blogcategory {
-        top: -2em;
+        top: -13em;
     }
     #main.blogupdate {
-        top: -19.4em;
+        top: -21.5em;
     }
     #main.gallery {
         top: -13em;
@@ -385,16 +385,16 @@ body, #skel-layers-wrapper, #footer {
     }
 
     #main.about header.special .icon {
-        top: -0.3em;
+        top: 1em;
     }
     #main.blog header.special .icon {
         top: 2.2em;
     }
     #main.blogcategory header.special .icon {
-        top: -1.8em;
+        top: -0.5em;
     }
     #main.blogupdate header.special .icon {
-        top: 2.5em;
+        top: 3.8em;
     }
     #main.gallery header.special .icon {
         top: -0.4em;
@@ -423,10 +423,10 @@ body, #skel-layers-wrapper, #footer {
         top: 5.6em;
     }
     #main.blogcategory header.special h2 {
-        top: 1.5em;
+        top: 2.5em;
     }
     #main.blogupdate header.special h2 {
-        top: 9em;
+        top: 10em;
         font-size: 110%;
     }
 
@@ -447,7 +447,8 @@ body, #skel-layers-wrapper, #footer {
     }
 
     #main.blogupdate header.special h2 + p {
-        top: 2.8em;
+        top: 2.1em;
+        font-size: 90%;
     }
 
 }
