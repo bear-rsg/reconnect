@@ -29,10 +29,6 @@ body, #skel-layers-wrapper, #footer {
   padding-top: 10em;
 }
 
-#main.page header.special .icon {
-    top: -0.8em;
-}
-
 #main.blogupdate header.special h2 + p {
     margin-bottom: 0;
     padding-top: 1.5em;
@@ -72,11 +68,6 @@ body, #skel-layers-wrapper, #footer {
         top: -26.5em;
     }
 
-
-    #main.page header.special .icon {
-        top: -0.8em;
-    }
-
     #main.about header.special .icon {
         top: 2.3em;
     }
@@ -105,9 +96,6 @@ body, #skel-layers-wrapper, #footer {
         top: 4.5em;
     }
 
-
-    #main.page header.special h2 {
-    }
 
     #main.about header.special h2 {
         top: 5.5em;
@@ -173,10 +161,6 @@ body, #skel-layers-wrapper, #footer {
     }
 
 
-    #main.page header.special .icon {
-        top: -0.8em;
-    }
-
     #main.about header.special .icon {
         top: 2.1em;
     }
@@ -205,9 +189,6 @@ body, #skel-layers-wrapper, #footer {
         top: 4.1em;
     }
 
-
-    #main.page header.special h2 {
-    }
 
     #main.about header.special h2 {
         top: 5.5em;
@@ -277,10 +258,6 @@ body, #skel-layers-wrapper, #footer {
         top: -31em;
     }
 
-    #main.page header.special .icon {
-        top: -0.8em ;
-    }
-
     #main.about header.special .icon {
         top: 3.8em;
     }
@@ -309,9 +286,6 @@ body, #skel-layers-wrapper, #footer {
         top: 4.1em;
     }
 
-
-    #main.page header.special h2 {
-    }
 
     #main.about header.special h2 {
         top: 5.5em;
@@ -381,8 +355,6 @@ body, #skel-layers-wrapper, #footer {
         top: -15.5em;
     }
 
-    #main.page header.special .icon {
-    }
 
     #main.about header.special .icon {
         top: 1em;
@@ -412,9 +384,6 @@ body, #skel-layers-wrapper, #footer {
         top: 1.3em;
     }
 
-
-    #main.page header.special h2 {
-    }
 
     #main.about header.special h2 {
         top: 3.5em;
