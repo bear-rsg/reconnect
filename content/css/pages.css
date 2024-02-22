@@ -53,19 +53,19 @@ body, #skel-layers-wrapper, #footer {
         top: -33em;
     }
     #main.gallery {
-        top: -23em;
+        top: -28em;
     }
     #main.team {
-        top: -26em;
+        top: -31em;
     }
     #main.user {
-        top: -23em;
+        top: -28em;
     }
     #main.report { #check
         top: -26em;
     }
     #main.resources {
-        top: -26.5em;
+        top: -31.5em;
     }
 
     #main.about header.special .icon {
