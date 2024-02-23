@@ -45,7 +45,7 @@ body, #skel-layers-wrapper, #footer {
         padding-top: 5em;
     }
     #main.blogcategory {
-        top: -27em;
+        top: -28em;
     }
     #main.blogupdate {
         top: -33em;
@@ -73,7 +73,7 @@ body, #skel-layers-wrapper, #footer {
         top: 2.8em;
     }
     #main.blogcategory header.special .icon {
-        top: 2.6em;
+        top: 2em;
     }
     #main.blogupdate header.special .icon {
         top: 5.5em;
