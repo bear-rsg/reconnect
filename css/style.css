@@ -327,7 +327,7 @@ input[type="email"] {
 .image.feature {
   display: block;
   margin: 0 0 2em 0;
-  background: url("/reconnect/images/photo_lrg.png");
+  background: url("/images/photo_lrg.png");
   height: 120px;
 }
 
@@ -985,7 +985,7 @@ table.default thead {
 /* Main */
 
 #main {
-    # background-image: url("/reconnect/images/dark-tl.svg"), url("/reconnect/images/dark-tr.svg"), url("/reconnect/images/dark-bl.svg"), url("/reconnect/images/dark-br.svg");
+    # background-image: url("/images/dark-tl.svg"), url("/images/dark-tr.svg"), url("/images/dark-bl.svg"), url("/images/dark-br.svg");
     # background-position: top left, top right, bottom left, bottom right;
     # background-repeat: no-repeat;
     background-size: 25em;
@@ -1046,7 +1046,7 @@ body.index #main {
 #cta {
     background-attachment: scroll, scroll, scroll, fixed;
     background-color: #1d6373;
-    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg");
+    background-image: url("/images/light-tl.svg"), url("/images/light-tr.svg");
     background-position: top left, top right, top left, bottom center;
     background-repeat: no-repeat, no-repeat, repeat, no-repeat;
     background-size: 25em, 25em, auto, cover;
@@ -1292,7 +1292,7 @@ div.pagination-right {
     width: 100%;
     left: 0;
     background: unset;
-    background-image: url("/reconnect/images/dark-tl.svg"), url("/reconnect/images/dark-tr.svg"), url("/reconnect/images/dark-bl.svg"), url("/reconnect/images/dark-br.svg");
+    background-image: url("/images/dark-tl.svg"), url("/images/dark-tr.svg"), url("/images/dark-bl.svg"), url("/images/dark-br.svg");
     background-position: top left, top right, bottom left, bottom right;
     background-repeat: no-repeat;
     background-size: 25em;
@@ -1303,7 +1303,7 @@ div.pagination-right {
 #banner_img {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #d9ce3d;
-  background-image: url("/reconnect/images/light-bl9.svg"), url("/reconnect/images/light-br9.svg");
+  background-image: url("/images/light-bl9.svg"), url("/images/light-br9.svg");
   background-position: bottom left, bottom right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
@@ -1313,7 +1313,7 @@ div.pagination-right {
   text-align: center;
   position: relative;
   top: 3em;
-  background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg");
+  background-image: url("/images/light-tl.svg"), url("/images/light-tr.svg");
   text-align: center;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left, right, center;
