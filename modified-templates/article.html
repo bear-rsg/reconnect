@@ -31,18 +31,18 @@
             <!-- <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a> -->
             {% if article.category != 'people' %}
             <div class="blogsubheader">
-              Posted in <a href="/reconnect/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
+              Posted in <a href="/{{ article.category.url }}" class="category">{{ article.category|replace("-", " ") }}</a>
             </div>
             {% endif %}
             {% if article.category == 'people' %}
               {% if article.photo != '' %}
                 <div class="photo">
-                  <img src="/reconnect/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
+                  <img src="/images/team/{{ article.photo }}.{{ article.photo_ext }}" alt="{{ article.title }}"/>
                 </div>
               {% endif %}
             {% endif %}
             <p>{{ article.content }}</p>
-           {% if article.category == 'people' %}<a href="/reconnect/team.html">Back to team/alumni</a>{% endif %}
+           {% if article.category == 'people' %}<a href="/team.html">Back to team/alumni</a>{% endif %}
           </section>
         </div>
 

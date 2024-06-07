@@ -9,14 +9,14 @@ h1.logo {
 }
 
 #header h1.logo a div.img {
-    background: url("/reconnect/images/climate_and_re_logo_grey.png") 0 0 no-repeat;
+    background: url("/images/climate_and_re_logo_grey.png") 0 0 no-repeat;
     float: left;
     width: 28px;
     height: 26px;
 }
 
 #header.alt h1.logo a div.img {
-    background: url("/reconnect/images/climate_and_re_logo.png") 0 0 no-repeat;
+    background: url("/images/climate_and_re_logo.png") 0 0 no-repeat;
 }
 
 h1.logo a div.txt {
@@ -69,14 +69,14 @@ ul.feature-icons {
 }
 
 #cta {
-    background-image: url("/reconnect/images/light-tl.svg"), url("/reconnect/images/light-tr.svg");
+    background-image: url("/images/light-tl.svg"), url("/images/light-tr.svg");
     text-align: center;
     background-repeat: no-repeat, no-repeat, repeat;
     background-position: left, right, center;
 }
 
 #banner {
-    background-image: url("/reconnect/images/light-bl.svg"), url("/reconnect/images/light-br.svg");
+    background-image: url("/images/light-bl.svg"), url("/images/light-br.svg");
 }
 
 .wrapper.style2 {
@@ -216,7 +216,7 @@ body {
     width: 5.5em;
     height: 7em;
     float: left;
-    background: url("/reconnect/images/photo.png");
+    background: url("/images/photo.png");
     margin-right: 1em;
 }
 

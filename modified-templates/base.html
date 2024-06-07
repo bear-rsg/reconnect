@@ -3,33 +3,33 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="/reconnect/css/ie/html5shiv.js"></script><![endif]-->
-    <script src="/reconnect/js/jquery.min.js"></script>
-    <script src="/reconnect/js/jquery.dropotron.min.js"></script>
-    <script src="/reconnect/js/jquery.fitvids.js"></script>
-    <script src="/reconnect/js/custom.js"></script>
-    <script src="/reconnect/js/skel.min.js"></script>
-    <script src="/reconnect/js/skel-layers.min.js"></script>
-    <script src="/reconnect/js/init.js"></script>
-    <link rel="stylesheet" href="/reconnect/css/pygment.css" />
+    <!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.dropotron.min.js"></script>
+    <script src="/js/jquery.fitvids.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <link rel="stylesheet" href="/css/pygment.css" />
     <noscript>
-        <link rel="stylesheet" href="/reconnect/css/skel.css" />
-        <link rel="stylesheet" href="/reconnect/css/style.css" />
-        <link rel="stylesheet" href="/reconnect/css/style-noscript.css" />
+        <link rel="stylesheet" href="/css/skel.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style-noscript.css" />
     </noscript>
-    <link rel="stylesheet" href="/reconnect/css/custom.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
     {% if page_name != 'index' %}
-    <link rel="stylesheet" href="/reconnect/css/pages.css" />
+    <link rel="stylesheet" href="/css/pages.css" />
     {% endif %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link  href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
-    <!--[if lte IE 8]><link rel="stylesheet" href="/reconnect/css/ie/v8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="/reconnect/css/ie/v9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
     {% if FEED_RSS %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }}-Feed" />
     {% endif %}
-    <link rel="stylesheet" href="/reconnect/css/accessibilty.css" />
+    <link rel="stylesheet" href="/css/accessibilty.css" />
 
     {% block head %}
     <title>{% block title %}{{ SITENAME }} {{ TAGLINE }}{% endblock title %}</title>
@@ -43,29 +43,29 @@
     <!-- Header -->
     <header id="header" {% if page_name == 'index' %}class="alt"{% endif %}>
         <h1 class="logo responsive">
-            <a href="/reconnect/"><div class="txt">{{ SITENAME }}</div></a>
+            <a href="/"><div class="txt">{{ SITENAME }}</div></a>
         </h1>
         <nav id="nav">
             <ul>
                 <!-- <li class="current"><a href="index.html">Welcome</a></li> -->
                 {% if DISPLAY_PAGES_ON_MENU %}
                     {% for page in pages %}
-                        <li><a href="/reconnect/{{ page.url }}">{{ page.title }}</a></li>
+                        <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
                     {% endfor %}
                 {% endif %}
                 {% if page_name != 'index' %}
-                    <li class="smlmenu"><a href="/reconnect/">Home</a></li>
+                    <li class="smlmenu"><a href="/">Home</a></li>
                 {% endif %}
                 {% for title, link in MENUITEMS %}
-                    <li><a href="/reconnect/{{ link }}">{{ title }}</a></li>
+                    <li><a href="/{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 <!-- li class="submenu">
-                    <a href="/reconnect/{{ ARCHIVES_URL }}">Blog</a>
+                    <a href="/{{ ARCHIVES_URL }}">Blog</a>
                     <ul>
                         {% for cat, null in categories %}
                             {% if cat == 'blog' %}
                             <li {% if cat == category %}class="active"{% endif %}>
-                                <a href="/reconnect/category/{{ cat|lower }}/">{{ cat }}</a>
+                                <a href="/category/{{ cat|lower }}/">{{ cat }}</a>
                             </li>
                             {% endif %}
                         {% endfor %}

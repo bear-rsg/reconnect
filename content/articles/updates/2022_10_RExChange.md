@@ -5,7 +5,7 @@ category: presentations
 
 ### RE:Connect at RExChange 2022
 
-RE:Connect Teacher Fellowship Programme on RE and environment/climate crisis is now open for its second cohort (starting September 2022) thanks to funding from Culham St Gabriel’s Trust.  Click [here](https://www.saltleytrust.org.uk/reconnect/) for further details of how to apply!
+RE:Connect Teacher Fellowship Programme on RE and environment/climate crisis is now open for its second cohort (starting September 2022) thanks to funding from Culham St Gabriel’s Trust.  Click [here](https://www.saltleytrust.org.uk/) for further details of how to apply!
 
 You can hear about our experiences of the inaugural Fellowship Programme in the video below, recorded as part of RExChange 2022.  (Presentation starts 3 minutes into the video).  This features project leads Jeremy Kidwell and Ian Jones along with project research assistant Amy Houghton-Barnes and two of 2022-23’s teacher Fellows, Zoe Higgins and Rebecca Wright.
 
