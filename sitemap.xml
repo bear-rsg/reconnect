@@ -5,56 +5,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://bear-rsg.github.io/</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/updates.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/resources.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/team.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/projects_gallery.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/categories.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/tags.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/page_with_banner.html</loc>
-<lastmod>2024-06-07T11:57:55-00:00</lastmod>
+<lastmod>2024-07-16T07:53:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -95,29 +95,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/updates/peopleandtheplanet</loc>
-<lastmod>2024-02-15T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.99</priority>
-</url>
-
-<url>
-<loc>https://bear-rsg.github.io/updates/introtoclimatechange</loc>
-<lastmod>2024-02-14T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.99</priority>
-</url>
-
-<url>
-<loc>https://bear-rsg.github.io/updates/project-3</loc>
-<lastmod>2024-02-13T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.99</priority>
-</url>
-
-<url>
-<loc>https://bear-rsg.github.io/updates/project-4</loc>
-<lastmod>2024-02-12T00:00:00+00:00</lastmod>
+<loc>https://bear-rsg.github.io/updates/speaking-truth</loc>
+<lastmod>2024-06-15T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
@@ -158,6 +137,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://bear-rsg.github.io/updates/kate-christopher</loc>
+<lastmod>2023-09-01T00:00:00+01:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
 <loc>https://bear-rsg.github.io/updates/2023_06_article</loc>
 <lastmod>2023-06-28T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
@@ -167,6 +153,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://bear-rsg.github.io/updates/2022_10_rexchange</loc>
 <lastmod>2022-10-20T00:00:00+01:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/climate-stories</loc>
+<lastmod>2022-09-15T00:00:00+01:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/exploring-climate-change</loc>
+<lastmod>2022-09-15T00:00:00+01:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/non-human-life</loc>
+<lastmod>2022-09-15T00:00:00+01:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/non-human-life-2</loc>
+<lastmod>2022-09-15T00:00:00+01:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/peopleandtheplanet</loc>
+<lastmod>2022-09-15T00:00:00+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
@@ -193,7 +214,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/updates/jeremy_kidwell</loc>
+<loc>https://bear-rsg.github.io/updates/ian-jones</loc>
+<lastmod>2022-01-02T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/updates/jeremy-kidwell</loc>
 <lastmod>2022-01-02T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
@@ -215,13 +243,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://bear-rsg.github.io/updates/steph_chadwick</loc>
-<lastmod>2022-01-02T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.99</priority>
-</url>
-
-<url>
-<loc>https://bear-rsg.github.io/updates/team-2</loc>
 <lastmod>2022-01-02T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
@@ -257,14 +278,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://bear-rsg.github.io/category/people.html</loc>
-<lastmod>2022-01-02T00:00:00-00:01</lastmod>
+<lastmod>2023-09-01T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/category/projects.html</loc>
-<lastmod>2024-02-15T00:00:00-00:01</lastmod>
+<lastmod>2024-06-15T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -319,6 +340,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://bear-rsg.github.io/tag/project.html</loc>
+<lastmod>2024-06-15T00:00:00-00:01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://bear-rsg.github.io/tag/alumni.html</loc>
 <lastmod>2022-01-02T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
@@ -340,13 +368,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/tag/project.html</loc>
-<lastmod>2024-02-15T00:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://bear-rsg.github.io/tag/resource.html</loc>
 <lastmod>2024-01-02T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
@@ -354,29 +375,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://bear-rsg.github.io/tag/resource-type-1.html</loc>
-<lastmod>2024-01-02T00:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://bear-rsg.github.io/tag/team.html</loc>
-<lastmod>2022-01-02T00:00:00-00:01</lastmod>
+<lastmod>2023-09-01T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/tag/current.html</loc>
-<lastmod>2022-01-02T00:00:00-00:01</lastmod>
+<lastmod>2023-09-01T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://bear-rsg.github.io/tag/team-current.html</loc>
-<lastmod>2022-01-02T00:00:00-00:01</lastmod>
+<lastmod>2023-09-01T00:00:00-00:01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://bear-rsg.github.io/tag/resource-type-1.html</loc>
+<lastmod>2024-01-02T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
