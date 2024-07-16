@@ -1,6 +1,6 @@
 title: What is Climate Change?
 date: 2022-09-15
-slug: non-human-life
+slug: non-human-life-2
 tags: project
 category: projects
 color_style: 
