@@ -8,12 +8,14 @@ icon: globe
 project_title: KS1-2 Curriculum Project
 author_img: test
 author_img_ext: png
-author: Tony Kemp
+author: Zoe Higgins
 school: School Name
 location: Place
 file: people_and_the_planet
 file_extension: pptx
 file_icon: powerpoint
+
+You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721876/files-archive).
 
 <p>Age: KS1-2</p></br>
 
