@@ -14,6 +14,13 @@ location: Place
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721869/files-archive).
 
+<p><strong>Description:</strong></p>
+<ol>
+    <li>through data and evidence pupils will gain an understanding of how human action has led to climate change</li>
+    <li>explore religious responses to climate change and the idea of ethical responsibility</li>
+    <li>consider practical responses and offer a personal reflection</li>
+</ol>
+
 <p><strong>Overall aim:</strong></p>
 <ul>
     <li>to understand what is meant by climate change</li>
@@ -21,13 +28,6 @@ You can download the entire curriculum project for use, just [click here](https:
     <li>to understand how human behaviour has brought us here</li>
     <li>to explore and reflect on reactions and responses to climate change</li>
 </ul>
-
-<p><strong>Description:</strong></p>
-<ol>
-    <li>through data and evidence pupils will gain an understanding of how human action has led to climate change</li>
-    <li>explore religious responses to climate change and the idea of ethical responsibility</li>
-    <li>consider practical responses and offer a personal reflection</li>
-</ol>
 
 <p><strong>By the end of the unit</strong>:</p>
 

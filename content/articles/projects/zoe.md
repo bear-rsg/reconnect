@@ -14,19 +14,19 @@ location: Place
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721876/files-archive).
 
-<p><strong>Overall aim:</strong></p>
-<ul>
-    <li>To understand different responses to climate change</li>
-    <li>To understand what sort of religious and ethical principles lead people respond as they do</li>
-    <li>To discuss and present own responses and explain why</li>
-</ul>
-
 <p><strong>Description:</strong></p>
 <ol>
     <li>Pupils will hear religious principles as to why caring for the earth matters, and answer for themselves</li>
     <li>Pupils will find out why different religious people might take action to care for and protect the earth</li>
     <li>Pupils will learn how beliefs influence different people to respond to the climate crisis</li>
 </ol>
+
+<p><strong>Overall aim:</strong></p>
+<ul>
+    <li>To understand different responses to climate change</li>
+    <li>To understand what sort of religious and ethical principles lead people respond as they do</li>
+    <li>To discuss and present own responses and explain why</li>
+</ul>
 
 <p><strong>By the end of the unit</strong>:</p>
 
