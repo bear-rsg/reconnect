@@ -11,7 +11,7 @@ author_img_ext: png
 author: Rebecca Wright
 school: School Name
 location: Place
-file: people_and_the_planet
+url: https://zenodo.org/api/records/12721845/files-archive
 file_extension: pptx
 file_icon: powerpoint
 
