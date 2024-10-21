@@ -14,8 +14,6 @@ location: Place
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721876/files-archive).
 
-<p>Age: KS1-2</p></br>
-
 <p><strong>Overall aim:</strong></p>
 <ul>
     <li>To understand different responses to climate change</li>

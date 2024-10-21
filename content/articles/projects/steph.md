@@ -14,8 +14,6 @@ location: Place
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721817/files-archive).
 
-<p>Age: KS3</p></br>
-
 <p><strong>Overall aim:</strong></p>
 <p>In this set of four lessons for KS3, students have the opportunity to explore different perspectives, including non-human perspectives, to make sense of climate breakdown through stories.</p>
 

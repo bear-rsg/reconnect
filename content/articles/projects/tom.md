@@ -14,8 +14,6 @@ location: Place
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721857/files-archive).
 
-<p>Age: KS3</p></br>
-
 <p><strong>Overall aim:</strong></p>
 <ul>
     <li>to explore various forms of ethical thinking applied to the environment</li>

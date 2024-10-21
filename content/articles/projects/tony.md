@@ -14,8 +14,6 @@ location: Place
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721869/files-archive).
 
-<p>Age: KS3 (Y8)</p></br>
-
 <p><strong>Overall aim:</strong></p>
 <ul>
     <li>to understand what is meant by climate change</li>
