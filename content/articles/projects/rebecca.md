@@ -11,10 +11,9 @@ author_img_ext: png
 author: Rebecca Wright
 school: School Name
 location: Place
+url: https://zenodo.org/api/records/12721845/files-archive
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721845/files-archive).
-
-<p>Age: KS3</p></br>
 
 <p><strong>Overall aim:</strong></p>
 <ul>

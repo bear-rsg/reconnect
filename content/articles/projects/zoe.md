@@ -11,9 +11,6 @@ author_img_ext: png
 author: Zoe Higgins
 school: School Name
 location: Place
-file: people_and_the_planet
-file_extension: pptx
-file_icon: powerpoint
 
 You can download the entire curriculum project for use, just [click here](https://zenodo.org/api/records/12721876/files-archive).
 
