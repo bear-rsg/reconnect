@@ -6,4 +6,4 @@ icon: tasks
 
 ### Report
 
-Text for RE:Connect report and any charts from R exports go here
+We're compiling a report based on survey data we collected at the start of the project. We'll include the report here as soon as it is available. In the meantime, you can [view and download data from our survey](https://zenodo.org/records/10673366).
