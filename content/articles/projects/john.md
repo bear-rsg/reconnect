@@ -1,6 +1,6 @@
-title: Speaking truth to Power: the Prophetic Voice
+title: Finding the Prophetic Voice on Climate Change
 date: 2024-06-15
-slug: speaking-truth
+slug: prophetic-voice
 tags: project
 category: projects
 color_style: 
@@ -11,9 +11,8 @@ author_img_ext: png
 author: John Meredith
 school: School Name
 location: Place
-file: people_and_the_planet
-file_extension: pptx
-file_icon: powerpoint
+
+You can download the entire curriculum project for use, just [click here](https://zenodo.org/records/14770640).
 
 <p>Age: KS1-2</p></br>
 
@@ -32,6 +31,11 @@ file_icon: powerpoint
     <li>Pupils will think about joy ad where they find it, making connections to joy in the natural world</li>
 </ol>
 
-<p><strong>By the end of the unit</strong>:</p>
+<p><strong>By the end of the unit</strong>: Pupils will have explored their local area, seeking beauty and joy. They will make links to spirituality. They will consider how nature needs our help and support and will start to imagine creative ways to make a different in their area. We will explore how pupils can speak truth to power at a local and national level.</p>
 
-<p>Pupils will have explored their local area, seeking beauty and joy. They will make links to spirituality. They will consider how nature needs our help and support and will start to imagine creative ways to make a different in their area. We will explore how pupils can speak truth to power at a local and national level.</p>
+<p>Notes for Teachers:</p>
+<ul>
+    <li>The PPT has been designed to lead a class of pupils through the ideas.</li>
+    <li>Use the questions on the PPT and lead the class in discussion and then the activities.</li>
+    <li>A book and YouTube video are linked on the PPT. You will want to read and watch and plan how to lead children through this material in advance.</li>
+</ul>
